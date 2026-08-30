@@ -1,0 +1,20 @@
+{
+  "base_legal_fonar": [
+    {
+      "id_legislacao": "Lei nº 14.149/2021 (Institui o FONAR)",
+      "artigo_referencia": "Art. 1º e Art. 2º, caput e § 1º",
+      "texto_legal_original": "Art. 1º Esta Lei institui o Formulário Nacional de Avaliação de Risco... Art. 2º § 1º O Formulário Nacional de Avaliação de Risco tem por objetivo identificar os fatores que indicam o risco de a mulher vir a sofrer qualquer forma de violência no âmbito das relações domésticas, para subsidiar a atuação dos órgãos de segurança pública... devendo ser preservado, em qualquer hipótese, o sigilo das informações.",
+      "explicacao_simplificada": "O FONAR é uma ferramenta oficial criada para medir o nível de perigo que a mulher está correndo. Ele serve para avisar a polícia e o juiz sobre a urgência de proteção. A lei garante que tudo o que a mulher responder nesse formulário será mantido em absoluto sigilo.",
+      "gatilho_de_uso_llm": "Acione antes de iniciar a coleta de dados do FONAR ou se a vítima demonstrar desconfiança, medo de preencher as informações ou receio de que o agressor descubra. Utilize para tranquilizá-la sobre a proteção legal dos dados (sigilo).",
+      "tags_de_busca": ["FONAR", "sigilo", "avaliação de risco", "privacidade", "objetivo do formulário", "confidencialidade"]
+    },
+    {
+      "id_legislacao": "Lei nº 14.149/2021 (Institui o FONAR)",
+      "artigo_referencia": "Art. 2º, §§ 2º e 3º",
+      "texto_legal_original": "§ 2º O Formulário... deve ser preferencialmente aplicado pela Polícia Civil no momento de registro da ocorrência ou, em sua impossibilidade, pelo Ministério Público ou pelo Poder Judiciário... § 3º É facultada a utilização do modelo de Formulário Nacional de Avaliação de Risco por outros órgãos e entidades públicas ou privadas que atuem na área de prevenção e de enfrentamento da violência doméstica e familiar contra a mulher.",
+      "explicacao_simplificada": "O formulário geralmente é preenchido na delegacia ou no fórum. Porém, a lei autoriza expressamente que entidades e sistemas privados (redes de proteção, ONGs ou aplicativos de triagem) também utilizem o FONAR para ajudar na prevenção e socorro da vítima.",
+      "gatilho_de_uso_llm": "Acione se a usuária questionar a validade de preencher o formulário fora de uma delegacia ou se perguntar quem está autorizado a fazer essas perguntas. Utilize para validar a autoridade legal do sistema em atuar na triagem de risco.",
+      "tags_de_busca": ["quem aplica o fonar", "entidades privadas", "polícia civil", "validade do formulário", "competência"]
+    }
+  ]
+}

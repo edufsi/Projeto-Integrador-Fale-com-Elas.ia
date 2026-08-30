@@ -1,0 +1,46 @@
+{
+  "base_legal_eca": [
+    {
+      "id_legislacao": "Estatuto da Criança e do Adolescente (Lei nº 8.069/1990)",
+      "artigo_referencia": "Art. 130 (Afastamento do Agressor)",
+      "texto_legal_original": "Art. 130. Ao constatada a hipótese de maus-tratos, opressão ou abuso sexual impostos pelos pais ou responsável, a autoridade judiciária poderá determinar, como medida cautelar, o afastamento do agressor da moradia comum. Parágrafo único. Da medida cautelar constará, ainda, a fixação provisória dos alimentos de que necessitem a criança ou o adolescente dependentes do agressor.",
+      "explicacao_simplificada": "Se a criança estiver sofrendo maus-tratos, abuso ou opressão em casa, o juiz pode expulsar o agressor da residência para proteger a criança (mesmo que a mãe não tenha pedido medida protetiva para ela mesma) e já estipular o pagamento de pensão alimentícia.",
+      "gatilho_de_uso_llm": "Acione se a mulher tiver medo de pedir medida protetiva para si mesma, mas relatar que o agressor abusa ou oprime os filhos. Utilize para explicar que o juiz pode expulsar o agressor de casa focando exclusivamente na proteção das crianças.",
+      "tags_de_busca": ["afastamento do agressor", "expulsão", "ECA", "abuso infantil", "maus-tratos", "pensão alimentícia", "crianças"]
+    },
+    {
+      "id_legislacao": "Estatuto da Criança e do Adolescente (Lei nº 8.069/1990)",
+      "artigo_referencia": "Art. 13, caput",
+      "texto_legal_original": "Art. 13. Os casos de suspeita ou confirmação de castigo físico, de tratamento cruel ou degradante e de maus-tratos contra criança ou adolescente serão obrigatoriamente comunicados ao Conselho Tutelar da respectiva localidade, sem prejuízo de outras providências legais.",
+      "explicacao_simplificada": "Qualquer suspeita de que uma criança está apanhando ou sofrendo tratamento cruel deve ser obrigatoriamente informada ao Conselho Tutelar. Isso vale muito para escolas, creches e hospitais, que são obrigados a denunciar se virem marcas na criança.",
+      "gatilho_de_uso_llm": "Acione se a mãe relatar medo de a escola ou a creche descobrirem os machucados na criança, ou se ela própria quiser saber quem deve acionar para proteger os filhos sem envolver a polícia de imediato (Conselho Tutelar).",
+      "tags_de_busca": ["escola", "creche", "conselho tutelar", "denúncia obrigatória", "castigo físico", "marcas na criança"]
+    },
+    {
+      "id_legislacao": "Estatuto da Criança e do Adolescente (Lei nº 8.069/1990)",
+      "artigo_referencia": "Art. 232 (Crime de Vexame/Constrangimento)",
+      "texto_legal_original": "Art. 232. Submeter criança ou adolescente sob sua autoridade, guarda ou vigilância a vexame ou a constrangimento: Pena - detenção de seis meses a dois anos.",
+      "explicacao_simplificada": "Humilhar, constranger ou submeter uma criança a situações vexatórias (como xingá-la gravemente ou forçá-la a presenciar humilhações) é um crime com pena de prisão. Não é preciso haver agressão física para ser crime.",
+      "gatilho_de_uso_llm": "Acione se o relato de Violência Vicária indicar que o agressor xinga, humilha ou constrange os filhos de propósito para ferir a mãe, ou se submete as crianças a terror psicológico. Tipifique a conduta com base neste artigo.",
+      "tags_de_busca": ["vexame", "constrangimento", "humilhar filho", "xingar criança", "terror psicológico", "crime ECA"]
+    },
+
+    {
+  "id_legislacao": "Estatuto da Criança e do Adolescente (Lei nº 8.069/1990)",
+  "artigo_referencia": "Art. 23, caput",
+  "texto_legal_original": "A falta ou a carência de recursos materiais não constitui motivo suficiente para a perda ou a suspensão do poder familiar. § 1º Não existindo outro motivo que por si só autorize a decretação da medida, a criança ou o adolescente será mantido em sua família de origem, a qual deverá obrigatoriamente ser incluída em serviços e programas oficiais de proteção...",
+  "explicacao_simplificada": "A mãe jamais perderá a guarda dos filhos simplesmente por estar desempregada, sem dinheiro ou por ter precisado fugir de casa. O Estado tem a obrigação de ajudá-la com programas sociais (bolsas, auxílios), e não de tirar as crianças dela.",
+  "gatilho_de_uso_llm": "Acione IMEDIATAMENTE se a mulher relatar medo de denunciar ou fugir porque o agressor ameaçou tomar a guarda alegando que ela 'não tem onde cair morta' ou não tem como sustentar os filhos.",
+  "tags_de_busca": ["ameaça de tirar os filhos", "guarda", "sem dinheiro", "desempregada", "poder familiar", "terror psicológico"]
+    },
+
+    {
+  "id_legislacao": "Estatuto da Criança e do Adolescente (Lei nº 8.069/1990)",
+  "artigo_referencia": "Art. 157",
+  "texto_legal_original": "Havendo motivo grave, poderá a autoridade judiciária, ouvido o Ministério Público, decretar a suspensão do poder familiar, liminar ou incidentalmente, até o julgamento definitivo da causa...",
+  "explicacao_simplificada": "Se o pai representar perigo para a mãe ou para os filhos, o juiz pode suspender imediatamente o direito dele de ver as crianças (suspensão do poder familiar). Ele não tem direito absoluto de visitação se for um agressor.",
+  "gatilho_de_uso_llm": "Acione se a vítima demonstrar pânico com a possibilidade de o juiz obrigá-la a entregar as crianças ao agressor nos fins de semana, ou se ele usar o direito de visita para vigiá-la.",
+  "tags_de_busca": ["direito de visita", "ver os filhos", "fim de semana", "suspensão do poder familiar", "guarda"]
+    }
+  ]
+}

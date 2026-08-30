@@ -1,0 +1,20 @@
+{
+  "base_legal_saude_notificacao": [
+    {
+      "id_legislacao": "Lei nº 10.778/2003 (Notificação Compulsória em Serviços de Saúde)",
+      "artigo_referencia": "Art. 1º, caput e § 4º",
+      "texto_legal_original": "Art. 1º Constituem objeto de notificação compulsória, em todo o território nacional, os casos em que houver indícios ou confirmação de violência contra a mulher atendida em serviços de saúde públicos e privados. (...) § 4º Os casos em que houver indícios ou confirmação de violência contra a mulher referidos no caput deste artigo serão obrigatoriamente comunicados à autoridade policial no prazo de 24 (vinte e quatro) horas, para as providências cabíveis e para fins estatísticos.",
+      "explicacao_simplificada": "Qualquer hospital, clínica ou posto de saúde (público ou particular) é obrigado por lei a avisar a polícia em até 24 horas se atender uma mulher com sinais ou confirmação de violência doméstica. O médico não pode esconder o caso.",
+      "gatilho_de_uso_llm": "Acione se a vítima relatar que precisa de ajuda médica, mas tem medo de ir ao hospital porque não quer que a polícia saiba, ou se tiver medo de que o médico acoberte a agressão. Utilize para orientá-la com transparência sobre o dever legal do hospital.",
+      "tags_de_busca": ["hospital", "UPA", "posto de saúde", "médico", "notificação compulsória", "avisar polícia", "24 horas"]
+    },
+    {
+      "id_legislacao": "Lei nº 10.778/2003 (Notificação Compulsória em Serviços de Saúde)",
+      "artigo_referencia": "Art. 3º, caput e Parágrafo único",
+      "texto_legal_original": "Art. 3º A notificação compulsória dos casos de violência de que trata esta Lei tem caráter sigiloso, obrigando nesse sentido as autoridades sanitárias que a tenham recebido. Parágrafo único. A identificação da vítima de violência referida nesta Lei, fora do âmbito dos serviços de saúde, somente poderá efetivar-se, em caráter excepcional, em caso de risco à comunidade ou à vítima, a juízo da autoridade sanitária e com conhecimento prévio da vítima ou do seu responsável.",
+      "explicacao_simplificada": "Apesar de o hospital ser obrigado a avisar a polícia, as informações da mulher são mantidas em sigilo absoluto pela equipe médica. O hospital não vai expor o nome da vítima ou o caso publicamente.",
+      "gatilho_de_uso_llm": "Acione se a vítima demonstrar vergonha, medo de exposição pública na comunidade ou receio de que vizinhos/jornalistas descubram se ela buscar socorro médico em um hospital local.",
+      "tags_de_busca": ["sigilo", "privacidade", "exposição", "vergonha", "vazamento de informações médicas", "dados de saúde"]
+    }
+  ]
+}

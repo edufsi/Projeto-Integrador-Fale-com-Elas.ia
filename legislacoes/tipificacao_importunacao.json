@@ -1,0 +1,36 @@
+{
+  "base_legal_crimes_sexuais": [
+    {
+      "id_legislacao": "Lei nº 13.718/2018 (Altera o Código Penal)",
+      "artigo_referencia": "Art. 215-A (Importunação Sexual)",
+      "texto_legal_original": "Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro: Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave.",
+      "explicacao_simplificada": "É crime de importunação sexual praticar qualquer ato íntimo ou de cunho sexual contra alguém sem o seu consentimento (como 'passar a mão', 'encoxar', forçar um beijo ou toques indesejados). A pena é de 1 a 5 anos de prisão.",
+      "gatilho_de_uso_llm": "Acione se a vítima relatar toques indesejados, beijos forçados ou outras investidas de cunho sexual sem consentimento que não cheguem a configurar estupro (que exigiria uso de força ou grave ameaça).",
+      "tags_de_busca": ["importunação sexual", "toque sem consentimento", "assédio", "ato libidinoso", "passar a mão", "beijo forçado"]
+    },
+    {
+      "id_legislacao": "Lei nº 13.718/2018 (Altera o Código Penal)",
+      "artigo_referencia": "Art. 218-C, caput e § 1º (Pornografia de Vingança)",
+      "texto_legal_original": "Art. 218-C. Oferecer, trocar, disponibilizar, transmitir, vender ou expor à venda, distribuir, publicar ou divulgar... sem o consentimento da vítima, cena de sexo, nudez ou pornografia: Pena - reclusão, de 1 a 5 anos... § 1º A pena é aumentada de 1/3 (um terço) a 2/3 (dois terços) se o crime é praticado por agente que mantém ou tenha mantido relação íntima de afeto com a vítima ou com o fim de vingança ou humilhação.",
+      "explicacao_simplificada": "Compartilhar, vazar, vender ou ameaçar expor fotos e vídeos íntimos (nudes ou cenas de sexo) sem autorização da mulher é crime. A pena aumenta muito se quem vazou for um atual ou ex-parceiro, ou se a intenção dele for humilhar e se vingar da vítima.",
+      "gatilho_de_uso_llm": "Acione se a usuária relatar no IAVP (Violência Psicológica) que o agressor vazou, ameaça vazar ou compartilhou fotos/vídeos íntimos dela na internet, redes sociais ou WhatsApp.",
+      "tags_de_busca": ["pornografia de vingança", "vazar nudes", "foto íntima", "vídeo íntimo", "compartilhar sem consentimento", "exposição", "revenge porn"]
+    },
+    {
+      "id_legislacao": "Lei nº 13.718/2018 (Altera o Código Penal)",
+      "artigo_referencia": "Art. 225 (Ação Penal Incondicionada)",
+      "texto_legal_original": "Art. 225. Nos crimes definidos nos Capítulos I e II deste Título, procede-se mediante ação penal pública incondicionada.",
+      "explicacao_simplificada": "Nos crimes de violência sexual (como estupro e importunação sexual), a polícia e o Ministério Público têm a obrigação de agir, investigar e processar o agressor, mesmo que a vítima não queira denunciar ou tente 'retirar a queixa'.",
+      "gatilho_de_uso_llm": "Acione se a vítima de violência sexual (estupro, importunação) perguntar se pode retirar o processo, desistir da denúncia, ou achar que o agressor sairá impune se ela não quiser dar continuidade ao caso.",
+      "tags_de_busca": ["retirar queixa", "estupro", "incondicionada", "desistir do processo", "vontade da vítima", "violência sexual"]
+    },
+    {
+      "id_legislacao": "Lei nº 13.718/2018 (Altera o Código Penal)",
+      "artigo_referencia": "Art. 226, incisos II e IV, e Art. 234-A",
+      "texto_legal_original": "Art. 226. A pena é aumentada: II - de metade, se o agente é cônjuge, companheiro... IV - de 1/3 a 2/3, se o crime é praticado: a) mediante concurso de 2 ou mais agentes (Estupro coletivo); b) para controlar o comportamento social ou sexual da vítima (Estupro corretivo). Art. 234-A. A pena é aumentada: III - se resulta gravidez; IV - se o agente transmite doença sexualmente transmissível...",
+      "explicacao_simplificada": "A pena para crimes sexuais é muito mais dura se o agressor for o marido ou namorado. Fica ainda pior se for um 'estupro corretivo' (praticado para tentar 'corrigir' ou punir o comportamento ou a orientação sexual da vítima), se for cometido por várias pessoas, ou se resultar em gravidez forçada ou transmissão de IST/DST.",
+      "gatilho_de_uso_llm": "Acione se o relato incluir violência sexual praticada pelo marido/companheiro, por múltiplos agressores, ou se mencionar estupro corretivo (violência frequente contra mulheres lésbicas e bissexuais), gravidez forçada ou IST.",
+      "tags_de_busca": ["estupro corretivo", "estupro coletivo", "gravidez", "doença sexual", "IST", "DST", "marido", "orientação sexual", "lésbica"]
+    }
+  ]
+}
