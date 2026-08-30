@@ -56,6 +56,15 @@
       "gatilho_de_uso_llm": "Acione se a vítima relatar dependência financeira, retenção de documentos (violência patrimonial), medo pela segurança dos filhos na escola atual ou necessidade de abrigo urgente.",
       "tags_de_busca": ["auxílio-aluguel", "casa-abrigo", "escola filhos", "restituição de bens", "assistência à mulher"]
     },
+
+    {
+  "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+  "artigo_referencia": "Art. 24, incisos II, III e IV (Proteção Patrimonial)",
+  "texto_legal_original": "Art. 24. Para a proteção patrimonial dos bens da sociedade conjugal ou daqueles de propriedade particular da mulher, o juiz poderá determinar, liminarmente, as seguintes medidas, entre outras: (...) II - suspensão das procurações conferidas pela ofendida ao agressor; III - prestação de caução provisória, mediante depósito judicial, por perdas e danos materiais... IV - proibição temporária para a celebração de atos e contratos de compra, venda e locação de propriedade em comum, salvo autorização judicial.",
+  "explicacao_simplificada": "Para impedir que o agressor se vingue vendendo a casa, o carro, ou esvaziando a conta bancária da família antes do divórcio, o juiz pode 'congelar' (bloquear) os bens do casal. O juiz também pode cancelar procurações para impedir que ele faça dívidas ou negócios no nome da vítima.",
+  "gatilho_de_uso_llm": "Acione IMEDIATAMENTE se a vítima expressar medo de o agressor vender o carro, transferir dinheiro das contas conjuntas, ocultar bens da família ou fazer dívidas no nome dela por vingança. Informe que o juiz pode bloquear a venda de bens de forma urgente.",
+  "tags_de_busca": ["bloqueio de bens", "vender a casa", "esvaziar conta", "nome sujo", "procuração", "ocultação de patrimônio", "fraude"]
+},
     {
       "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
       "artigo_referencia": "Art. 24-A",

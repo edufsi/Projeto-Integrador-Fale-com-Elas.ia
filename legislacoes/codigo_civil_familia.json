@@ -1,0 +1,36 @@
+{
+  "base_legal_codigo_civil_familia": [
+    {
+      "id_legislacao": "Lei nº 14.713/2023 (Altera Código Civil e Código de Processo Civil)",
+      "artigo_referencia": "Art. 1.584, § 2º (CC) e Art. 699-A (CPC)",
+      "texto_legal_original": "Art. 1.584. § 2º Quando não houver acordo entre a mãe e o pai quanto à guarda do filho... será aplicada a guarda compartilhada, salvo se um dos genitores declarar ao magistrado que não deseja a guarda da criança ou do adolescente ou quando houver elementos que evidenciem a probabilidade de risco de violência doméstica ou familiar. (...) Art. 699-A. Nas ações de guarda, antes de iniciada a audiência de mediação e conciliação... o juiz indagará às partes e ao Ministério Público se há risco de violência doméstica ou familiar, fixando o prazo de 5 (cinco) dias para a apresentação de prova ou de indícios pertinentes.",
+      "explicacao_simplificada": "A guarda dos filhos não será compartilhada com o agressor se houver qualquer risco ou indício de violência doméstica. Além disso, antes de tentar fazer qualquer acordo de guarda (mediação) no fórum, o juiz é obrigado a perguntar se há risco de violência e dar 5 dias para a vítima apresentar provas ou indícios, protegendo a mulher de ser coagida a fazer acordos prejudiciais.",
+      "gatilho_de_uso_llm": "Acione IMEDIATAMENTE se a vítima relatar medo de perder a guarda, se o agressor exigir 'guarda compartilhada' como forma de controle, ou se ela tiver medo de ser forçada a sentar com o agressor em uma audiência de acordo/mediação.",
+      "tags_de_busca": ["guarda compartilhada", "guarda exclusiva", "ameaça de tirar os filhos", "risco de violência", "mediação", "acordo", "audiência", "prova de violência"]
+    },
+    {
+      "id_legislacao": "Lei nº 13.715/2018 (Altera Código Penal, ECA e Código Civil)",
+      "artigo_referencia": "Art. 1.638, parágrafo único (CC), Art. 92, II (CP) e Art. 23, § 2º (ECA)",
+      "texto_legal_original": "Art. 1.638. Parágrafo único. Perderá também por ato judicial o poder familiar aquele que: I – praticar contra outrem igualmente titular do mesmo poder familiar: a) homicídio, feminicídio ou lesão corporal de natureza grave ou seguida de morte, quando se tratar de crime doloso envolvendo violência doméstica e familiar... b) estupro ou outro crime contra a dignidade sexual... II – praticar contra filho, filha ou outro descendente: a) homicídio, feminicídio ou lesão corporal de natureza grave... b) estupro, estupro de vulnerável...",
+      "explicacao_simplificada": "O agressor perde totalmente o direito de ser pai perante a lei (perde o 'poder familiar') se cometer crimes graves intencionais — como tentativa de feminicídio, lesão corporal grave, ou estupro — tanto contra a mãe das crianças quanto contra os próprios filhos ou netos. Ele deixa de poder decidir qualquer coisa sobre a vida da criança.",
+      "gatilho_de_uso_llm": "Acione em casos de violência física severa, lesões graves, estupro ou tentativa de feminicídio (Risco Extremo), caso a mulher pergunte se o agressor continuará tendo direitos legais sobre os filhos após ser condenado.",
+      "tags_de_busca": ["perda do poder familiar", "pátrio poder", "direitos do pai", "tentativa de feminicídio", "lesão grave", "estupro", "abuso infantil", "poder familiar"]
+    },
+    {
+      "id_legislacao": "Código Civil Brasileiro",
+      "artigo_referencia": "Art. 1.658 (Regime de Comunhão Parcial)",
+      "texto_legal_original": "No regime de comunhão parcial, comunicam-se os bens que sobrevierem ao casal, na constância do casamento, com as exceções dos artigos seguintes.",
+      "explicacao_simplificada": "Se o casal não assinou um pacto diferente antes de casar, a regra é a comunhão parcial. Isso significa que TUDO o que foi comprado durante o casamento/união estável pertence aos dois (50% para cada), mesmo que quem tenha pagado seja o marido ou que a casa/carro esteja apenas no nome dele.",
+      "gatilho_de_uso_llm": "Acione se a vítima relatar medo de 'sair sem nada', disser que a casa 'está no nome dele' ou que não tem direito aos bens porque era dona de casa. Utilize para desmentir o terrorismo patrimonial do agressor.",
+      "tags_de_busca": ["divisão de bens", "casa no nome dele", "partilha", "sair sem nada", "dona de casa", "comunhão parcial"]
+    },
+    {
+      "id_legislacao": "Código Civil Brasileiro",
+      "artigo_referencia": "Art. 1.694 (Direito a Alimentos/Pensão)",
+      "texto_legal_original": "Podem os parentes, os cônjuges ou companheiros pedir uns aos outros os alimentos de que necessitem para viver de modo compatível com a sua condição social, inclusive para atender às necessidades de sua educação.",
+      "explicacao_simplificada": "A pensão alimentícia não é um direito apenas dos filhos. A mulher que dependia financeiramente do marido, ou que abriu mão da carreira para cuidar do lar, também tem o direito de pedir pensão para si mesma no divórcio, para conseguir se manter até se recolocar no mercado.",
+      "gatilho_de_uso_llm": "Acione se a vítima relatar extrema dependência financeira, disser que não tem renda própria ou achar que só os filhos receberão pensão. Informe sobre o direito à pensão para a ex-cônjuge/companheira.",
+      "tags_de_busca": ["pensão para esposa", "alimentos", "dependência financeira", "sem renda", "não trabalho"]
+    }
+  ]
+}

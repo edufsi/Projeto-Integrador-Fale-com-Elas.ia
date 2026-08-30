@@ -1,0 +1,56 @@
+Aqui está o texto limpo e formatado para você copiar e usar no seu projeto:
+
+MPRS – Ministério Público do Rio Grande do Sul:
+Instituição responsável pela defesa da ordem jurídica, dos direitos fundamentais e pela fiscalização das políticas públicas, atuando também na proteção de mulheres em situação de violência.
+
+CAOEVCM – Centro de Apoio Operacional de Enfrentamento à Violência contra a Mulher (MPRS):
+Órgão do Ministério Público responsável por articular, apoiar e promover ações institucionais de enfrentamento à violência contra a mulher.
+
+Espaços Bem-me-Quer – Ministério Público do RS:
+Centrais de atendimento às vítimas do MPRS, que oferecem acolhimento, escuta humanizada, informações e orientações às vítimas de violência, incluindo mulheres.
+
+Juizados de Violência Doméstica e Familiar contra a Mulher (Juizados):
+Órgãos da Justiça com competência cível e criminal para processar, julgar e executar ações decorrentes da violência doméstica e familiar, conforme a Lei Maria da Penha.
+
+NUDEM – Núcleo de Defesa da Mulher (Defensoria Pública):
+Núcleo especializado que presta assistência jurídica integral e gratuita, orientação e encaminhamentos a mulheres em situação de violência.
+
+DEAM – Delegacia Especializada de Atendimento à Mulher (Delegacia da Mulher):
+Unidade da Polícia Civil especializada no atendimento a mulheres vítimas de violência doméstica, sexual e outras formas de violência de gênero, com equipe capacitada e estrutura adequada.
+
+Sala das Margaridas:
+Espaço de atendimento especializado à mulher em situação de violência localizado em delegacias não especializadas. Busca garantir acolhimento qualificado mesmo onde não há DEAM.
+
+PMP/BM – Patrulha Maria da Penha da Brigada Militar:
+Programa policial voltado ao acompanhamento de mulheres com Medidas Protetivas de Urgência. Realiza visitas regulares para verificar o cumprimento das medidas, avaliar a segurança da vítima e prevenir a reincidência da violência. Atua no pós-delito e na prevenção contínua da violência doméstica.
+
+CONDIM – Conselho Municipal dos Direitos das Mulheres:
+Órgão colegiado municipal responsável por propor, acompanhar e fiscalizar políticas públicas para a promoção dos direitos das mulheres sob a perspectiva de gênero.
+
+CRAM / CRM – Centro de Referência de Atendimento à Mulher:
+Serviço especializado que oferece acolhimento, atendimento psicológico, social e jurídico às mulheres em situação de violência, promovendo encaminhamentos e apoio para a ruptura do ciclo de violência.
+
+CRAS – Centro de Referência de Assistência Social:
+Unidade pública da Assistência Social responsável pela proteção social básica, prevenção de vulnerabilidades e fortalecimento de vínculos familiares e comunitários.
+
+CREAS – Centro de Referência Especializado de Assistência Social:
+Unidade destinada ao atendimento especializado de famílias e indivíduos com direitos violados ou em situação de ameaça, incluindo situações de violência doméstica.
+
+Todos os Órgãos:
+Representa a soma de todos os órgãos que compõem a Rede de Enfrentamento à Violência Contra a Mulher, incluindo Promotorias, Juizados, CREAS, Salas Margaridas, CRMs, COMDIMs, Delegacias e demais estruturas de atendimento. Esse filtro permite visualizar a rede completa (Estadual, por Comarca ou por Município) em um único mapa, facilitando a análise integrada e o planejamento estratégico.
+
+Promotorias:
+Promotorias de Justiça Especializadas de Combate à Violência Doméstica e Familiar Contra a Mulher. Atuam na defesa dos direitos das mulheres vítimas de violência, promovendo ações judiciais e extrajudiciais.
+
+Comarca:
+Divisão territorial do Poder Judiciário que abrange um ou mais Municípios, onde estão localizados órgãos judiciais e ministeriais.
+
+Origem do Órgão:
+Indica qual o tipo de Órgão selecionado.
+
+MPU – Medidas Protetivas de Urgência:
+Instrumentos previstos na Lei Maria da Penha destinados à proteção imediata da mulher em situação de violência, podendo impor restrições ao agressor e garantir segurança à vítima.
+
+Central de Atendimento à Mulher em Situação de Violência – Disque 180:
+Serviço nacional, gratuito e 24h, criado pela Secretaria Nacional de Políticas para as Mulheres. Oferece orientações, acolhimento, encaminhamentos e denúncias por meio do número 180.
+Link: https://www.gov.br/mulheres/pt-br/ligue180

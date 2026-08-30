@@ -1,0 +1,9 @@
+O Mapa da Rede de Enfrentamento à Violência Contra a Mulher foi desenvolvido para centralizar e disponibilizar informações sobre os órgãos que compõem essa rede, reunindo dados de localização e contato em um único ambiente. 
+
+A ferramenta permite aplicar filtros por município e comarca, oferecendo uma visão detalhada e segmentada da rede, o que facilita a busca por serviços específicos e contribui para o planejamento de ações estratégicas.
+
+Site do Ministério Público do Rio Grande do Sul:  https://www.mprs.mp.br/" 
+
+Fontes de Dados: MPRS, TJRS, Governo do Estado do RS e AzMina.
+
+Link para o site de AzMina (Mapa das Delegacias da Mulher): https://azmina.com.br/projetos/delegacia-da-mulher/
