@@ -1,0 +1,71 @@
+{
+  "base_legal_henry_borel": [
+    {
+      "id_legislacao": "Lei Henry Borel (Lei nº 14.344/2022)",
+      "artigo_referencia": "Art. 2º",
+      "texto_legal_original": "Configura violência doméstica e familiar contra a criança e o adolescente qualquer ação ou omissão que lhe cause morte, lesão, sofrimento físico, sexual, psicológico ou dano patrimonial: I - no âmbito do domicílio... II - no âmbito da família... III - em qualquer relação doméstica e familiar...",
+      "explicacao_simplificada": "A lei protege expressamente crianças e adolescentes contra qualquer tipo de violência (física, psicológica, sexual) que aconteça dentro de casa ou na família. Funciona de forma parecida com a Lei Maria da Penha, mas focada nos menores de idade.",
+      "gatilho_de_uso_llm": "Acione se a usuária relatar agressões, ameaças ou abusos direcionados aos filhos/dependentes. Utilize para fundamentar juridicamente a presença de Violência Vicária e a necessidade de proteção estendida.",
+      "tags_de_busca": ["violência contra criança", "violência vicária", "filhos", "adolescente", "definição legal"]
+    },
+    {
+      "id_legislacao": "Lei Henry Borel (Lei nº 14.344/2022)",
+      "artigo_referencia": "Art. 23 e Art. 26",
+      "texto_legal_original": "Art. 23. Qualquer pessoa que tenha conhecimento ou presencie ação ou omissão... tem o dever de comunicar o fato imediatamente ao serviço de recebimento e monitoramento de denúncias, ao Disque 100... Conselho Tutelar ou à autoridade policial... Art. 26. Deixar de comunicar à autoridade pública a prática de violência... contra criança ou adolescente: Pena - detenção, de 6 (seis) meses a 3 (três) anos.",
+      "explicacao_simplificada": "A denúncia não é uma escolha, é uma obrigação. Qualquer pessoa (incluindo a mãe, vizinhos ou parentes) que saiba que uma criança está sofrendo violência deve denunciar (Disque 100, Polícia ou Conselho Tutelar). Saber do fato e não denunciar é crime e pode dar prisão.",
+      "gatilho_de_uso_llm": "Acione IMEDIATAMENTE se a usuária disser que o agressor bate nas crianças, mas ela tem medo de denunciar. Oriente-a de forma acolhedora que a lei exige a denúncia para proteger as crianças e para evitar que ela própria seja acusada de omissão.",
+      "tags_de_busca": ["omissão", "dever de denunciar", "disque 100", "crime de omissão", "medo de denunciar", "conselho tutelar"]
+    },
+    {
+      "id_legislacao": "Lei Henry Borel (Lei nº 14.344/2022)",
+      "artigo_referencia": "Arts. 20 e 21",
+      "texto_legal_original": "Art. 20... o juiz poderá determinar... II - o afastamento do lar... VI - a restrição ou a suspensão de visitas à criança ou ao adolescente; VII - a prestação de alimentos provisionais... Art. 21. Poderá o juiz... I - a proibição do contato... VII - a realização da matrícula da criança ou do adolescente em instituição de educação mais próxima de seu domicílio...",
+      "explicacao_simplificada": "O juiz pode dar medidas protetivas específicas para salvar a criança: proibir o agressor de visitá-la, proibir qualquer contato, expulsá-lo de casa, obrigar a pagar pensão e transferir a criança de escola imediatamente, sem precisar de vaga.",
+      "gatilho_de_uso_llm": "Acione se a usuária relatar medo de o agressor usar os dias de visita para fazer mal às crianças ou se houver disputas de guarda abusivas. Sugira o pedido de medidas protetivas combinadas (Maria da Penha + Henry Borel).",
+      "tags_de_busca": ["suspensão de visitas", "medidas protetivas crianças", "transferência de escola", "afastamento", "pensão", "guarda"]
+    },
+    {
+      "id_legislacao": "Lei Henry Borel (Lei nº 14.344/2022)",
+      "artigo_referencia": "Arts. 13 e 14",
+      "texto_legal_original": "Art. 13. (...) II - encaminhar a vítima, os familiares e as testemunhas, caso sejam crianças ou adolescentes, ao Conselho Tutelar para os encaminhamentos necessários... Art. 14. Verificada a ocorrência... com a existência de risco atual ou iminente à vida... o agressor será imediatamente afastado do lar... I - pela autoridade judicial; II - pelo delegado de polícia... III - pelo policial...",
+      "explicacao_simplificada": "Se a vida da criança estiver em perigo agora, o agressor pode ser expulso de casa imediatamente (até mesmo pelo policial que atender a ocorrência, se não houver juiz ou delegado na hora). O Conselho Tutelar deve ser chamado para acompanhar o caso.",
+      "gatilho_de_uso_llm": "Acione se a triagem detectar Risco EXTREMO com perigo iminente à vida da criança (urgência). Recomende acionar a PM (190) imediatamente para o afastamento do agressor pelo policial e o acionamento do Conselho Tutelar.",
+      "tags_de_busca": ["emergência", "afastamento imediato", "polícia militar", "risco de morte", "expulsão do agressor"]
+    }
+  ],
+
+  "base_legal_henry_borel_complementar": [
+    {
+      "id_legislacao": "Lei Henry Borel (Lei nº 14.344/2022)",
+      "artigo_referencia": "Art. 15 e Art. 16",
+      "texto_legal_original": "Art. 15. Recebido o expediente com o pedido em favor de criança e de adolescente em situação de violência doméstica e familiar, caberá ao juiz, no prazo de 24 (vinte e quatro) horas: I - conhecer do expediente e do pedido e decidir sobre as medidas protetivas... Art. 16. As medidas protetivas de urgência poderão ser concedidas pelo juiz, a requerimento do Ministério Público, da autoridade policial, do Conselho Tutelar ou a pedido da pessoa que atue em favor da criança e do adolescente.",
+      "explicacao_simplificada": "Para proteger crianças, a Justiça é ainda mais rápida do que na Lei Maria da Penha: o juiz tem apenas 24 horas no máximo para decidir sobre a medida protetiva. Além disso, o Conselho Tutelar ou qualquer pessoa que queira proteger a criança pode pedir essa medida ao juiz.",
+      "gatilho_de_uso_llm": "Acione se a vítima perguntar sobre a demora para proteger os filhos, ou quiser saber se o Conselho Tutelar pode pedir o afastamento do agressor da casa.",
+      "tags_de_busca": ["prazo 24 horas", "conselho tutelar", "quem pode pedir", "tempo de decisão", "medida protetiva infantil"]
+    },
+    {
+      "id_legislacao": "Lei Henry Borel (Lei nº 14.344/2022)",
+      "artigo_referencia": "Art. 13",
+      "texto_legal_original": "Art. 13. No atendimento à criança e ao adolescente em situação de violência doméstica e familiar, a autoridade policial deverá, entre outras providências: I - encaminhar a vítima ao Sistema Único de Saúde e ao Instituto Médico-Legal imediatamente; II - encaminhar a vítima, os familiares e as testemunhas... ao Conselho Tutelar... III - garantir proteção policial... IV - fornecer transporte para a vítima...",
+      "explicacao_simplificada": "Na delegacia, a polícia tem a obrigação de acionar imediatamente o Conselho Tutelar, mandar a criança para atendimento médico (SUS/IML) e fornecer transporte seguro ou escolta policial se a família estiver em risco de morte.",
+      "gatilho_de_uso_llm": "Acione se a usuária relatar que está na delegacia (ou planeja ir) e demonstrar preocupação sobre como os filhos serão tratados ou se terão escolta policial para sair de lá em segurança.",
+      "tags_de_busca": ["atendimento na delegacia", "conselho tutelar", "escolta", "SUS", "IML", "transporte seguro"]
+    },
+    {
+      "id_legislacao": "Lei Henry Borel (Lei nº 14.344/2022)",
+      "artigo_referencia": "Art. 24, §§ 3º, 4º e 8º",
+      "texto_legal_original": "Art. 24 (...) § 3º O noticiante ou denunciante poderá condicionar a revelação de informações... à execução das medidas de proteção necessárias para assegurar sua integridade física e psicológica... § 4º Ninguém será submetido a retaliação, a represália... § 8º Em caso de urgência... o juiz competente... determinará que o noticiante ou denunciante seja colocado provisoriamente sob a proteção de órgão de segurança pública...",
+      "explicacao_simplificada": "A lei protege fortemente quem denuncia agressões contra crianças (seja a mãe, um parente ou vizinho). É proibido haver qualquer vingança ou retaliação. A pessoa pode até exigir proteção policial antes de contar o que sabe, e o juiz pode colocá-la sob proteção direta do Estado.",
+      "gatilho_de_uso_llm": "Acione se a vítima, um vizinho ou familiar disser que tem provas contra o agressor da criança, mas tiver muito medo de denunciar e sofrer vingança, ameaça ou represália.",
+      "tags_de_busca": ["medo de denunciar", "proteção à testemunha", "vingança", "retaliação", "denunciante", "quem avisa"]
+    },
+    {
+      "id_legislacao": "Lei Henry Borel (Lei nº 14.344/2022)",
+      "artigo_referencia": "Art. 25",
+      "texto_legal_original": "Art. 25. Descumprir decisão judicial que defere medida protetiva de urgência prevista nesta Lei: Pena - detenção, de 3 (três) meses a 2 (dois) anos. (...) § 2º Na hipótese de prisão em flagrante, apenas a autoridade judicial poderá conceder fiança.",
+      "explicacao_simplificada": "Se o agressor descumprir a medida protetiva que protege especificamente a criança (exemplo: tentar visitá-la quando o juiz proibiu), ele comete um crime e pode ser preso em flagrante. Na delegacia, ele não pode ser solto pagando fiança; só o juiz pode decidir sobre a soltura.",
+      "gatilho_de_uso_llm": "Acione IMEDIATAMENTE se a vítima relatar que o agressor tentou ver os filhos, foi na escola deles ou entrou em contato com eles, quebrando a medida protetiva específica (Henry Borel).",
+      "tags_de_busca": ["descumprimento medida infantil", "quebra de medida filhos", "prisão em flagrante", "fiança"]
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "iavp_estruturado": {
+
+    "identificacao": {
+        "identificacao_vitima_idade": {
+        "pergunta_linguagem_natural": "Idade:",
+        "resposta": "INTEGER ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Dados demográficos da vítima para estruturação da rede de atendimento.[cite: 14]"
+        },
+        "identificacao_vitima_escolaridade": {
+        "pergunta_linguagem_natural": "Escolaridade:",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Dados demográficos da vítima para estruturação da rede de atendimento.[cite: 14]"
+        },
+        "identificacao_vitima_raca": {
+        "pergunta_linguagem_natural": "Raça:",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Dados demográficos da vítima para estruturação da rede de atendimento.[cite: 14]"
+        },
+        "identificacao_vitima_nacionalidade": {
+        "pergunta_linguagem_natural": "Nacionalidade:",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Dados demográficos da vítima para estruturação da rede de atendimento.[cite: 14]"
+        },
+        "vinculo_entre_as_partes": {
+        "pergunta_linguagem_natural": "Vínculo entre a vítima e o(a) agressor(a):",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Identificação do tipo de relação existente entre as partes.[cite: 14]"
+        },
+    },
+
+    "parte1_condutas_violencia_psicologica": {
+        "q1_criticava_aparencia": {
+        "pergunta_linguagem_natural": "1. Criticava sua aparência (corpo, cabelo, roupas)?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de constrangimento. A Parte 1 está direcionada às condutas de violência psicológica, elaboradas a partir do crime do art. 147-B do Código Penal. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q2_proibia_roupas_maquiagem": {
+        "pergunta_linguagem_natural": "2. Proibia você de usar algumas roupas ou maquiagem?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de constrangimento. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q3_constrangia_frente_outras_pessoas": {
+        "pergunta_linguagem_natural": "3. Constrangia você na frente de outras pessoas?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de constrangimento. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q4_obrigava_pedir_desculpas": {
+        "pergunta_linguagem_natural": "4. Obrigava você a pedir desculpas, mesmo quando não era sua culpa?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de constrangimento. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q5_constrangia_fazer_coisas_nao_gostava": {
+        "pergunta_linguagem_natural": "5. Constrangia você a fazer coisas que não gostava?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de constrangimento. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "detalhes_constrangimento": {
+        "pergunta_linguagem_natural": "Você gostaria de contar detalhes ou outra situação de constrangimento?",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Ao final de cada série de questionamentos, há um espaço para que a vítima especifique detalhes e a frequência com que ocorreram essas condutas.[cite: 14]"
+        },
+        "q6_ofendia_sozinhos": {
+        "pergunta_linguagem_natural": "6. Ofendia, envergonhava ou ridicularizava você quando estavam sozinhos?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de humilhação e ridicularização. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q7_ofendia_frente_outros": {
+        "pergunta_linguagem_natural": "7. Ofendia, envergonhava ou ridicularizava você quando estavam na frente de outras pessoas?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de humilhação e ridicularização. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q8_humilhava_frente_filhos": {
+        "pergunta_linguagem_natural": "8. Humilhava você na frente de seus filhos?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de humilhação e ridicularização. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q9_piadas_familia": {
+        "pergunta_linguagem_natural": "9. Fazia piadas sobre ou você sua família?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de humilhação e ridicularização. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q10_xingava_louca_burra": {
+        "pergunta_linguagem_natural": "10. Xingava você de louca, burra, incapaz ou que não fazia nada direito?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de humilhação e ridicularização. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q11_criava_apelidos": {
+        "pergunta_linguagem_natural": "11. Criava apelidos para você, que a deixavam constrangida ou triste?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de humilhação e ridicularização. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "detalhes_humilhacao": {
+        "pergunta_linguagem_natural": "Você gostaria de contar mais detalhes ou mencionar alguma situação de humilhação ou ridicularização?",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Ao final de cada série de questionamentos, há um espaço para que a vítima especifique detalhes e a frequência com que ocorreram essas condutas.[cite: 14]"
+        },
+        "q12_perdia_cabeca_culpava": {
+        "pergunta_linguagem_natural": "12. Alegava que 'perdia a cabeça' e culpava você?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de manipulação. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q13_culpava_tudo_ruim": {
+        "pergunta_linguagem_natural": "13. Culpava você por tudo de ruim que acontecia (desemprego, dívidas e outros)?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de manipulação. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q14_usava_medos": {
+        "pergunta_linguagem_natural": "14. Usava seus medos e inseguranças dizendo que você não era capaz?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de manipulação. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q15_nao_era_boa_mae": {
+        "pergunta_linguagem_natural": "15. Afirmava que você não era uma 'boa dona de casa', 'boa mãe' e 'esposa' para justificar o comportamento abusivo?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de manipulação. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q16_ameacava_suicidio_matar_filhos": {
+        "pergunta_linguagem_natural": "16. Ameaçava que ia se matar ou matar seus filhos quando você tentava terminar a relação?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de manipulação. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q17_escondia_coisas_louca": {
+        "pergunta_linguagem_natural": "17. Escondia coisas, invertia fatos e dizia que você estava louca?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de manipulação. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "detalhes_manipulacao": {
+        "pergunta_linguagem_natural": "Você gostaria de contar mais detalhes ou alguma situação específica?",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Ao final de cada série de questionamentos, há um espaço para que a vítima especifique detalhes e a frequência com que ocorreram essas condutas.[cite: 14]"
+        },
+        "q18_dificultava_contato_familiares": {
+        "pergunta_linguagem_natural": "18. Dificultava seu contato com familiares?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q19_obrigava_viva_voz": {
+        "pergunta_linguagem_natural": "19. Quando seus familiares ligavam, obrigava você a colocar em viva-voz?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q20_reclamava_saia_sozinha": {
+        "pergunta_linguagem_natural": "20. Reclamava quando você saía sozinha?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q21_reclamava_estudar_trabalhar": {
+        "pergunta_linguagem_natural": "21. Reclamava quando você saía para estudar ou trabalhar?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q22_bravo_conversava_homens": {
+        "pergunta_linguagem_natural": "22. Ficava aborrecido ou bravo se você conversava com homens que não eram da família?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q23_escolhia_amizades": {
+        "pergunta_linguagem_natural": "23. Escolhia suas amizades?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q24_controlava_mensagens": {
+        "pergunta_linguagem_natural": "24. Controlava você por mensagens, ligações ou de outro modo?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q25_exigia_senhas": {
+        "pergunta_linguagem_natural": "25. Exigia que você lhe desse suas senhas em redes sociais?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q26_ciumes_atencao": {
+        "pergunta_linguagem_natural": "26. Tinha ciúmes se alguma pessoa lhe desse atenção ou se aproximasse de você?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de isolamento ou limitação do direito de ir e vir. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "detalhes_isolamento": {
+        "pergunta_linguagem_natural": "Você gostaria de contar mais detalhes ou outra situação de isolamento?",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Ao final de cada série de questionamentos, há um espaço para que a vítima especifique detalhes e a frequência com que ocorreram essas condutas.[cite: 14]"
+        },
+        "q27_gritava_explodia": {
+        "pergunta_linguagem_natural": "27. Gritava ou explodia por qualquer coisa?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas ameaçadoras. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q28_explodia_ciumes_amantes": {
+        "pergunta_linguagem_natural": "28. Explodia por ciúmes, dizia que você tinha amantes ou estava paquerando?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas ameaçadoras. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q29_destruia_escondia_coisas": {
+        "pergunta_linguagem_natural": "29. Destruía ou escondia suas coisas pessoais?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas ameaçadoras. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q30_destruia_moveis": {
+        "pergunta_linguagem_natural": "30. Destruía móveis ou utensílios da casa?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas ameaçadoras. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q31_ameacava_animais": {
+        "pergunta_linguagem_natural": "31. Maltratava ou ameaçava seus animais de estimação?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas ameaçadoras. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q32_ameacava_contar_segredos_fotos": {
+        "pergunta_linguagem_natural": "32. Ameaçava contar seus segredos pessoais ou divulgar fotos suas para outras pessoas?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas ameaçadoras. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q33_dizia_processos_sem_nada": {
+        "pergunta_linguagem_natural": "33. Dizia que, se o deixasse, entraria com vários processos e você ficaria sem nada?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas ameaçadoras. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q34_exibia_armas": {
+        "pergunta_linguagem_natural": "34. Exibia armas de fogo, facas ou objetos como forma de intimação?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas ameaçadoras. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "detalhes_medo": {
+        "pergunta_linguagem_natural": "Você gostaria de contar mais detalhes ou outra situação que lhe causava medo?",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Ao final de cada série de questionamentos, há um espaço para que a vítima especifique detalhes e a frequência com que ocorreram essas condutas.[cite: 14]"
+        },
+        "q35_inteligencia_artificial": {
+        "pergunta_linguagem_natural": "35. Para alguma das condutas anteriores, foi utilizada Inteligência Artificial (como programas ou aplicativos) ou outro recurso tecnológico para alterar imagem pessoal ou voz (fotos ou vídeos montados com sua imagem ou voz)?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Violência psicológica digital. A pena é aumentada de metade se o crime é cometido mediante uso de inteligência artificial ou de qualquer outro recurso tecnológico que altere imagem ou som da vítima (art. 147-B, parágrafo único, Código Penal, incluído pela Lei nº 15.123, de 2025).[cite: 14]"
+        },
+        "q36_ameacava_guarda_filhos": {
+        "pergunta_linguagem_natural": "36. Ameaçava pedir a guarda dos filhos?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de violência psicológica relacionadas a filhos (violência vicária). Na Parte 1 há questionamentos específicos relacionados aos filhos da vítima. Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q37_ameacava_filhos_desistir_processo": {
+        "pergunta_linguagem_natural": "37. Ameaçava seus filhos para você desistir de algum processo?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de violência psicológica relacionadas a filhos (violência vicária). Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q38_agressividade_filhos_punicao": {
+        "pergunta_linguagem_natural": "38. Agia com agressividade com os filhos como forma de puni-la?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de violência psicológica relacionadas a filhos (violência vicária). Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q39_deixava_dar_remedios_filhos": {
+        "pergunta_linguagem_natural": "39. Deixava de dar remédios para filhos doentes ou que necessitavam de cuidados especiais como forma de puni-la?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de violência psicológica relacionadas a filhos (violência vicária). Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q40_colocava_filhos_risco": {
+        "pergunta_linguagem_natural": "40. Colocava seus filhos em situações de risco como forma de puni-la?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de violência psicológica relacionadas a filhos (violência vicária). Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "q41_recusava_pagar_pensao": {
+        "pergunta_linguagem_natural": "41. Recusava-se a pagar pensão para os filhos como forma de chantagem ou punição?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 1: Condutas de violência psicológica relacionadas a filhos (violência vicária). Nos questionamentos caso a vítima tenha dúvida ou não se recorde de uma situação específica, deverá ser assinalada a resposta 'não'.[cite: 14]"
+        },
+        "outras_situacoes": {
+        "pergunta_linguagem_natural": "Outras situações",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Campo livre para especificar outras condutas relacionadas.[cite: 14]"
+        },
+        "frequencia_condutas": {
+        "pergunta_linguagem_natural": "As condutas de constrangimento, humilhação, manipulação, de isolamento ou ameaçadoras que você descreveu aconteciam com que frequência?",
+        "resposta": "ENUM: poucas vezes, muitas vezes, sempre, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Ao final de cada série de questionamentos, há um espaço para que a vítima especifique detalhes e a frequência com que ocorreram essas condutas.[cite: 14]"
+        },
+
+    },
+
+    "parte2_dano_emocional": {
+
+        "q42_evitar_pessoas_lugares": {
+        "pergunta_linguagem_natural": "42. Passou a evitar pessoas ou lugares que relembram os fatos?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. A Parte 2 está direcionada à identificação do dano emocional. Devem ser assinalados os sintomas que surgiram durante ou após a situação de violência psicológica. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q43_medo_ficar_sozinha": {
+        "pergunta_linguagem_natural": "43. Medo de ficar sozinha em casa ou sair desacompanhada?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q44_pesadelos_dormir": {
+        "pergunta_linguagem_natural": "44. Pesadelos ou dificuldade para dormir?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q45_tristeza_crises_choro": {
+        "pergunta_linguagem_natural": "45. Tristeza profunda ou crises de choro?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q46_estado_alerta": {
+        "pergunta_linguagem_natural": "46. Constante estado de alerta (atenção e medo)?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q47_dificuldade_atividades_dia_a_dia": {
+        "pergunta_linguagem_natural": "47. Dificuldade para realizar as atividades do dia a dia, que antes você fazia normalmente?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q48_afastamento_trabalho_estudos": {
+        "pergunta_linguagem_natural": "48. Afastamento do trabalho ou estudos?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q49_afastamento_familiares_amigos": {
+        "pergunta_linguagem_natural": "49. Afastamento de familiares ou amigos/as?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q50_deixou_relacionar_sexualmente_afetivamente": {
+        "pergunta_linguagem_natural": "50. Deixou de se relacionar sexualmente ou afetivamente com outras pessoas (por medo ou desconfiança)?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q51_deixou_relacionar_pessoas_mesmo_sexo": {
+        "pergunta_linguagem_natural": "51. Deixou de se relacionar com pessoas do mesmo sexo do agressor (por medo ou desconfiança)?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q52_fobia_medo_especifico": {
+        "pergunta_linguagem_natural": "52. Desenvolveu alguma fobia ou medo específico (altura, animais, pessoas, sangue)?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q53_alteracoes_apetite_peso": {
+        "pergunta_linguagem_natural": "53. Teve alterações do apetite com aumento ou perda de peso?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q54_doente_frequencia": {
+        "pergunta_linguagem_natural": "54. Passou a ficar doente com frequência (dores crônicas, lesões ou doenças de pele, alterações hormonais, pressão alta, queda de cabelo, alterações da visão, ou outro sintoma físico)?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q55_tremores_relembrar": {
+        "pergunta_linguagem_natural": "55. Tremores ao relembrar dos fatos?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q56_coracao_acelerado_falta_ar": {
+        "pergunta_linguagem_natural": "56. Coração acelerado (taquicardia) ou falta de ar quando alguém do sexo oposto chega próximo?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q57_desanimo_apatia": {
+        "pergunta_linguagem_natural": "57. Estado de desânimo, apatia ou indiferença em ambientes de lazer?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q58_incapaz_fracassada": {
+        "pergunta_linguagem_natural": "58. Passou a se sentir incapaz, fracassada ou sem valor?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q59_mundo_perigoso_nao_confia": {
+        "pergunta_linguagem_natural": "59. Passou a ver o mundo como um lugar perigoso e não consegue confiar nas pessoas?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q60_irritabilidade_constante": {
+        "pergunta_linguagem_natural": "60. Passou a ter irritabilidade constante?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "q61_ideacao_suicida": {
+        "pergunta_linguagem_natural": "61. Perdeu a vontade de viver ou teve ideação suicida?",
+        "resposta": "ENUM: sim, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Parte 2: Dano emocional. Caso a vítima não se recorde ou não tenha certeza, deve-se assinalar a resposta 'não'.[cite: 14]"
+        },
+        "persistencias_dos_sintomas": {
+        "pergunta_linguagem_natural": "Os sintomas ainda persistem? Descreva, apontando se há necessidade de atendimento ou encaminhamento da vítima",
+        "resposta": "STRING ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Ao final, há um questionamento quanto à persistência desses sintomas e eventual encaminhamento da vítima para programa de proteção ou atendimento (art. 23, I, da Lei Maria da Penha).[cite: 14]"
+        },
+
+    },
+
+    "observacoes_profissionais": {
+      "pergunta_linguagem_natural": "Observações profissionais:",
+      "resposta": "STRING ou null",
+      "complemento_resposta": "STRING ou null",
+      "informacoes": "A profissional responsável pela aplicação do instrumento deverá indicar os encaminhamentos adotados.[cite: 14]"
+    }
+  }
+}

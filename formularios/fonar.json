@@ -1,0 +1,274 @@
+{
+  "fonar_estruturado": {
+
+    "identificacao": {
+
+      "identificacao_vitima_idade": {
+        "pergunta_linguagem_natural": "Idade da vítima",
+        "resposta": "INTEGER ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "A idade é utilizada para o cálculo da diferença etária entre as partes - fator associado ao risco quando igual ou superior a nove anos; além de auxiliar na identificação de vulnerabilidades sociais relevantes para a gestão do risco."
+      },
+      "identificacao_vitima_identidade_genero": {
+        "pergunta_linguagem_natural": "Identidade de gênero da vítima:",
+        "resposta": "ENUM: mulher_cis, mulher_trans, travesti, pessoa_nao_binaria, prefiro_nao_informar, outra, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Assegurando respeito à identidade de gênero da pessoa atendida. Essa estrutura respeita o entendimento normativo e jurisprudencial de que o Fonar deve ser aplicado em situações de violência doméstica e familiar praticadas contra vítimas com identidade de gênero feminina, independentemente da identidade de gênero da pessoa agressora."
+      },
+      "identificacao_vitima_orientacao_sexual": {
+        "pergunta_linguagem_natural": "Orientação sexual da vítima:",
+        "resposta": "ENUM: heterossexual, lesbica, bissexual, assexual, pansexual, prefiro_nao_informar, outra, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essa categorização assegura que relações afetivas e sexuais entre mulheres sejam corretamente identificadas no atendimento, reforçando a aplicabilidade da Lei Maria da Penha em contextos de violência doméstica e familiar envolvendo mulheres lésbicas, bissexuais, dentre outras."
+      },
+      "vinculo_entre_as_partes_afetivo": {
+        "pergunta_linguagem_natural": "Relacionamento afetivo:",
+        "resposta": "ENUM: marido_ou_esposo, ex_marido_ou_ex_esposo, companheiro, ex_companheiro, namorado, ex_namorado, outro, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essas categorias asseguram que o vínculo considerado na avaliação do risco reflita a dinâmica de violência baseada no gênero reconhecida pela Lei Maria da Penha: situações que ocorrem no âmbito da unidade doméstica, da família ou em relações íntimas de afeto, independentemente de coabitação, orientação sexual ou estado civil."
+      },
+      "vinculo_entre_as_partes_familiar": {
+        "pergunta_linguagem_natural": "Relacionamento familiar:",
+        "resposta": "ENUM: pai, irmao, primo, genro_ou_nora, mae, filho, cunhado, padrasto, avo, sobrinho, madrasta, tio, enteado, outro, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essas categorias asseguram que o vínculo considerado na avaliação do risco reflita a dinâmica de violência baseada no gênero reconhecida pela Lei Maria da Penha: situações que ocorrem no âmbito da unidade doméstica, da família ou em relações íntimas de afeto, independentemente de coabitação, orientação sexual ou estado civil."
+      },
+      "vinculo_entre_as_partes_domestico": {
+        "pergunta_linguagem_natural": "Relacionamento doméstico:",
+        "resposta": "ENUM: pessoa_que_reside_mesmo_lar, empregado_domestico, ex_residente_do_lar, cuidador, outro, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essas categorias asseguram que o vínculo considerado na avaliação do risco reflita a dinâmica de violência baseada no gênero reconhecida pela Lei Maria da Penha: situações que ocorrem no âmbito da unidade doméstica, da família ou em relações íntimas de afeto, independentemente de coabitação, orientação sexual ou estado civil."
+      },
+
+    },
+
+    "bloco1_historico_de_violencia": {
+
+      "ameacou_vitima_ou_familiar": {
+        "pergunta_linguagem_natural": "1. O(A) agressor(a) já ameaçou você ou algum familiar com a finalidade de atingi-la?",
+        "resposta": "ENUM: com arma de fogo, com faca, de outra forma, não, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta investiga um dos fatores de risco relevantes para a predição de feminicídio: a presença de ameaças dirigidas à vítima ou a terceiros, sobretudo quando utilizadas como forma de controle e intimidação. Ameaças letais, especialmente quando envolvem familiares – como filhos e filhas –, sinalizam potencial de letalidade e podem elevar a classificação para risco grave ou extremo quando associadas a outros comportamentos de escalada da violência e perseguição. Além disso, ameaças reiteradas indicam persistência da dinâmica abusiva e aumento da probabilidade de agressões físicas severas."
+      },
+      "agressoes_fisicas_graves": {
+        "pergunta_linguagem_natural": "2. O(A) agressor(a) já praticou alguma(s) das seguintes formas graves de agressão física contra você?",
+        "resposta": "ARRAY DE ENUM: queimadura, enforcamento, sufocamento, estrangulamento, tiro, afogamento, facada, paulada, outro, nenhuma agressao fisica, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta avalia a ocorrência de agressões físicas graves, com alto valor preditivo para risco extremo e feminicídio. As opções de resposta incluem, de forma exemplificativa: estrangulamento, golpes com arma de fogo ou arma branca, queimaduras, lesões com objetos contundentes, espancamentos e socos reiterados, entre outras modalidades severas de violência física. Cada uma dessas condutas revela uso intencional de força com potencial de causar lesões graves ou morte, indicando escalada e letalidade no comportamento do(a) agressor(a). Diante de resposta positiva, especialmente quando associada a episódios recentes ou repetidos, recomenda-se priorização imediata do caso, análise célere da classificação do risco e articulação rápida de medidas protetivas e encaminhamentos à rede de atendimento."
+      },
+      "outras_agressoes_fisicas": {
+        "pergunta_linguagem_natural": "2.1. O(A) agressor(a) já praticou alguma(s) destas agressões físicas contra você?",
+        "resposta": "ARRAY DE ENUM: soco, chute, tapa, empurrao, puxao de cabelo, outro, nenhuma agressao fisica, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica agressões físicas que não alcançam, por si só, o patamar de risco extremo de feminicídio, mas que representam continuidade do ciclo de violência e indicam risco grave ou moderado. Tais agressões - como tapas, empurrões, chutes, puxões de cabelo ou arremesso de objetos - costumam estar presentes em situações de reiteração e escalada da violência, especialmente quando a frequência aumenta ou quando se combinam com violência psicológica e controle coercitivo. Lembre-se de que uma resposta definitiva do grau do risco exige análise do conjunto de fatores identificados no Fonar, considerando o contexto relacional, a temporalidade, o agravamento e reiteração das agressões, além do histórico criminal e de descumprimento de medidas legais pelo(a) agressor(a), para então orientar a melhor estratégia de gestão do risco."
+      },
+      "necessitou_atendimento_medico_internacao": {
+        "pergunta_linguagem_natural": "2.2. Você necessitou de atendimento médico e/ou internação após algumas dessas agressões?",
+        "resposta": "ENUM: sim, nao, prefiro nao informar, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica situações em que as agressões físicas possam ter produzido lesões significativas, com potencial de agravamento do risco e de comprometimento da integridade física e psicológica da vítima. Além de contribuir diretamente para a estimativa do risco e para o monitoramento de possíveis sequelas decorrentes da violência, esta pergunta também cumpre função assistencial e protetiva: permite o mapeamento de demandas urgentes de saúde, incluindo avaliação clínica imediata, emissão de laudos que subsidiam decisões protetivas e encaminhamento a serviços especializados, como atendimento psicológico, perícia e acompanhamento continuado pela rede de saúde."
+      },
+      "obrigou_relacao_sexual_contra_vontade": {
+        "pergunta_linguagem_natural": "3. O(A) agressor(a) já obrigou você a ter relações sexuais ou praticar atos sexuais contra a sua vontade?",
+        "resposta": "ENUM: sim, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "A violência sexual no contexto doméstico é um fator de risco grave e extremo, pois indica alto nível de controle e humilhação, associado à probabilidade de escalada para o feminicídio. Diante de resposta positiva e se o fato tiver sido recente, é fundamental acionar imediatamente a rede de saúde para avaliação clínica, profilaxia de IST/HIV, contracepção de emergência e demais cuidados necessários, além do encaminhamento rápido para perícia especializada, com preservação da cadeia de custódia de possíveis vestígios, quando houver. Além disso, a mulher deve ser orientada sobre a possibilidade de registrar a ocorrência para a formalização da denúncia."
+      },
+      "comportamentos_controle_ciume": {
+        "pergunta_linguagem_natural": "4. O(A) agressor(a) já teve algum destes comportamentos?",
+        "resposta": "ARRAY DE ENUM: disse se nao for minha nao sera de mais ninguem, perturbou perseguiu vigiou locais frequenta, proibiu visitar familiares amigos, proibiu trabalhar estudar, telefonemas mensagens emails insistentes, impediu acesso dinheiro conta bancaria documentos bens, outros comportamentos ciume controle, nenhum, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "As opções de resposta investigam ciúmes excessivos, vigilância e monitoramento, restrição de contatos e atividades, controle financeiro, destruição ou subtração de bens, retenção de documentos, entre outras formas de violência patrimonial e psicológica, por meio de controle coercitivo. Nesses casos, a Lei Maria da Penha autoriza medidas protetivas patrimoniais, como a restituição de bens indevidamente subtraídos. Esses comportamentos revelam dinâmica abusiva persistente e são reconhecidos como fatores de risco para agravamento da violência, pois ampliam o poder do(a) agressor(a) sobre a vítima, dificultando a ruptura do relacionamento em curso, ou indicando a dificuldade pelo(a) ofensor(a) de dissociação afetiva em um relacionamento já findo. É importante considerar que o controle excessivo exercido no período do relacionamento permanece como fator de risco mesmo após o término."
+      },
+      "registrou_ocorrencia_anterior": {
+        "pergunta_linguagem_natural": "5. Você já registrou ocorrência policial ou solicitou medida protetiva de urgência contra o(a) agressor(a)?",
+        "resposta": "ENUM: sim ocorrencia e medida protetiva, sim apenas ocorrencia, sim apenas medida protetiva, nao nunca registrei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Estas perguntas avaliam o histórico institucional de proteção e sinalizam se a vítima já buscou por apoio do sistema de Justiça. Resposta positiva indica persistência do risco, especialmente quando houve agressões após o registro policial ou descumprimento de medidas protetivas, elemento reconhecido como fator de risco grave ou extremo."
+      },
+      "descumpriu_medida_protetiva_anterior": {
+        "pergunta_linguagem_natural": "5.1. O(A) agressor(a) já descumpriu medida protetiva de urgência anteriormente?",
+        "resposta": "ENUM: sim, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Estas perguntas avaliam o histórico institucional de proteção e sinalizam se a vítima já buscou por apoio do sistema de Justiça. Resposta positiva indica persistência do risco, especialmente quando houve agressões após o registro policial ou descumprimento de medidas protetivas, elemento reconhecido como fator de risco grave ou extremo. Nesses casos, o descumprimento de medida protetiva configura crime específico, previsto no art. 24-A da Lei Maria da Penha, reforçando a necessidade de ação imediata do sistema de Justiça e da segurança pública para contenção do risco e responsabilização do(a) agressor(a)."
+      },
+      "agressoes_ficaram_mais_frequentes_graves": {
+        "pergunta_linguagem_natural": "6. As agressões ou ameaças do(a) agressor(a) se tornaram mais frequentes e/ou mais graves nos últimos 12 meses?",
+        "resposta": "ENUM: sim ficaram mais frequentes ou mais graves, nao houve aumento, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta verifica a escalada da violência, elemento fortemente associado ao risco grave e extremo. O aumento da frequência ou da severidade das agressões indica progressão do risco e aproximação de possíveis desfechos letais, exigindo intervenções imediatas e medidas protetivas proporcionais ao nível de risco identificado."
+      },
+
+  },
+
+    "bloco2_sobre_o_agressor": {
+  
+      "uso_abusivo_substancias": {
+        "pergunta_linguagem_natural": "7. O(A) agressor(a) faz uso abusivo de álcool ou de drogas ou de medicamentos?",
+        "resposta": "ARRAY DE ENUM: alcool, drogas, medicamentos, nao faz uso, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta busca identificar condutas que podem potencializar comportamentos violentos, sobretudo quando associadas a ciúme, controle ou histórico de agressões. Embora o uso abusivo não seja a causa da violência, pode aumentar a impulsividade, reduzir o controle inibitório e elevar o risco de agressões graves, exigindo atenção ao contexto global do risco e possíveis encaminhamentos do(a) agressor(a) para a rede de atendimento psicossocial e de saúde mental."
+      },
+      "doenca_mental_comprovada": {
+        "pergunta_linguagem_natural": "8. O(A) agressor(a) tem alguma doença mental comprovada por avaliação médica?",
+        "resposta": "ENUM: sim e faz uso de medicacao, sim e nao faz uso de medicacao, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica se há diagnóstico médico formal relacionado a transtorno mental, o que pode influenciar a gestão do risco e os encaminhamentos necessários. Assim como verificado na pergunta anterior, a presença de doença mental não é causa da violência, mas pode potencializar riscos quando associada a outros fatores, como resistência em aderir a tratamento, descompensação clínica, impulsividade, descumprimento de medidas ou uso abusivo de álcool e drogas. Em caso de resposta positiva, é importante avaliar a necessidade de medidas de responsabilização e tratamento, conforme articulação da rede."
+      },
+      "tentou_ou_falou_em_suicidio": {
+        "pergunta_linguagem_natural": "9. O(A) agressor(a) já tentou suicídio ou falou em suicidar-se?",
+        "resposta": "ENUM: sim ja tentou suicidio, sim ja falou mas nunca tentou, nao nunca tentou nem falou, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta busca identificar comportamento autoagressivo, reconhecido na literatura como indicador de alto risco de feminicídio seguido de suicídio ou de agressões mais violentas quando a mulher tenta romper a relação. Além de revelar instabilidade emocional, esse comportamento indica que o(a) agressor(a) pode estar propenso a adotar condutas extremas contra a mulher e, até mesmo, contra seus(suas) dependentes, demonstrando reduzida inibição diante das consequências legais, pois não teria nada a perder. Diante de resposta positiva, é necessário avaliar com atenção o contexto emocional do(a) agressor(a), bem como articular imediatamente ações preventivas e de responsabilização, devido ao potencial de letalidade envolvida."
+      },
+      "desempregado_ou_dificuldade_financeira": {
+        "pergunta_linguagem_natural": "10. O(A) agressor(a) está desempregado(a) ou tem dificuldades financeiras?",
+        "resposta": "ENUM: sim, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica estresse econômico e instabilidade financeira, fatores que podem agravar o risco quando combinados com ciúme, controle e histórico de agressões. A dependência da mulher com relação ao(a) agressor(a) que está passando por dificuldades financeiras ou desemprego pode intensificar conflitos, impulsividade e tensões no relacionamento. Esse fator também se relaciona ao dispositivo de eficácia, segundo o qual expectativas socioculturais vinculadas ao papel masculino de 'provedor' podem levar o agressor a sentir sua masculinidade ou poder ameaçados diante da perda de renda, aumentando a probabilidade de comportamentos violentos. Entretanto, de forma isolada, esse elemento não configura risco grave, devendo ser interpretado à luz do conjunto de fatores de risco e do contexto da violência identificado no Fonar."
+      },
+      "facil_acesso_arma_de_fogo": {
+        "pergunta_linguagem_natural": "11. O(A) agressor(a) tem fácil acesso a arma de fogo?",
+        "resposta": "ENUM: sim, nao, nao sei, prefiro nao informar, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "O acesso facilitado a arma de fogo - seja por posse própria ou em razão da atividade profissional (como policial civil, militar, penal etc. ou segurança privada) - é um dos fatores de risco mais fortes para feminicídio, devendo ser considerado risco grave ou extremo. Nesses casos, a atuação policial deve ser imediata, com verificação de porte ou posse, nos termos do art. 12, VI-A, da Lei Maria da Penha, incluindo consulta a registros e comunicação à instituição responsável quando se tratar de armamento institucional, podendo subsidiar a requisição judicial de busca e apreensão da arma de fogo para proteção da vítima, conforme art. 18, IV, da LMP."
+      },
+      "agrediu_ou_ameacou_terceiros": {
+        "pergunta_linguagem_natural": "12. O(A) agressor(a) já ameaçou ou agrediu seus (suas) filhos (as), outros familiares, outras parceiras íntimas, amigos(as), colegas de trabalho, pessoas desconhecidas ou animais de estimação?",
+        "resposta": "ARRAY DE ENUM: filhos, outros familiares, animais estimacao, outras parceiras intimas, outras pessoas amigos colegas desconhecidas, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica ampliação do círculo da violência, incluindo agressões e ameaças contra filhos(as), familiares, pessoas próximas ou mesmo animais, conduta que expressa alto grau de controle, impulsividade e periculosidade do(a) agressor(a). A crueldade com animais indica tolerância à violência e baixa empatia, além de usualmente funcionar como uma violência vicária contra a mulher. Esses comportamentos são reconhecidos como fatores de risco grave ou extremo, pois indicam potencial de violência letal e intenção de atingir a vítima por meio de terceiros, além de demandarem atuação imediata da rede para proteção da mulher e dos(as) dependentes."
+      },
+      "registro_ocorrencia_por_essas_violencias": {
+        "pergunta_linguagem_natural": "12.1. Você tem conhecimento de registro de ocorrência policial e/ou medida protetiva de urgência contra ele/ela por essas violências?",
+        "resposta": "ENUM: sim, nao, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Resposta positiva reforça a persistência e reiteração da violência, além de indicar histórico formalmente reconhecido pelas instituições, o que eleva ainda mais o risco e demanda priorização imediata nas estratégias de proteção."
+      },
+
+  },
+
+    "bloco3_sobre_voce_vitima": {
+      "tentou_terminou_ou_manifestou_intencao_terminar": {
+        "pergunta_linguagem_natural": "13. Você terminou, tentou ou manifestou intenção de terminar com o(a) agressor(a) recentemente?",
+        "resposta": "ENUM: sim terminei recentemente, sim tentei mas ainda estou na relacao, sim manifestei intencao, nao, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica situações de ruptura real ou iminente do relacionamento, reconhecidas como um dos principais fatores de risco para feminicídio. A iminência ou recenticidade do término pode ser percebida pelo agressor como ameaça direta à sua autoridade, acionando expectativas sociais de afirmação da masculinidade e 'crenças de posse' sobre a mulher. Esse quadro frequentemente funciona como gatilho para a intensificação de intimidações, perseguições e punições por meio de formas mais graves de violência. Além disso, a separação recente pode agravar vulnerabilidades da mulher em diferentes dimensões habitacional, financeira, guarda dos filhos e status migratório. A análise também permite distinguir situações em que a mulher já tomou medidas concretas para se afastar, mas não conseguiu manter o distanciamento, daquelas em que ela apenas manifestou verbalmente a intenção de terminar, sem ações efetivas de separação. Em ambos os cenários, observa-se aumento significativo do risco de reações violentas por parte do(a) agressor(a), impondo a necessidade de respostas céleres e coordenadas da rede."
+      },
+      "possui_filhos": {
+        "pergunta_linguagem_natural": "14. Você tem filhos?",
+        "resposta": "ENUM: sim outro relacionamento, sim com agressor, nao possuo, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essas perguntas identificam a existência de filhos e filhas sob responsabilidade da vítima e as condições em que estão inseridos, elementos que podem agravar a vulnerabilidade da mulher, ampliar o controle coercitivo do(a) agressor(a) e indicar risco de violência vicária ou de violência direta contra crianças e adolescentes. Quando a mulher possui filhos(as), há usualmente uma sobrecarga nas funções de cuidado sob responsabilidade dela. Muitas mulheres relutam em romper as relações para evitar que seus(suas) filhos(as) percam o contato com o(a) genitor(a)."
+      },
+      "possui_filhos_quantidade": {
+        "pergunta_linguagem_natural": "14. Você tem filhos? (Quantidade)",
+        "resposta": "INTEGER ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essas perguntas identificam a existência de filhos e filhas sob responsabilidade da vítima e as condições em que estão inseridos, elementos que podem agravar a vulnerabilidade da mulher, ampliar o controle coercitivo do(a) agressor(a) e indicar risco de violência vicária ou de violência direta contra crianças e adolescentes."
+      },
+      "faixa_etaria_filhos": {
+        "pergunta_linguagem_natural": "14.1. Qual a faixa etária de seus filhos?",
+        "resposta": "ARRAY DE ENUM: 0 a 11 anos, 12 a 17 anos, a partir de 18 anos, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essas perguntas identificam a existência de filhos e filhas sob responsabilidade da vítima e as condições em que estão inseridos, elementos que podem agravar a vulnerabilidade da mulher, ampliar o controle coercitivo do(a) agressor(a) e indicar risco de violência vicária ou de violência direta contra crianças e adolescentes."
+      },
+      "filho_pessoa_com_deficiencia": {
+        "pergunta_linguagem_natural": "14.2. Algum de seus filhos é pessoa com deficiência?",
+        "resposta": "ENUM: sim, nao, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "A presença de filhos(as) com deficiência demanda atenção ainda maior, pois a dependência funcional agrava a sobrecarga nas funções de cuidado pela mulher e pode intensificar o poder de controle do(a) agressor(a), aumentando os riscos envolvidos."
+      },
+      "filho_pessoa_com_deficiencia_quantidade": {
+        "pergunta_linguagem_natural": "14.2. Algum de seus filhos é pessoa com deficiência? (Quantidade)",
+        "resposta": "INTEGER ou null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "A presença de filhos(as) com deficiência demanda atenção ainda maior, pois a dependência funcional agrava a sobrecarga nas funções de cuidado pela mulher e pode intensificar o poder de controle do(a) agressor(a), aumentando os riscos envolvidos."
+      },
+      "conflito_guarda_visitas_pensao": {
+        "pergunta_linguagem_natural": "14.3. Estão vivendo algum conflito com relação à guarda dos filhos, visitas ou pagamento de pensão pelo(a) agressor(a)?",
+        "resposta": "ENUM: sim, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Conflitos relacionados a guarda, visitas ou pagamento de pensão podem ser instrumentalizados pelo(a) agressor(a) como forma de retaliação, especialmente em contextos de ruptura da relação. Se houve separação, o contato forçado e prolongado com o(a) ofensor(a), nos momentos de visitação, podem se tornar gatilhos para a escalada de novos episódios de violência, além do risco de utilização das crianças para seguir vigiando e controlando a mulher. Em outros contextos, a existência de filhos(as) de um relacionamento anterior desencadeia sentimentos de posse por não se dedicar integralmente ao(à) ofensor(a) e sua prole - que podem evoluir para violências."
+      },
+      "filhos_presenciaram_violencia": {
+        "pergunta_linguagem_natural": "14.4. Seu(s) filho(s) já presenciaram ato(s) de violência do(a) agressor(a) contra você?",
+        "resposta": "ENUM: sim, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Além disso, quando filhos(as) presenciam atos de violência, há impacto direto em seu desenvolvimento físico, emocional e cognitivo, ampliando o risco de ciclos intergeracionais de violência. Nessas circunstâncias, a proteção deve abranger toda a família, sendo possível determinar medidas protetivas como a restrição ou suspensão de visitas ao(à) agressor(a), mediante avaliação técnica de equipe especializada."
+      },
+      "violencia_durante_gravidez_ou_puerperio": {
+        "pergunta_linguagem_natural": "15. Você sofreu algum tipo de violência durante a gravidez ou até 18 meses após o parto?",
+        "resposta": "ENUM: sim gravida e sofro violencia, sim tive filho e sofro violencia, sim sofri gravidez ou pos parto mas nao atualmente, nao sofri, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica situações de violência na gestação e no puerpério, períodos reconhecidos como de risco elevado para agravamento da violência doméstica e familiar, devido ao aumento da vulnerabilidade física, emocional e econômica da mulher. Ademais, pode criar sentimentos de posse do(a) agressor(a) à mulher, por dividir a atenção com o(a) bebê. Pesquisa documentou que este é um fator de risco associado a situações de risco extremo, com elevada correlação linear com a presença dos demais fatores de risco. A violência nesses momentos também impacta diretamente a saúde e o desenvolvimento do(a) bebê, podendo provocar complicações gestacionais, parto prematuro e prejuízos ao vínculo materno-infantil. Diante de resposta positiva, recomenda-se priorização imediata da proteção e articulação com a rede de saúde para acompanhamento especializado."
+      },
+      "novo_relacionamento_gerou_aumento_ameacas": {
+        "pergunta_linguagem_natural": "16. Se você está em um novo relacionamento, percebeu que as ameaças ou agressões físicas aumentaram em razão disso?",
+        "resposta": "ENUM: sim, nao, nao se aplica, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica situações em que o ciúme, o sentimento de posse e a percepção de perda de controle pelo(a) agressor(a) intensificam a violência, elemento associado à escalada do risco e à possibilidade de letalidade. Quando o início de um novo relacionamento desencadeia aumento de ameaças ou agressões, reforça-se o caráter retaliatório da violência, demandando atenção imediata e medidas de proteção proporcionais ao agravamento identificado."
+      },
+      "isolada_amigos_familiares": {
+        "pergunta_linguagem_natural": "17. Você se sente isolada de amigos, familiares, pessoas da comunidade ou trabalho?",
+        "resposta": "ENUM: sim, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta avalia situações de isolamento social, estratégia comumente utilizada pelo(a) agressor(a) para reduzir a rede de apoio e dificultar a busca por ajuda. O afastamento de relações afetivas, comunitárias ou profissionais aumenta a dependência da vítima e eleva o risco de agravamento da violência, especialmente quando associado a controle coercitivo, ciúmes e monitoramento. Diante de resposta positiva, recomenda-se atenção às possibilidades de reconexão com redes comunitárias e o acompanhamento psicossocial para resgate da autonomia e autoestima."
+      },
+      "possui_deficiencia_ou_doenca_degenerativa": {
+        "pergunta_linguagem_natural": "18. Você possui alguma deficiência ou doença degenerativa que acarreta condição limitante ou de vulnerabilidade física ou mental?",
+        "resposta": "ARRAY DE ENUM: deficiencia fisica, deficiencia visual, deficiencia auditiva, deficiencia intelectual, doenca degenerativa, outra, nao, prefiro nao informar, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica condições de saúde e deficiência que podem aumentar a vulnerabilidade da vítima à violência, reduzindo sua capacidade de defesa, mobilidade ou solicitação de ajuda. A dependência de cuidados ou suporte do(a) agressor(a) pode intensificar o controle coercitivo e dificultar a ruptura da violência, exigindo atenção prioritária para estratégias de proteção e acionamento de serviços especializados de apoio e acessibilidade."
+      },
+      "cor_raca": {
+        "pergunta_linguagem_natural": "19. Com qual cor/raça você se identifica?",
+        "resposta": "ENUM: preta, parda, indigena, branca, amarela, prefiro nao informar, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "A cor/raça não é um fator de risco direto para a violência, porém, em razão do racismo estrutural e das desigualdades históricas, mulheres negras (pretas e pardas) e indígenas encontram-se, de maneira desproporcional, em situações de maior vulnerabilidade econômica, social e territorial, o que aumenta a exposição ao risco e dificulta o acesso à proteção e à rede de atendimento. O racismo também pode reduzir a autoestima da mulher, facilitando o abuso pelo(a) ofensor(a) da dependência emocional da vítima e dificultando o término de uma relação em curso. No caso de relações já findas, o racismo exacerba o sentimento de desprezo e normaliza violências contra corpos representados como 'violentáveis'. Portanto, essa informação é essencial para qualificar a análise interseccional do risco e orientar políticas de proteção mais adequadas, como encaminhamento para atendimento psicossocial, programas de geração de renda e empregabilidade, auxílio-aluguel, demais benefícios assistenciais etc."
+      },
+  },
+
+    "bloco4_outras_informacoes_importantes": {
+
+      "mora_local_risco_comunidade_rural_indigena": {
+        "pergunta_linguagem_natural": "20. Você considera que mora em bairro, comunidade, área rural, território indígena ou outro local de maior risco de violência?",
+        "resposta": "ENUM: sim area rural, sim territorio indigena, sim area urbana, nao, nao sei, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta permite identificar vulnerabilidades territoriais, que não constituem fator de risco direto, mas podem ampliar a exposição à violência e dificultar o acesso à rede. Mulheres que vivem em áreas rurais, comunidades periféricas, territórios indígenas ou regiões com conflito fundiário tendem a encontrar maiores barreiras de segurança, mobilidade e atendimento, tornando a avaliação de risco mais complexa e demandando estratégias de resposta adaptadas ao contexto territorial. Muitas vezes, essas mulheres têm mais dificuldades de romper uma relação afetiva abusiva por necessitarem da presença de um homem na casa, para evitar outras formas de violência comunitária."
+      },
+      "situacao_moradia": {
+        "pergunta_linguagem_natural": "21. Qual a sua situação de moradia?",
+        "resposta": "ENUM: propria, cedida ou de favor, alugada, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essas perguntas integram a análise das condições habitacionais e da proximidade física com o(a) agressor(a), fatores diretamente relacionados à possibilidade de fuga, proteção e autonomia da vítima. A moradia cedida, de favor ou compartilhada com familiares do(a) agressor(a) ou quando há dependência econômica dele(a) na moradia alugada tende a intensificar o controle coercitivo e a dificultar a ruptura do relacionamento."
+      },
+      "reside_mesmo_imovel_com_agressor": {
+        "pergunta_linguagem_natural": "22. Atualmente, você reside no mesmo imóvel com o(a) agressor(a)?",
+        "resposta": "ENUM: sim, nao, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Quando a vítima reside no mesmo imóvel com o(a) agressor(a), há acesso constante e maior probabilidade de repetição e agravamento da violência, exigindo estratégias urgentes de proteção, como o afastamento do(a) agressor(a) do lar e proibição de contato com a vítima. Também pode ser avaliado, com consentimento informado da mulher, o seu afastamento territorial seguro, por exemplo, com encaminhamento a casa-abrigo ou mudança protegida para outro município ou residência de familiares/amizades. Destaca-se, ainda, a concessão de auxílio-aluguel prevista no art. 23, VI, da Lei Maria da Penha, como importante estratégia de proteção nesses casos."
+      },
+      "dependencia_financeira_agressor": {
+        "pergunta_linguagem_natural": "23. Você se considera financeiramente dependente do(a) agressor(a)?",
+        "resposta": "ENUM: sim totalmente, sim parcialmente, nao dependo financeiramente, prefiro nao informar, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Esta pergunta identifica dependência econômica, um dos principais fatores que dificultam a ruptura da violência e aumentam a vulnerabilidade social e material da vítima. Quando a mulher depende financeiramente do(a) agressor(a) - parcial ou totalmente -, ela pode enfrentar barreiras para sair do relacionamento, acessar serviços e garantir a própria subsistência e de seus(suas) dependentes, o que amplifica o controle coercitivo e demanda estratégias de proteção que incluam encaminhamentos socioassistenciais, acesso a direitos e fortalecimento de sua autonomia. Mesmo quando a mulher trabalha, a usual diferença de renda entre homens e mulheres faz com que as mulheres necessitem da complementação de renda do parceiro, prendendo-a numa relação abusiva. A aplicação de medidas protetivas como prestação de alimentos provisionais ou provisórios pelo(a) agressor(a) (art. 22, V, Lei Maria da Penha), ou concessão de auxílio-aluguel (art. 23, VI, LMP), também são muito importantes."
+      },
+      "aceita_abrigamento_temporario": {
+        "pergunta_linguagem_natural": "24. Você quer e aceita abrigamento temporário?",
+        "resposta": "ENUM: sim quero e aceito, nao desejo, null",
+        "complemento_resposta": "STRING ou null",
+        "informacoes": "Essa pergunta não trata de um fator de risco, mas uma necessidade de proteção da mulher. O abrigamento é uma medida emergencial de proteção utilizada quando há risco grave ou iminente à vida da mulher e de seus(suas) dependentes. Trata-se de um local seguro e sigiloso, com acompanhamento psicossocial, destinado a interromper a situação de violência e garantir proteção integral. A mulher pode ser acolhida sozinha ou acompanhada de seus filhos menores em geral, filhos menores de 12 anos e filhas menores de 18 anos, além de outros familiares dependentes, como pais idosos, conforme diretrizes internas de cada abrigo e disponibilidade de vagas. Por razões de segurança, esses serviços adotam regras específicas, como sigilo do endereço, restrições de visitas, controle do uso de celular, bem como normas de convivência durante a permanência."
+      },
+
+  },
+
+    "sintese_ia": {
+      "pergunta_linguagem_natural": "Síntese dos Fatores de Risco e Proteção (Gerado pela IA)",
+      "resposta": "STRING",
+      "complemento_resposta": "STRING ou null",
+      "informacoes": "Campo reservado para a IA gerar um resumo estruturado dos fatores de letalidade encontrados no relato e fatores de proteção mencionados."
+    }
+  }
+}

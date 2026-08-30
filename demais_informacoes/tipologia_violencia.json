@@ -1,0 +1,50 @@
+{
+  "tipologia_violencia_mulher": {
+    "violencia_fisica": {
+      "base_legal": "Art. 7º, I da LMP",
+      "descricao": "Qualquer ato que cause lesão ou afete a integridade e a saúde do corpo da mulher, como empurrões, tapas, socos, queimaduras, estrangulamentos, com ou sem uso de arma de fogo, faca ou outras armas brancas, bem como qualquer outro tipo de agressão física."
+    },
+    "violencia_psicologica": {
+      "base_legal": "Art. 7º, II da LMP",
+      "descricao": "Ações que causam sofrimento emocional, medo ou baixa autoestima, como ameaças, humilhações, xingamentos, controle, isolamento, perseguição, chantagem, ridicularização, vigilância constante ou restrição da liberdade."
+    },
+    "violencia_sexual": {
+      "base_legal": "Art. 7º, III da LMP",
+      "descricao": "Qualquer ato que force ou pressione a mulher a presenciar, manter ou participar de relações sexuais sem consentimento; que impeça o uso de métodos contraceptivos; que a obrigue a casar, engravidar, abortar ou se prostituir; ou que viole seus direitos sexuais e reprodutivos."
+    },
+    "violencia_patrimonial": {
+      "base_legal": "Art. 7º, IV da LMP",
+      "descricao": "Danos ou retenção de bens, documentos, dinheiro, objetos pessoais, instrumentos de trabalho ou qualquer recurso econômico da mulher, impedindo-a de usar, controlar ou acessar seus próprios meios de subsistência."
+    },
+    "violencia_moral": {
+      "base_legal": "Art. 7º, V da LMP",
+      "descricao": "Ofensas à honra da mulher, como calúnia, difamação ou injúria, ou insultar, acusar falsamente ou tentar desmoralizá-la perante outras pessoas, inclusive em ambiente digital."
+    }
+  },
+  "tipologia_complementar": {
+    "violencia_psicologica_cp": {
+      "base_legal": "Art. 147-B do Código Penal (incluído pela Lei n. 14.188/2021)",
+      "descricao": "Consiste em causar dano emocional à mulher, prejudicando ou perturbando seu pleno desenvolvimento, ou visando a degradar ou controlar suas ações, comportamentos, crenças e decisões, mediante ameaça, constrangimento, humilhação, manipulação, isolamento, chantagem, ridicularização, limitação do direito de ir e vir ou qualquer outro meio que comprometa sua saúde psicológica e sua autodeterminação. Esse tipo penal reforça o reconhecimento do dano emocional como elemento central da violência psicológica, ampliando a proteção da Lei Maria da Penha e possibilitando a responsabilização penal direta de condutas que atentam contra a integridade psíquica e emocional das mulheres."
+    },
+    "perseguicao_stalking": {
+      "base_legal": "Art. 147-A do CP (incluído pela Lei n. 14.132/2021)",
+      "descricao": "Ato de vigiar, seguir ou monitorar de forma insistente e invasiva, presencialmente ou por meios digitais, gerando medo, constrangimento ou limitação da liberdade da vítima. A conduta caracteriza violência psicológica, conforme o art. 7º, II, da LMP, quando praticada contra mulheres em contexto de relações domésticas, familiares ou afetivas."
+    },
+    "pornografia_de_vinganca": {
+      "base_legal": "Art. 218-C do CP (incluído pela Lei n. 13.718/2018)",
+      "descricao": "Divulgação ou ameaça de divulgar, sem consentimento, imagens ou vídeos íntimos com o objetivo de humilhar ou se vingar da vítima. Essa conduta também caracteriza violência psicológica, nos termos do art. 7º, II, da LMP, quando praticada contra mulheres em contexto de relações domésticas, familiares ou afetivas, podendo causar danos profundos à saúde emocional, à dignidade e à vida social da mulher."
+    },
+    "violencia_vicaria": {
+      "base_legal": "Lei n. 11.340/2006 (Lei Maria da Penha), Lei n. 8.069/1990 (Estatuto da Criança e do Adolescente - ECA) e Lei n. 14.344/2022 (Lei Henry Borel)",
+      "descricao": "Agressão contra filhos, filhas ou pessoas próximas da mulher, usada como forma de causar sofrimento emocional e psicológico a ela. Embora não esteja expressamente tipificada na legislação brasileira, enquadra-se como violência psicológica, conforme o art. 7º, II, da LMP, por atingir a mulher de modo indireto, mediante o uso de terceiros para prolongar o controle, a intimidação e o sofrimento decorrentes do ciclo da violência. Embora ainda não haja tipificação específica no ordenamento jurídico brasileiro, a violência vicária encontra respaldo em diversos marcos normativos, tais como a própria Lei Maria da Penha, legislações de proteção à criança e ao adolescente, além dos princípios constitucionais da dignidade da pessoa humana e da proteção da família (Araújo, 2025). Ademais, o Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda) e o Conselho Nacional dos Direitos da Mulher (CNDM), aprovaram Resolução Conjunta que trata de violência vicária, divulgada durante a 5ª Conferência Nacional de Políticas para as Mulheres. "
+    },
+    "violencia_processual": {
+      "base_legal": "Lei n. 11.340/2006 (Lei Maria da Penha)",
+      "descricao": "Consiste no uso instrumental e abusivo do sistema de Justiça para constranger, intimidar ou desgastar emocional, financeira ou psicologicamente a mulher. Caracteriza-se, por exemplo, pela proposição reiterada de ações, incidentes ou recursos infundados; pela litigância abusiva; ou por manobras destinadas a atrasar processos, manipular a responsabilização do(a) agressor(a) ou dificultar o exercício de direitos da vítima (como guarda, visitas, pensão alimentícia, divórcio ou partilha). A violência processual aprofunda o ciclo de violência ao transformar o próprio sistema judicial em espaço de revitimização, ampliando o controle, a pressão e a vulnerabilidade da mulher."
+    },
+    "feminicidio": {
+      "base_legal": "Art. 121-A do CP (incluído pela Lei n. 14.994/2024, que altera a Lei n. 13.104/2015)",
+      "descricao": "Assassinato de uma mulher motivado por razões de gênero e, muitas vezes, consequência direta das violências físicas previstas no art. 7º, I, da LMP. Trata-se de um crime contra a vida, marcado por contextos de menosprezo, discriminação ou relações de poder e controle sobre a vítima. O feminicídio constitui a manifestação mais extrema da desigualdade de gênero e o ponto culminante do ciclo da violência doméstica e familiar."
+    }
+  }
+}

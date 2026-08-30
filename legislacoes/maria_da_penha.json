@@ -1,0 +1,243 @@
+{
+  "base_legal": [
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 5º e Art. 40-A",
+      "texto_legal_original": "Art. 5º Para os efeitos desta Lei, configura violência doméstica e familiar contra a mulher qualquer ação ou omissão baseada no gênero que lhe cause morte, lesão, sofrimento físico, sexual ou psicológico e dano moral ou patrimonial: I - no âmbito da unidade doméstica...; II - no âmbito da família...; III - em qualquer relação íntima de afeto, na qual o agressor conviva ou tenha convivido com a ofendida, independentemente de coabitação. Parágrafo único. As relações pessoais enunciadas neste artigo independem de orientação sexual. Art. 40-A. Esta Lei será aplicada a todas as situações previstas no seu art. 5º, independentemente da causa ou da motivação dos atos de violência e da condição do ofensor ou da ofendida.",
+      "explicacao_simplificada": "Define as condições para a lei ser aplicada: a violência deve ser baseada no gênero e acontecer em casa, na família ou em uma relação de afeto (como namoro, casamento ou ex-parceiros), mesmo que não morem juntos e independentemente da orientação sexual.",
+      "gatilho_de_uso_llm": "Acione ao avaliar a competência do caso com base no campo 'Vínculo entre as partes'. Utilize para confirmar se a vítima tem direito ao amparo da Lei Maria da Penha.",
+      "tags_de_busca": ["âmbito doméstico", "relação de afeto", "família", "aplicabilidade", "orientação sexual", "requisitos"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 7º, incisos I ao VI",
+      "texto_legal_original": "São formas de violência doméstica e familiar contra a mulher, entre outras: I - a violência física...; II - a violência psicológica...; III - a violência sexual...; IV - a violência patrimonial...; V - a violência moral...; VI – a violência vicária, entendida como qualquer forma de violência praticada contra descendente, ascendente, dependente, enteado, parente, pessoa sob guarda ou responsabilidade direta da mulher ou pessoa de sua rede de apoio, com vistas a atingi-la.",
+      "explicacao_simplificada": "Mapeia os seis tipos oficiais de violência: física (agressão no corpo), psicológica (controle, humilhação), sexual (forçar sexo ou impedir contracepção), patrimonial (reter ou destruir bens/documentos), moral (calúnia/difamação) e vicária (usar filhos ou entes queridos para ferir a mulher).",
+      "gatilho_de_uso_llm": "Acione para tipificar as condutas narradas pela vítima durante a triagem. Essencial para categorizar os danos no IAVP ou justificar o nível de risco no FONAR.",
+      "tags_de_busca": ["tipos de violência", "física", "psicológica", "sexual", "patrimonial", "moral", "vicária"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 10-A e Art. 17-A",
+      "texto_legal_original": "Art. 10-A. É direito da mulher em situação de violência doméstica e familiar o atendimento policial e pericial especializado, ininterrupto e prestado por servidores - preferencialmente do sexo feminino - previamente capacitados. (...) III - não revitimização da depoente, evitando sucessivas inquirições sobre o mesmo fato (...) Art. 17-A. O nome da ofendida ficará sob sigilo nos processos em que se apuram crimes praticados no contexto de violência doméstica e familiar contra a mulher.",
+      "explicacao_simplificada": "Garante à mulher o direito a um atendimento policial especializado (de preferência por mulheres), focado em não fazê-la repetir a história várias vezes (não revitimização). Também garante que o nome da vítima fique em sigilo no processo.",
+      "gatilho_de_uso_llm": "Acione se a usuária demonstrar medo de ir à delegacia, de ter seu nome exposto ou de ser maltratada no atendimento. Utilize para tranquilizá-la sobre os seus direitos institucionais.",
+      "tags_de_busca": ["atendimento especializado", "delegacia", "sigilo", "revitimização", "direitos na delegacia"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 12-C e Art. 12-D",
+      "texto_legal_original": "Art. 12-C. Verificada a existência de risco atual ou iminente à vida ou à integridade física, sexual, psicológica, moral ou patrimonial da mulher (...), o agressor será imediatamente afastado do lar, domicílio ou local de convivência com a ofendida: I - pela autoridade judicial; II - pelo delegado de polícia... III - pelo policial... Art. 12-D. (...) o agressor será imediatamente submetido à monitoração eletrônica...",
+      "explicacao_simplificada": "Em casos de perigo urgente, o agressor deve ser expulso de casa imediatamente (pelo juiz, delegado ou policial) e pode ser submetido ao uso de tornozeleira eletrônica.",
+      "gatilho_de_uso_llm": "Acione se a avaliação do FONAR resultar em Risco EXTREMO ou GRAVE e a vítima residir no mesmo imóvel que o agressor. Funciona como recomendação de ação imediata.",
+      "tags_de_busca": ["risco iminente", "afastamento imediato", "expulsão do lar", "tornozeleira eletrônica", "emergência"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 16 e Art. 17",
+      "texto_legal_original": "Art. 16. Nas ações penais públicas condicionadas à representação da ofendida de que trata esta Lei, só será admitida a renúncia à representação perante o juiz, em audiência especialmente designada com tal finalidade... Art. 17. É vedada a aplicação, nos casos de violência doméstica e familiar contra a mulher, de penas de cesta básica ou outras de prestação pecuniária, bem como a substituição de pena que implique o pagamento isolado de multa.",
+      "explicacao_simplificada": "A vítima só pode 'retirar a queixa' na frente do juiz (para evitar que seja coagida pelo agressor a fazer isso na delegacia). Além disso, a lei proíbe que o agressor seja punido apenas com pagamento de multas ou doação de cestas básicas.",
+      "gatilho_de_uso_llm": "Acione se a vítima perguntar sobre a possibilidade de retirar o processo, se estiver sofrendo coação para desistir da denúncia ou perguntar se o agressor pagará apenas uma cesta básica.",
+      "tags_de_busca": ["retirar queixa", "renúncia", "cesta básica", "multa", "retratação"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 22",
+      "texto_legal_original": "O juiz poderá aplicar, de imediato, ao agressor... I - suspensão da posse ou restrição do porte de armas...; II - afastamento do lar...; III - proibição de determinadas condutas, entre as quais: a) aproximação da ofendida... b) contato com a ofendida por qualquer meio... VIII – monitoração eletrônica, disponibilizando-se à vítima aplicação ou dispositivo de segurança que alerte sobre eventual aproximação do agressor.",
+      "explicacao_simplificada": "Lista as restrições que o juiz pode impor ao agressor: confiscar armas de fogo, proibir qualquer tipo de contato (pessoal, telefônico, redes sociais), manter distância mínima e usar tornozeleira com alerta para a vítima.",
+      "gatilho_de_uso_llm": "Acione ao sugerir medidas de proteção para a vítima ou se o relato mencionar perseguição digital, acesso a armas de fogo ou tentativa de aproximação física.",
+      "tags_de_busca": ["medidas contra o agressor", "apreensão de arma", "proibição de contato", "botão do pânico", "distância"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 23 e Art. 24",
+      "texto_legal_original": "Art. 23. Poderá o juiz... I - encaminhar a ofendida e seus dependentes a programa oficial ou comunitário de proteção ou de atendimento; (...) V - determinar a matrícula dos dependentes da ofendida em instituição de educação básica mais próxima do seu domicílio... VI – conceder à ofendida auxílio-aluguel... Art. 24. I - restituição de bens indevidamente subtraídos...",
+      "explicacao_simplificada": "Lista as garantias e assistências à mulher: envio sigiloso para casa-abrigo, transferência imediata dos filhos para escola mais próxima, recebimento de auxílio-aluguel (por até 6 meses) e devolução de bens furtados/retidos pelo agressor.",
+      "gatilho_de_uso_llm": "Acione se a vítima relatar dependência financeira, retenção de documentos (violência patrimonial), medo pela segurança dos filhos na escola atual ou necessidade de abrigo urgente.",
+      "tags_de_busca": ["auxílio-aluguel", "casa-abrigo", "escola filhos", "restituição de bens", "assistência à mulher"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 24-A",
+      "texto_legal_original": "Descumprir decisão judicial que defere medidas protetivas de urgência previstas nesta Lei: Pena – reclusão, de 2 (dois) a 5 (cinco) anos, e multa.",
+      "explicacao_simplificada": "Desobedecer as ordens do juiz (como se aproximar da vítima ou mandar mensagens quando está proibido) é um crime autônomo, punido com prisão direta e sem direito a fiança na delegacia.",
+      "gatilho_de_uso_llm": "Acione IMEDIATAMENTE se a usuária responder 'sim' para descumprimento de medida protetiva no FONAR. Oriente-a de que ocorreu flagrante delito.",
+      "tags_de_busca": ["descumprimento", "quebra de medida", "prisão", "crime autônomo"]
+    }
+  ],
+
+  "base_legal_complementar": [
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 9º, § 2º, incisos I e II",
+      "texto_legal_original": "O juiz assegurará à mulher em situação de violência doméstica e familiar, para preservar sua integridade física e psicológica: I - acesso prioritário à remoção quando servidora pública, integrante da administração direta ou indireta; II - manutenção do vínculo trabalhista, quando necessário o afastamento do local de trabalho, por até seis meses.[cite: 8]",
+      "explicacao_simplificada": "Garante os direitos de trabalho da vítima: se for servidora pública, pode pedir transferência de local de trabalho com prioridade. Se trabalhar na iniciativa privada, pode ficar afastada por até 6 meses sem perder o emprego, caso precise fugir ou se proteger.[cite: 8]",
+      "gatilho_de_uso_llm": "Acione se a usuária relatar medo de ir trabalhar, perguntar sobre o risco de demissão por faltar ao trabalho devido à violência, ou solicitar informações sobre transferência de cargo público por questões de segurança.",
+      "tags_de_busca": ["direitos trabalhistas", "emprego", "afastamento do trabalho", "servidora pública", "transferência", "licença"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 11, incisos III e IV",
+      "texto_legal_original": "No atendimento à mulher em situação de violência doméstica e familiar, a autoridade policial deverá, entre outras providências: (...) III - fornecer transporte para a ofendida e seus dependentes para abrigo ou local seguro, quando houver risco de vida; IV - se necessário, acompanhar a ofendida para assegurar a retirada de seus pertences do local da ocorrência ou do domicílio familiar;[cite: 8]",
+      "explicacao_simplificada": "A polícia tem o dever de providenciar transporte para a vítima ir a um abrigo seguro e deve fazer escolta (acompanhá-la) para que ela possa pegar suas roupas, documentos e pertences em casa com segurança.[cite: 8]",
+      "gatilho_de_uso_llm": "Acione se a vítima demonstrar medo de voltar em casa para buscar suas coisas, documentos, ou se precisar de ajuda emergencial para sair de casa com segurança.",
+      "tags_de_busca": ["escolta policial", "pertences", "buscar coisas em casa", "transporte", "fuga", "ajuda policial"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 20 e Art. 21",
+      "texto_legal_original": "Art. 20. Em qualquer fase do inquérito policial ou da instrução criminal, caberá a prisão preventiva do agressor, decretada pelo juiz... Art. 21. A ofendida deverá ser notificada dos atos processuais relativos ao agressor, especialmente dos pertinentes ao ingresso e à saída da prisão, sem prejuízo da intimação do advogado constituído ou do defensor público.[cite: 8]",
+      "explicacao_simplificada": "O juiz pode mandar prender o agressor de forma preventiva em qualquer momento da investigação. Além disso, a vítima tem o direito garantido de ser avisada imediatamente caso o agressor seja preso ou se for solto da cadeia.[cite: 8]",
+      "gatilho_de_uso_llm": "Acione se a vítima perguntar se o agressor pode ser preso antes do julgamento, ou se expressar pânico/medo de que ele seja solto da cadeia sem que ela saiba.",
+      "tags_de_busca": ["prisão preventiva", "agressor solto", "notificação de soltura", "cadeia", "aviso de prisão"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 41",
+      "texto_legal_original": "Aos crimes praticados com violência doméstica e familiar contra a mulher, independentemente da pena prevista, não se aplica a Lei nº 9.099, de 26 de setembro de 1995.[cite: 8]",
+      "explicacao_simplificada": "Crimes de violência doméstica nunca são considerados de 'menor potencial ofensivo'. Portanto, eles não podem ser resolvidos em Juizados Especiais Criminais (conhecidos como 'pequenas causas') e não admitem acordos rápidos que encerrem o processo sem punição severa.[cite: 8]",
+      "gatilho_de_uso_llm": "Acione se a vítima achar que a violência que sofreu (ex: ameaça ou empurrão) é 'pequena' e que não vai dar em nada, ou se relatar que o agressor debochou dizendo que o crime vai para as 'pequenas causas'.",
+      "tags_de_busca": ["pequenas causas", "lei 9.099", "menor potencial ofensivo", "acordo", "impunidade"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 16-A",
+      "texto_legal_original": "Nos crimes praticados no âmbito de violência doméstica e familiar contra a mulher, a ofendida decai do direito de queixa ou de representação se não o exerce no prazo de 12 (doze) meses, contado do dia em que veio a saber quem é o autor do crime...[cite: 8]",
+      "explicacao_simplificada": "Para os crimes que dependem da autorização da vítima para a polícia agir (como ameaça ou alguns tipos de perseguição), ela tem um prazo estendido de até 12 meses (1 ano) para ir à delegacia registrar a queixa e processar o agressor.[cite: 8]",
+      "gatilho_de_uso_llm": "Acione se a vítima perguntar quanto tempo tem para denunciar uma agressão passada, ou se achar que perdeu o prazo porque o crime ocorreu há alguns meses.",
+      "tags_de_busca": ["prazo", "tempo para denunciar", "decadência", "12 meses", "um ano", "denúncia atrasada"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 27 e Art. 28",
+      "texto_legal_original": "Art. 27. Em todos os atos processuais, cíveis e criminais, a mulher em situação de violência doméstica e familiar deverá estar acompanhada de advogado... Art. 28. É garantido a toda mulher em situação de violência doméstica e familiar o acesso aos serviços de Defensoria Pública ou de Assistência Judiciária Gratuita, nos termos da lei, em sede policial e judicial, mediante atendimento específico e humanizado.[cite: 8]",
+      "explicacao_simplificada": "A vítima tem o direito de ser acompanhada por um advogado em todas as etapas do processo (delegacia e fórum). Se ela não puder pagar, o Estado tem a obrigação de fornecer um Defensor Público de forma totalmente gratuita e humanizada.[cite: 8]",
+      "gatilho_de_uso_llm": "Acione se a vítima demonstrar preocupação financeira com custos de processo, perguntar se precisa pagar para se divorciar do agressor ou se não souber como se defender judicialmente.",
+      "tags_de_busca": ["advogado", "defensoria pública", "gratuito", "custos de processo", "sem dinheiro"]
+    }
+  ],
+
+  "jurisprudencia_e_diretrizes": [
+  {
+    "id_legislacao": "Jurisprudência - Supremo Tribunal Federal e LMP",
+    "artigo_referencia": "STF (MI n. 7452) e Interpretação do Art. 5º",
+    "texto_legal_original": "A LMP tem como foco a proteção de vítimas do gênero feminino, incluindo mulheres cisgênero, mulheres trans, travestis e pessoas não-binárias lidas no feminino, independentemente do sexo biológico. A aplicação independe do gênero do agressor. O STF reconheceu a aplicabilidade da LMP às relações envolvendo travestis e mulheres trans, bem como a aplicação de medidas protetivas a casais homoafetivos masculinos em varas comuns.",
+    "explicacao_simplificada": "A Lei Maria da Penha protege qualquer pessoa que se identifique ou seja vista socialmente como mulher (incluindo trans e travestis). O agressor também pode ser qualquer pessoa (homem ou mulher). Homens gays e trans também podem pedir medidas protetivas da lei, mas o processo corre em Varas Comuns, não nos juizados da mulher.",
+    "gatilho_de_uso_llm": "Acione SEMPRE que a vítima for mulher trans, travesti, pessoa não-binária, homem trans ou homem gay. Utilize para confirmar que ela tem direito à proteção e para evitar que o sistema negue atendimento com base no sexo biológico ou no gênero do agressor.",
+    "tags_de_busca": ["mulher trans", "travesti", "homem gay", "homem trans", "agressora mulher", "casal homoafetivo", "identidade de gênero", "STF"]
+  },
+  {
+    "id_legislacao": "Diretrizes de Competência Institucional",
+    "artigo_referencia": "Normas de Organização Judiciária e Policial",
+    "texto_legal_original": "DEAMs, Casas da Mulher Brasileira e Juizados de Violência Doméstica têm competência exclusiva para vítimas do gênero feminino. Situações envolvendo homens gays ou homens trans devem ser atendidas por delegacias comuns e Varas Criminais/Cíveis Comuns, as quais têm competência para aplicar as medidas protetivas da LMP de forma direta.",
+    "explicacao_simplificada": "Define para onde o agente deve mandar a vítima: Se for do gênero feminino (cis ou trans), mande para a Delegacia da Mulher (DEAM). Se for homem (gay ou trans), mande para uma Delegacia Comum, informando que o juiz comum também pode dar a medida protetiva.",
+    "gatilho_de_uso_llm": "Acione na etapa de roteamento/encaminhamento da vítima. Se o usuário for homem trans ou homem gay, utilize este bloco para orientá-lo a procurar uma delegacia comum, alertando que DEAMs não o atenderão, mas que ele ainda tem direito à medida protetiva.",
+    "tags_de_busca": ["onde denunciar", "DEAM", "delegacia da mulher", "vara comum", "competência", "para onde ir"]
+  },
+  {
+    "id_legislacao": "Resolução CNJ nº 582/2024",
+    "artigo_referencia": "Instrumentos de Avaliação de Risco (FONAR vs. Rogéria)",
+    "texto_legal_original": "O FONAR é aplicado exclusivamente a vítimas com identidade de gênero feminina. O Formulário Rogéria é o instrumento específico para registro de emergência, avaliação de risco e adoção de medidas protetivas para pessoas LGBTQIA+, envolvendo homens gays, homens trans e pessoas transmasculinas.",
+    "explicacao_simplificada": "Se a vítima se identifica como mulher, o sistema/atendente deve usar o formulário FONAR para medir o perigo. Se for homem gay, homem trans ou pessoa transmasculina, deve-se usar o Formulário Rogéria.",
+    "gatilho_de_uso_llm": "Acione imediatamente ANTES de iniciar a avaliação de risco. Condicional: Se gênero == feminino, chame o fluxo FONAR. Se gênero == homem trans/gay/transmasculino, chame o fluxo Formulário Rogéria.",
+    "tags_de_busca": ["FONAR", "Formulário Rogéria", "avaliação de risco", "formulário de emergência", "triagem"]
+  }
+],
+
+
+{
+  "base_legal_adicional": [
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 12, inciso III e Art. 18, inciso I",
+      "texto_legal_original": "Art. 12. (...) III - remeter, no prazo de 48 (quarenta e oito) horas, expediente apartado ao juiz com o pedido da ofendida, para a concessão de medidas protetivas de urgência; (...) Art. 18. Recebido o expediente com o pedido da ofendida, caberá ao juiz, no prazo de 48 (quarenta e oito) horas: I - conhecer do expediente e do pedido e decidir sobre as medidas protetivas de urgência;",
+      "explicacao_simplificada": "A lei estipula prazos rápidos e rigorosos: a delegacia tem até 48 horas para enviar o pedido da mulher ao juiz. O juiz, ao receber, tem mais 48 horas no máximo para decidir sobre a medida protetiva.",
+      "gatilho_de_uso_llm": "Acione quando a vítima perguntar sobre prazos, demonstrar ansiedade sobre o tempo do processo ou perguntar 'quanto tempo demora para a medida sair?'. Utilize para acalmar a usuária e alinhar expectativas.",
+      "tags_de_busca": ["prazo", "quanto tempo demora", "48 horas", "decisão do juiz", "tempo da medida"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 22, incisos IV e V",
+      "texto_legal_original": "Art. 22. O juiz poderá aplicar, de imediato, ao agressor (...) IV - restrição ou suspensão de visitas aos dependentes menores, ouvida a equipe de atendimento multidisciplinar ou serviço similar; V - prestação de alimentos provisionais ou provisórios.",
+      "explicacao_simplificada": "O juiz pode proibir ou restringir as visitas do agressor aos filhos para protegê-los. Além disso, pode obrigar o agressor a pagar pensão alimentícia de urgência para garantir que a mulher consiga sustentar as crianças após a separação.",
+      "gatilho_de_uso_llm": "Acione se a usuária relatar dependência financeira, medo de não conseguir sustentar os filhos após denunciar, ou medo de perder a guarda/visitas abusivas. Utilize para informá-la sobre a pensão de urgência.",
+      "tags_de_busca": ["pensão", "filhos", "guarda", "sustento", "visitas", "alimentos provisórios", "dependência financeira"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 9º, caput e parágrafos",
+      "texto_legal_original": "Art. 9º A assistência à mulher em situação de violência doméstica e familiar será prestada em caráter prioritário no Sistema Único de Saúde (SUS)...",
+      "explicacao_simplificada": "A lei garante à vítima atendimento médico e psicológico prioritário pelo SUS. Isso inclui procedimentos médicos necessários para tratar lesões ou sequelas físicas causadas pela agressão (como a garantia do direito à cirurgia plástica reparadora).",
+      "gatilho_de_uso_llm": "Acione se o relato ou o FONAR indicar violência física com sequelas, cicatrizes, ossos quebrados, ou se a vítima perguntar sobre tratamento médico, psicológico e estético reparador.",
+      "tags_de_busca": ["SUS", "saúde", "hospital", "cirurgia plástica", "reparadora", "psicólogo", "atendimento médico", "sequelas"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 12, § 3º",
+      "texto_legal_original": "Art. 12 (...) § 3º Serão admitidos como meios de prova os laudos ou prontuários médicos fornecidos por hospitais e postos de saúde.",
+      "explicacao_simplificada": "A vítima não perde a prova da agressão se os machucados sumirem ou se não for ao IML a tempo. O documento do médico (prontuário) do hospital ou posto de saúde onde ela foi atendida já serve como prova oficial do crime.",
+      "gatilho_de_uso_llm": "Acione se a vítima achar que 'não tem provas' da agressão física porque as marcas desapareceram, mas mencionar que foi ao médico, hospital ou UPA na época dos fatos.",
+      "tags_de_busca": ["falta de provas", "prontuário médico", "corpo de delito", "IML", "hospital", "machucados sumiram"]
+    },
+
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 14-A, caput e §§ 1º e 2º",
+      "texto_legal_original": "Art. 14-A. A ofendida tem a opção de propor ação de divórcio ou de dissolução de união estável no Juizado de Violência Doméstica e Familiar contra a Mulher. § 1º Exclui-se da competência dos Juizados... a pretensão relacionada à partilha de bens.",
+      "explicacao_simplificada": "A vítima não precisa abrir um processo separado na Vara de Família para se divorciar. Ela pode pedir o divórcio ou o fim da união estável diretamente no mesmo juizado onde pediu a medida protetiva (deixando apenas a divisão de bens para depois).",
+      "gatilho_de_uso_llm": "Acione se a usuária demonstrar interesse em se divorciar do agressor, perguntar como oficializar a separação de forma segura, ou demonstrar medo de ter que enfrentá-lo em outro tribunal.",
+      "tags_de_busca": ["divórcio", "separação", "dissolução de união estável", "vara de família", "casamento"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 9º, § 3º",
+      "texto_legal_original": "§ 3º A assistência à mulher em situação de violência doméstica e familiar compreenderá o acesso aos benefícios decorrentes do desenvolvimento científico e tecnológico, incluindo os serviços de contracepção de emergência, a profilaxia das Doenças Sexualmente Transmissíveis (DST) e da Síndrome da Imunodeficiência Adquirida (AIDS) e outros procedimentos médicos necessários e cabíveis nos casos de violência sexual.",
+      "explicacao_simplificada": "Em casos de agressão sexual ou relação forçada, a vítima tem o direito imediato na rede pública a medicamentos de emergência, como a pílula do dia seguinte e remédios (coquetel) para evitar a infecção pelo HIV e outras doenças.",
+      "gatilho_de_uso_llm": "Acione IMEDIATAMENTE se a vítima relatar qualquer forma de violência sexual (forçar sexo, retirar camisinha sem consentimento). Oriente-a a buscar um hospital ou posto de saúde com urgência para a profilaxia.",
+      "tags_de_busca": ["violência sexual", "estupro", "gravidez", "HIV", "DST", "pílula do dia seguinte", "remédio", "profilaxia"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 9º, §§ 7º e 8º",
+      "texto_legal_original": "§ 7º A mulher em situação de violência doméstica e familiar tem prioridade para matricular seus dependentes em instituição de educação básica mais próxima de seu domicílio... § 8º Serão sigilosos os dados da ofendida e de seus dependentes matriculados ou transferidos... e o acesso às informações será reservado ao juiz, ao Ministério Público e aos órgãos competentes.",
+      "explicacao_simplificada": "A mulher que foge de casa tem o direito de transferir e matricular os filhos na escola mais próxima de seu novo endereço (mesmo sem vaga). O novo endereço e os dados da escola ficam em sigilo absoluto para que o agressor não consiga rastreá-los.",
+      "gatilho_de_uso_llm": "Acione se a vítima estiver planejando sair de casa, se mudar de cidade/bairro em segredo, ou se manifestar muito medo de o agressor usar a escola das crianças para descobrir onde ela está escondida.",
+      "tags_de_busca": ["escola", "transferência", "matrícula", "filhos", "sigilo", "esconder endereço", "fuga"]
+    },
+
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Arts. 1º a 4º e Art. 6º",
+      "texto_legal_original": "Art. 2º Toda mulher, independentemente de classe, raça, etnia, orientação sexual, renda, cultura, nível educacional, idade e religião, goza dos direitos fundamentais... Art. 6º A violência doméstica e familiar contra a mulher constitui uma das formas de violação dos direitos humanos.",
+      "explicacao_simplificada": "A lei garante proteção a todas as mulheres, sem qualquer tipo de discriminação (de cor, classe social, escolaridade ou orientação sexual). A violência doméstica não é uma questão 'particular' de um casal, mas uma grave violação dos Direitos Humanos que o Estado tem o dever de combater.",
+      "gatilho_de_uso_llm": "Acione se a vítima expressar que acha que a lei não vai protegê-la por ser pobre, negra, LGBT+, ou por sua classe social, e utilize para validar os direitos incondicionais dela.",
+      "tags_de_busca": ["direitos humanos", "discriminação", "todas as mulheres", "direitos fundamentais", "proteção universal"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 19, §§ 1º ao 6º",
+      "texto_legal_original": "§ 1º As medidas protetivas de urgência poderão ser concedidas de imediato, independentemente de audiência das partes... § 5º As medidas protetivas de urgência serão concedidas independentemente da tipificação penal da violência, do ajuizamento de ação penal ou cível, da existência de inquérito policial ou do registro de boletim de ocorrência. § 6º As medidas protetivas de urgência vigorarão enquanto persistir risco...",
+      "explicacao_simplificada": "A medida protetiva pode ser dada pelo juiz de forma imediata (o agressor não precisa ser ouvido antes). A vítima não é obrigada a ter Boletim de Ocorrência (B.O.) ou processo criminal aberto para pedir a proteção. Além disso, a medida não tem 'data de validade' automática: ela vale pelo tempo que a mulher estiver em risco.",
+      "gatilho_de_uso_llm": "Acione se a usuária perguntar 'qual a validade da medida protetiva?', achar que precisa fazer um B.O. primeiro para conseguir proteção, ou tiver medo de o agressor ser chamado pelo juiz antes de a medida sair.",
+      "tags_de_busca": ["validade da medida", "sem boletim de ocorrência", "sem inquérito", "prazo da medida", "imediato"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Art. 15 e Art. 33",
+      "texto_legal_original": "Art. 15. É competente, por opção da ofendida, para os processos cíveis regidos por esta Lei, o Juizado: I - do seu domicílio ou de sua residência; II - do lugar do fato em que se baseou a demanda; III - do domicílio do agressor. (...) Art. 33. Enquanto não estruturados os Juizados de Violência Doméstica... as varas criminais acumularão as competências cível e criminal...",
+      "explicacao_simplificada": "Se a mulher precisar fugir de casa, ela pode escolher abrir o processo na cidade nova onde está morando, na cidade onde a agressão aconteceu ou na cidade do agressor. Se a cidade não tiver uma Vara da Mulher, a Vara Criminal comum resolve tudo (medida protetiva, divórcio e pensão) com prioridade.",
+      "gatilho_de_uso_llm": "Acione se a vítima relatar que mudou de cidade por medo e perguntar onde deve abrir o processo, ou se tiver receio de que a cidade dela não tem 'delegacia ou vara da mulher'.",
+      "tags_de_busca": ["mudança de cidade", "fuga", "onde processar", "vara criminal", "comarca", "foro competente"]
+    },
+    {
+      "id_legislacao": "Lei Maria da Penha (Lei nº 11.340/2006)",
+      "artigo_referencia": "Arts. 25, 26 e Arts. 29 a 31",
+      "texto_legal_original": "Art. 25. O Ministério Público intervirá, quando não for parte, nas causas cíveis e criminais... Art. 29. Os Juizados... poderão contar com uma equipe de atendimento multidisciplinar, a ser integrada por profissionais especializados nas áreas psicossocial, jurídica e de saúde.",
+      "explicacao_simplificada": "Em todos os processos de violência doméstica, o Ministério Público (Promotor) atua obrigatoriamente para defender a mulher e fiscalizar a proteção. Além disso, o juiz e o promotor contam com o apoio de psicólogos e assistentes sociais (equipe multidisciplinar) para acolher a vítima e entender o caso a fundo.",
+      "gatilho_de_uso_llm": "Acione se a vítima perguntar quem vai investigar o agressor no fórum, demonstrar preocupação de não ter apoio no processo, ou perguntar sobre acompanhamento psicológico na Justiça.",
+      "tags_de_busca": ["ministério público", "promotor", "psicólogo", "assistente social", "equipe multidisciplinar", "quem defende"]
+    }
+  ]
+}
+
+}
