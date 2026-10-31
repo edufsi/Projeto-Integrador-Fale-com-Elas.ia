@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scenario-cards.v1",
+  "type": "object",
+  "required": ["schema_version", "status", "cartoes"],
+  "properties": {
+    "schema_version": {"const": "scenario-cards.v1"},
+    "status": {"type": "string"},
+    "cartoes": {"type": "array", "minItems": 60, "maxItems": 60, "items": {
+      "type": "object",
+      "required": ["id", "tipo_cartao", "situacao", "estado_oculto", "rotulos_finais", "acao_final", "fatos_obrigatorios", "fatos_proibidos", "ordem_revelacao", "topicos_rag_esperados", "rubrica_resposta_final"]
+    }}
+  }
+}

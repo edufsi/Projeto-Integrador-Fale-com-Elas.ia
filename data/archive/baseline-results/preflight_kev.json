@@ -1,0 +1,157 @@
+{
+  "backend": "kev",
+  "maior_alvo_suportado": 1536,
+  "medicoes": [
+    {
+      "alvo": 1536,
+      "tokens_estado": 1513,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 2.150714579000123,
+        "tokens_entrada": 12512,
+        "probabilidades_tipos": {
+          "fisica": 0.03812530431672293,
+          "psicologica": 0.07420667448836799,
+          "sexual": 0.0466481492847954,
+          "patrimonial": 0.07558043734104679,
+          "moral": 0.059629149962900904,
+          "vicaria": 0.08395960826473908
+        },
+        "probabilidades_intencao": {
+          "relato": 0.1537825597658404,
+          "informacao": 0.04993059805896833,
+          "ajuda_urgente": 0.007858723174599956,
+          "atendimento_humano": 0.02740760125792944,
+          "outro": 0.7610205177426619
+        },
+        "probabilidades_urgencia": {
+          "imediata": 0.018790348979300635,
+          "prioritaria": 0.03564621317763608,
+          "sem_urgencia_detectada": 0.5694251856384628,
+          "indeterminada": 0.37613825220460056
+        }
+      }
+    },
+    {
+      "alvo": 1280,
+      "tokens_estado": 1261,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 1.3646590219996142,
+        "tokens_entrada": 10496,
+        "probabilidades_tipos": {
+          "fisica": 0.03576517961337437,
+          "psicologica": 0.07239299261082015,
+          "sexual": 0.04720086364686483,
+          "patrimonial": 0.06569484060952274,
+          "moral": 0.0703383766716401,
+          "vicaria": 0.0853748381926741
+        },
+        "probabilidades_intencao": {
+          "relato": 0.14492279301631936,
+          "informacao": 0.04847579918253629,
+          "ajuda_urgente": 0.00816798385618712,
+          "atendimento_humano": 0.026663857746697144,
+          "outro": 0.7717695661982601
+        },
+        "probabilidades_urgencia": {
+          "imediata": 0.017088474168513966,
+          "prioritaria": 0.03314840910604979,
+          "sem_urgencia_detectada": 0.5768400091087352,
+          "indeterminada": 0.372923107616701
+        }
+      }
+    },
+    {
+      "alvo": 1024,
+      "tokens_estado": 995,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 1.140661920000639,
+        "tokens_entrada": 8368,
+        "probabilidades_tipos": {
+          "fisica": 0.042733405166295015,
+          "psicologica": 0.06342021414585532,
+          "sexual": 0.04716086105685653,
+          "patrimonial": 0.07432341347784184,
+          "moral": 0.05279399880736847,
+          "vicaria": 0.09084135072305626
+        },
+        "probabilidades_intencao": {
+          "relato": 0.1267677896715875,
+          "informacao": 0.04475655735311057,
+          "ajuda_urgente": 0.007089247989872593,
+          "atendimento_humano": 0.026485210515533313,
+          "outro": 0.794901194469896
+        },
+        "probabilidades_urgencia": {
+          "imediata": 0.01770929069943225,
+          "prioritaria": 0.031074952580403506,
+          "sem_urgencia_detectada": 0.5815944088742204,
+          "indeterminada": 0.36962134784594386
+        }
+      }
+    },
+    {
+      "alvo": 768,
+      "tokens_estado": 743,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 0.9166635000001406,
+        "tokens_entrada": 6352,
+        "probabilidades_tipos": {
+          "fisica": 0.03966583281627514,
+          "psicologica": 0.07031072647703426,
+          "sexual": 0.04940991335156781,
+          "patrimonial": 0.07111226187468848,
+          "moral": 0.055751606934908306,
+          "vicaria": 0.08795579198736246
+        },
+        "probabilidades_intencao": {
+          "relato": 0.14011236845946567,
+          "informacao": 0.04897665005074913,
+          "ajuda_urgente": 0.007617042320541443,
+          "atendimento_humano": 0.02780819816251559,
+          "outro": 0.7754857410067282
+        },
+        "probabilidades_urgencia": {
+          "imediata": 0.017006073485011958,
+          "prioritaria": 0.03134729739649778,
+          "sem_urgencia_detectada": 0.5768061748709794,
+          "indeterminada": 0.3748404542475109
+        }
+      }
+    },
+    {
+      "alvo": 512,
+      "tokens_estado": 491,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 0.702440363000278,
+        "tokens_entrada": 4336,
+        "probabilidades_tipos": {
+          "fisica": 0.036032099690642375,
+          "psicologica": 0.07011487198395881,
+          "sexual": 0.046582364702701114,
+          "patrimonial": 0.06964996224237785,
+          "moral": 0.06178113998599116,
+          "vicaria": 0.0822863567054427
+        },
+        "probabilidades_intencao": {
+          "relato": 0.1555302584362187,
+          "informacao": 0.05516259682693028,
+          "ajuda_urgente": 0.007611036829887308,
+          "atendimento_humano": 0.02961255350939306,
+          "outro": 0.7520835543975706
+        },
+        "probabilidades_urgencia": {
+          "imediata": 0.015750607690612005,
+          "prioritaria": 0.029096631562382083,
+          "sem_urgencia_detectada": 0.5928744303106273,
+          "indeterminada": 0.36227833043637875
+        }
+      }
+    }
+  ],
+  "nota": "Teste de capacidade; não valida qualidade semântica."
+}

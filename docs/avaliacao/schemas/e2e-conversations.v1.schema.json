@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "e2e-conversations.v1",
+  "type": "object",
+  "required": ["schema_version", "status", "conversas"],
+  "properties": {
+    "schema_version": {"const": "e2e-conversations.v1"},
+    "conversas": {"type": "array", "minItems": 120, "maxItems": 120, "items": {
+      "type": "object", "required": ["id", "card_id", "variante", "transformacao", "turnos"],
+      "properties": {"turnos": {"type": "array", "minItems": 1, "maxItems": 5, "items": {
+        "type": "object", "required": ["turno", "mensagem_usuario", "historico_visivel", "fatos_revelados", "memoria_factual_ouro", "resumo_ouro", "rotulos", "evidencias", "fato_critico", "revogacoes", "acao_esperada", "topicos_rag_esperados", "rubrica_resposta"]
+      }}}
+    }}
+  }
+}

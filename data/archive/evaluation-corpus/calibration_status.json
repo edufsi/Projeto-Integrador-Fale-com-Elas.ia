@@ -1,0 +1,13 @@
+{
+  "schema_version": "calibration-status.v1",
+  "status": "pendente",
+  "aprovado_por": [],
+  "data": null,
+  "metricas": null,
+  "criterios": {
+    "concordancia_bruta_intencao_urgencia_acao_min": 0.85,
+    "kappa_ou_alpha_min": 0.67,
+    "concordancia_imediata_binaria_min": 0.95,
+    "divergencias_criticas_revisadas": false
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": "synthetic-pilot-cards.v1",
+  "descricao": "Fichas inteiramente fictícias. Os rótulos são gabaritos experimentais sujeitos a revisão humana.",
+  "fichas": [
+    {
+      "id": "P01",
+      "titulo": "Violência física com urgência imediata",
+      "split": "dev",
+      "rotulos": {"tipos": ["fisica"], "intencao": "ajuda_urgente", "urgencia": "imediata"},
+      "elementos_obrigatorios": ["ato físico intencional recente ou em curso", "possível agressor ainda próximo ou com acesso imediato à usuária"],
+      "elementos_proibidos": ["arma", "violência sexual", "filhos usados para ameaçar", "retenção de dinheiro"]
+    },
+    {
+      "id": "P02",
+      "titulo": "Violência física recente com risco não imediato",
+      "split": "test",
+      "rotulos": {"tipos": ["fisica"], "intencao": "relato", "urgencia": "prioritaria"},
+      "elementos_obrigatorios": ["ato físico intencional ocorrido recentemente", "usuária temporariamente afastada do possível agressor"],
+      "elementos_proibidos": ["agressor presente", "arma", "pedido de socorro imediato", "violência sexual"]
+    },
+    {
+      "id": "P03",
+      "titulo": "Violência psicológica com risco atual",
+      "split": "test",
+      "rotulos": {"tipos": ["psicologica"], "intencao": "ajuda_urgente", "urgencia": "imediata"},
+      "elementos_obrigatorios": ["ameaça, perseguição ou intimidação acontecendo no presente", "possibilidade percebida de encontro iminente com o autor"],
+      "elementos_proibidos": ["agressão física já consumada", "arma", "retenção de bens", "violência sexual"]
+    },
+    {
+      "id": "P04",
+      "titulo": "Violência psicológica passada e busca de compreensão",
+      "split": "dev",
+      "rotulos": {"tipos": ["psicologica"], "intencao": "informacao", "urgencia": "sem_urgencia_detectada"},
+      "elementos_obrigatorios": ["padrão passado de controle, isolamento, vigilância ou humilhação", "vínculo encerrado sem contato ou perigo atual", "dúvida sobre a natureza do comportamento vivido"],
+      "elementos_proibidos": ["ameaça atual", "perseguição atual", "agressão física", "pedido de ajuda imediata"]
+    },
+    {
+      "id": "P05",
+      "titulo": "Violência sexual recente com segurança momentânea",
+      "split": "test",
+      "rotulos": {"tipos": ["sexual"], "intencao": "relato", "urgencia": "prioritaria"},
+      "elementos_obrigatorios": ["ato íntimo recente ocorrido sem consentimento ou após recusa", "usuária atualmente afastada do possível agressor"],
+      "elementos_proibidos": ["agressor presente", "arma", "ameaça de morte", "pedido de socorro imediato"]
+    },
+    {
+      "id": "P06",
+      "titulo": "Violência sexual com contexto temporal insuficiente",
+      "split": "test",
+      "rotulos": {"tipos": ["sexual"], "intencao": "outro", "urgencia": "prioritaria"},
+      "elementos_obrigatorios": ["limite ou consentimento sexual não respeitado", "momento do acontecimento não informado", "situação atual e proximidade do possível agressor não informadas"],
+      "elementos_proibidos": ["data precisa", "localização atual", "arma", "ameaça atual explícita"]
+    },
+    {
+      "id": "P07",
+      "titulo": "Violência patrimonial passada e encerrada",
+      "split": "test",
+      "rotulos": {"tipos": ["patrimonial"], "intencao": "informacao", "urgencia": "sem_urgencia_detectada"},
+      "elementos_obrigatorios": ["retenção, apropriação, destruição ou controle passado de bem, documento ou recurso da usuária", "prejuízo material já cessado ou item recuperado", "busca de informação sobre o ocorrido"],
+      "elementos_proibidos": ["retenção atual", "ameaça", "agressão física", "dependência financeira atual"]
+    },
+    {
+      "id": "P08",
+      "titulo": "Violência patrimonial atual e pedido de atendimento",
+      "split": "dev",
+      "rotulos": {"tipos": ["patrimonial"], "intencao": "atendimento_humano", "urgencia": "prioritaria"},
+      "elementos_obrigatorios": ["restrição atual ao acesso da usuária a dinheiro, documentos, trabalho ou bens próprios", "impacto contínuo sobre sua autonomia material", "pedido explícito para falar com uma pessoa atendente"],
+      "elementos_proibidos": ["agressor presente durante a conversa", "arma", "agressão física", "ameaça de morte"]
+    },
+    {
+      "id": "P09",
+      "titulo": "Violência moral passada e busca de informação",
+      "split": "test",
+      "rotulos": {"tipos": ["moral"], "intencao": "informacao", "urgencia": "sem_urgencia_detectada"},
+      "elementos_obrigatorios": ["acusação falsa, exposição ou afirmação que atingiu a reputação da usuária", "episódio encerrado sem repetição ou contato atual", "dúvida sobre a natureza do ocorrido"],
+      "elementos_proibidos": ["nova publicação iminente", "ameaça atual", "perseguição", "pedido de socorro"]
+    },
+    {
+      "id": "P10",
+      "titulo": "Violência moral com contexto insuficiente",
+      "split": "test",
+      "rotulos": {"tipos": ["moral"], "intencao": "outro", "urgencia": "indeterminada"},
+      "elementos_obrigatorios": ["ofensa, acusação falsa ou exposição capaz de atingir honra ou reputação", "tempo e local do episódio não informados", "ausência de informação sobre risco ou contato atual"],
+      "elementos_proibidos": ["tempo definido", "ameaça de agressão", "arma", "localização atual do agressor"]
+    },
+    {
+      "id": "P11",
+      "titulo": "Violência vicária com urgência imediata",
+      "split": "test",
+      "rotulos": {"tipos": ["vicaria"], "intencao": "ajuda_urgente", "urgencia": "imediata"},
+      "elementos_obrigatorios": ["ameaça ou uso atual de pessoa ou ser afetivamente significativo para atingir a usuária", "alvo da ameaça possivelmente exposto no momento", "pedido explícito de ajuda imediata"],
+      "elementos_proibidos": ["familiar já foi agredido", "arma", "agressão física contra a usuária", "retenção de bens"]
+    },
+    {
+      "id": "P12",
+      "titulo": "Violência vicária recorrente sem evento imediato",
+      "split": "dev",
+      "rotulos": {"tipos": ["vicaria"], "intencao": "relato", "urgencia": "prioritaria"},
+      "elementos_obrigatorios": ["uso recorrente de pessoa ou vínculo afetivo para causar sofrimento à usuária", "padrão repetido ao longo do tempo", "nenhum perigo acontecendo durante o relato"],
+      "elementos_proibidos": ["ameaça imediata", "agressão física atual", "arma", "pedido de socorro imediato"]
+    },
+    {
+      "id": "P13",
+      "titulo": "Violências física e psicológica com urgência imediata",
+      "split": "test",
+      "rotulos": {"tipos": ["fisica", "psicologica"], "intencao": "ajuda_urgente", "urgencia": "imediata"},
+      "elementos_obrigatorios": ["ato físico intencional recente ou em curso", "ameaça ou intimidação atual além do ato físico", "dificuldade de afastamento acompanhada de pedido urgente"],
+      "elementos_proibidos": ["arma", "violência sexual", "filhos envolvidos", "retenção de dinheiro"]
+    },
+    {
+      "id": "P14",
+      "titulo": "Violências psicológica e patrimonial contínuas",
+      "split": "test",
+      "rotulos": {"tipos": ["psicologica", "patrimonial"], "intencao": "atendimento_humano", "urgencia": "prioritaria"},
+      "elementos_obrigatorios": ["controle, coação ou humilhação psicológica atual", "restrição ou dano atual envolvendo dinheiro, documento ou bem da usuária"],
+      "elementos_proibidos": ["agressão em andamento", "arma", "violência sexual", "ameaça contra familiares"]
+    },
+    {
+      "id": "P15",
+      "titulo": "Violências sexual e psicológica com risco atual",
+      "split": "test",
+      "rotulos": {"tipos": ["sexual", "psicologica"], "intencao": "atendimento_humano", "urgencia": "imediata"},
+      "elementos_obrigatorios": ["coerção sexual atual diante de recusa ou ausência de consentimento", "ameaça ou intimidação psicológica acontecendo no momento", "pedido imediato de contato com atendente humano"],
+      "elementos_proibidos": ["ato sexual já consumado", "arma", "agressão física", "filhos envolvidos"]
+    },
+    {
+      "id": "P16",
+      "titulo": "Violências moral e psicológica passadas",
+      "split": "test",
+      "rotulos": {"tipos": ["moral", "psicologica"], "intencao": "informacao", "urgencia": "sem_urgencia_detectada"},
+      "elementos_obrigatorios": ["padrão passado de humilhação, manipulação ou controle psicológico", "ofensa ou acusação que atingiu honra ou reputação", "vínculo encerrado sem contato atual e com busca de informação"],
+      "elementos_proibidos": ["contato atual", "ameaça", "perseguição", "pedido de ajuda imediata"]
+    },
+    {
+      "id": "P17",
+      "titulo": "Violências vicária e psicológica com atualidade desconhecida",
+      "split": "test",
+      "rotulos": {"tipos": ["vicaria", "psicologica"], "intencao": "outro", "urgencia": "indeterminada"},
+      "elementos_obrigatorios": ["uso de pessoa ou vínculo afetivo para intimidar ou atingir a usuária", "chantagem, ameaça ou controle emocional associado", "continuidade do contato e situação atual desconhecidas"],
+      "elementos_proibidos": ["ameaça atual confirmada", "agressão física", "arma", "localização atual informada"]
+    },
+    {
+      "id": "P18",
+      "titulo": "Violências física e patrimonial recentes",
+      "split": "test",
+      "rotulos": {"tipos": ["fisica", "patrimonial"], "intencao": "relato", "urgencia": "prioritaria"},
+      "elementos_obrigatorios": ["ato físico intencional ocorrido recentemente", "retenção, apropriação ou destruição de bem no mesmo contexto", "usuária temporariamente afastada do possível agressor"],
+      "elementos_proibidos": ["agressor presente", "arma", "ameaça imediata", "violência sexual"]
+    },
+    {
+      "id": "P19",
+      "titulo": "Consulta geral sem caso pessoal",
+      "split": "dev",
+      "rotulos": {"tipos": [], "intencao": "informacao", "urgencia": "sem_urgencia_detectada"},
+      "elementos_obrigatorios": ["pergunta geral formulada em terceira pessoa", "contexto declarado de estudo, pesquisa ou atividade profissional", "ausência explícita de experiência pessoal ou pedido de atendimento"],
+      "elementos_proibidos": ["experiência pessoal", "ameaça", "agressão", "pedido de atendimento"]
+    },
+    {
+      "id": "P20",
+      "titulo": "Conflito interpessoal sem indícios classificáveis",
+      "split": "test",
+      "rotulos": {"tipos": [], "intencao": "relato", "urgencia": "indeterminada"},
+      "elementos_obrigatorios": ["conflito interpessoal descrito de forma genérica", "nenhum ato concreto suficiente para um tipo de violência do gabarito", "situação de segurança atual não informada"],
+      "elementos_proibidos": ["xingamento", "controle", "ameaça", "agressão física", "retenção de bens"]
+    }
+  ]
+}

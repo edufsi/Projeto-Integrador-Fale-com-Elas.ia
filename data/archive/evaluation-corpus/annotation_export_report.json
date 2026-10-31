@@ -1,0 +1,14 @@
+{
+  "anotadores": [
+    "A",
+    "B",
+    "C"
+  ],
+  "ouro_por_anotador": {
+    "A": 280,
+    "B": 280,
+    "C": 280
+  },
+  "calibracao_por_anotador": 60,
+  "itens_duplamente_rotulados": 420
+}

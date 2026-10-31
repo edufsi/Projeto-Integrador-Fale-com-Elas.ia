@@ -1,0 +1,451 @@
+{
+  "schema_version": "similarity-review.v1",
+  "status_validos": [
+    "pendente",
+    "aceito_variante_controlada",
+    "reescrito"
+  ],
+  "itens": [
+    {
+      "a": "G007-A:T1",
+      "b": "G007-B:T1",
+      "jaccard_tokens": 0.917,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G009-A:T1",
+      "b": "G009-B:T1",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G028-A:T1",
+      "b": "G028-B:T1",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G028-A:T2",
+      "b": "G028-B:T2",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G028-A:T4",
+      "b": "G028-B:T4",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G029-A:T2",
+      "b": "G029-B:T2",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G030-A:T2",
+      "b": "G030-B:T2",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G030-A:T3",
+      "b": "G030-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G031-A:T1",
+      "b": "G031-B:T1",
+      "jaccard_tokens": 0.923,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G031-A:T2",
+      "b": "G031-B:T2",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G032-A:T1",
+      "b": "G032-B:T1",
+      "jaccard_tokens": 0.917,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G033-A:T4",
+      "b": "G033-B:T4",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G035-A:T2",
+      "b": "G035-B:T2",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G035-A:T4",
+      "b": "G035-B:T4",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G036-A:T3",
+      "b": "G036-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G036-A:T4",
+      "b": "G036-B:T4",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G037-A:T3",
+      "b": "G037-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G038-A:T1",
+      "b": "G038-B:T1",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G038-A:T4",
+      "b": "G038-B:T4",
+      "jaccard_tokens": 0.917,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G039-A:T1",
+      "b": "G039-B:T1",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G039-A:T2",
+      "b": "G039-B:T2",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G039-A:T3",
+      "b": "G039-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G039-A:T4",
+      "b": "G039-B:T4",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G040-A:T2",
+      "b": "G040-B:T2",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G040-A:T4",
+      "b": "G040-B:T4",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G041-A:T1",
+      "b": "G041-B:T1",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G041-A:T2",
+      "b": "G041-B:T2",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G041-A:T3",
+      "b": "G041-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G042-A:T2",
+      "b": "G042-B:T2",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G042-A:T3",
+      "b": "G042-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G043-A:T2",
+      "b": "G043-B:T2",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G043-A:T3",
+      "b": "G043-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G044-A:T3",
+      "b": "G044-B:T3",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G044-A:T4",
+      "b": "G044-B:T4",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G045-A:T1",
+      "b": "G045-B:T1",
+      "jaccard_tokens": 0.917,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G045-A:T3",
+      "b": "G045-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G045-A:T4",
+      "b": "G045-B:T4",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G046-A:T1",
+      "b": "G046-B:T1",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G046-A:T3",
+      "b": "G046-B:T3",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G046-A:T4",
+      "b": "G046-B:T4",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G048-A:T2",
+      "b": "G048-B:T2",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G048-A:T3",
+      "b": "G048-B:T3",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G048-A:T4",
+      "b": "G048-B:T4",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G049-A:T1",
+      "b": "G049-B:T1",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G049-A:T2",
+      "b": "G049-B:T2",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G049-A:T4",
+      "b": "G049-B:T4",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G049-A:T5",
+      "b": "G049-B:T5",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G050-A:T2",
+      "b": "G050-B:T2",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G050-A:T5",
+      "b": "G050-B:T5",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G051-A:T3",
+      "b": "G051-B:T3",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G051-A:T4",
+      "b": "G051-B:T4",
+      "jaccard_tokens": 1.0,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G052-A:T1",
+      "b": "G052-B:T1",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G052-A:T2",
+      "b": "G052-B:T2",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G052-A:T3",
+      "b": "G052-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G053-A:T1",
+      "b": "G053-B:T1",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G053-A:T2",
+      "b": "G053-B:T2",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G053-A:T3",
+      "b": "G053-B:T3",
+      "jaccard_tokens": 0.889,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G053-A:T4",
+      "b": "G053-B:T4",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G054-A:T2",
+      "b": "G054-B:T2",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G054-A:T3",
+      "b": "G054-B:T3",
+      "jaccard_tokens": 0.909,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G054-A:T4",
+      "b": "G054-B:T4",
+      "jaccard_tokens": 0.923,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G055-A:T3",
+      "b": "G055-B:T3",
+      "jaccard_tokens": 0.917,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    },
+    {
+      "a": "G055-A:T4",
+      "b": "G055-B:T4",
+      "jaccard_tokens": 0.9,
+      "status": "aceito_variante_controlada",
+      "observacao": "Alta sobreposição ocorre somente entre variantes A/B do mesmo cartão; fatos e gabarito foram preservados."
+    }
+  ]
+}

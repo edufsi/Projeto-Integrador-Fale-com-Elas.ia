@@ -1,0 +1,4 @@
+[submodule "services/legal-mcp"]
+	path = services/legal-mcp
+	url = https://github.com/edufsi/notas-ia-rag.git
+	branch = codex/mcp-agent-mvp

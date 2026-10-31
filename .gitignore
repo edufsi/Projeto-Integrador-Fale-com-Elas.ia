@@ -1,2 +1,16 @@
 /*.pdf
 __pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest-tmp/
+.codex-finalizer/
+.codex-pptx-build/
+config.ini
+.env
+data/private/
+chat_api.ini
+.pytest_cache/
+**/indice/
+*.sqlite3

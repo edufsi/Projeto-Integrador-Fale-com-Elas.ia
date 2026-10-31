@@ -1,0 +1,1362 @@
+{
+  "schema_version": "synthetic-pilot-reports.v1",
+  "revisao_humana_pendente": true,
+  "fonte_fichas_sha256": "882efecae8a66949a0c7c0e5417bd2ad4cb488a5398357a79102bdadd9130d4b",
+  "itens": [
+    {
+      "id": "P01-R1",
+      "ficha_id": "P01",
+      "split": "dev",
+      "texto": "Ana está em pleno dia, na cozinha de seu apartamento de dois quartos, quando seu antigo namorado, Marcos, surge em meio ao tremendo alvoroço, colocando as mãos no queixo dela. Ele a puxa para frente com força, derrubando a caneca de café que se quebra no chão. O líquido escorre pelos pedaços, pintando um rastro vermelho que sacode o ambiente. Marcos ainda permanece ao lado, alvejando-a, mas ela consegue se esquivar e serpentear para a porta. Ela grita: 'Socorro, alguém aqui, por favor!'. Enquanto a porta fica empoeirada, ela percebe que a vizinha do térreo, que apenas faz barulho de bagunça, está muito próxima.",
+      "elementos_usados": [
+        "ato físico intencional recente ou em curso",
+        "possível agressor ainda próximo ou com acesso imediato à usuária"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "d694debeeb0f7f09995023bcca26b5a67205fbe4624940f87fc661e155d8aea8",
+        "gerado_em": "2026-10-12T17:27:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P01-R2",
+      "ficha_id": "P01",
+      "split": "dev",
+      "texto": "Maria, de oitenta anos, sentada à beira de um cais fora das ruínas de um antigo terminal de embarcamento, exibe uma expressão de desconfiança. Quando um jovem desfigurado aproxima-se, tenta atacá-la com força bruta na parte esquerda do seu peito. A própria Maria rapidamente ergue a perna para dar o passo de fuga, quase furtando a distância até a informação. Um guarda de trânsito que fica na proximidade vira rapidamente a câmera em direção à ela e a chama: 'Ajude, alguém!'. A narrativa é notecia de urgência, devido à proximidade de um agressor e a facilidade de fuga e acesso de um indivíduo.",
+      "elementos_usados": [
+        "ato físico intencional recente ou em curso",
+        "possível agressor ainda próximo ou com acesso imediato à usuária"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "d694debeeb0f7f09995023bcca26b5a67205fbe4624940f87fc661e155d8aea8",
+        "gerado_em": "2026-10-12T17:27:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P02-R1",
+      "ficha_id": "P02",
+      "split": "test",
+      "texto": "Naquela manhã de terça, quando o céu ainda adormecia em tons suaves, João, colega de quarto de Marta, viu a caixa do comércio Gafanhoto aberta sem proteção. Marta, sentindo que sua integridade passasse por risco, avançou, bateu a maçaneta de metal de forma contundente, provocando um deslize. O ato, intencional e recente, ocorreu diante de outras clientes. Ela sentiu o calor da emoção, mas rapidamente se resiliu e se guiou até o corredor, onde o cheiro de frutas frescas era forte. Imediatamente, ela se afastou, entrando no corredor de hortifrúti, mantendo-se afastada do possível agressor até sair do ambiente.",
+      "elementos_usados": [
+        "ato físico intencional ocorrido recentemente",
+        "usuária temporariamente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "669f2f29729ec791bc455daec17436e1e1bd905592d0c7bbf0245288ae777c28",
+        "gerado_em": "2026-10-12T17:28:30+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P02-R2",
+      "ficha_id": "P02",
+      "split": "test",
+      "texto": "No tapete de um supermercado, Leninha estava contando trocas de moedas com a atendente quando teve um momento de fúria. Ela percebeu que a pessoa por trás da máquina de pagamento respeitava pouca paciência. De repente, deu um soco no braço do balcão, como se lançasse um impacto forte. O ato, intencional e recente, marcou a tensão da situação. Após a explosão de ar e desabrigo, Leninha correu pelo corredor de cereais, deixando atrás o suposto agressor, permanecendo temporariamente afastada do possível agressor.",
+      "elementos_usados": [
+        "ato físico intencional ocorrido recentemente",
+        "usuária temporariamente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "669f2f29729ec791bc455daec17436e1e1bd905592d0c7bbf0245288ae777c28",
+        "gerado_em": "2026-10-12T17:28:30+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P03-R1",
+      "ficha_id": "P03",
+      "split": "test",
+      "texto": "Em noites silenciosas, Maria recebe mensagens enigmáticas na tela do celular, cheias de ameaças explícitas. Cada palavra escurece seu peito com frieza. Ela sente a tecnologia virar perseguição, promovendo uma intimidação que parece pronta a virar realidade. A mensagem sugere proximidade iminente, obscurecendo a possibilidade de um encontro próximo. O susto cresce enquanto ela percebe que qualquer breve atraso pode derivar numa ameaça concreta. Por isso, a urgência da situação a leva a procurar ajuda imediatamente, exigindo intervenção rápida e eficaz para que a violência psicológica seja interrompida.",
+      "elementos_usados": [
+        "ameaça, perseguição ou intimidação acontecendo no presente",
+        "possibilidade percebida de encontro iminente com o autor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "d8c37e2aa73fac526d0c9ee56dbcccd3b6ccb8290a60a79c425e2330770c3167",
+        "gerado_em": "2026-10-12T17:28:56+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P03-R2",
+      "ficha_id": "P03",
+      "split": "test",
+      "texto": "Bassem, técnico de laboratório, começa a notar e-mails sistemáticos que minam sua confiança. Cada mensagem indica ameaça velada, descrita como perseguição em curso, pois sente o conteúdo como um eco de intimidação pessoal. Um certo remetente sugere que em breve o contato físico possa ocorrer, trazendo a inquietação da possibilidade de encontro iminente com o autor. A pressão crescente faz com que Bassem reconheça que não pode tolerar mais o clima, exigindo ajuda imediata para romper o ciclo de medo psicológico que ameaça sabotar sua carreira científica.",
+      "elementos_usados": [
+        "ameaça, perseguição ou intimidação acontecendo no presente",
+        "possibilidade percebida de encontro iminente com o autor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "d8c37e2aa73fac526d0c9ee56dbcccd3b6ccb8290a60a79c425e2330770c3167",
+        "gerado_em": "2026-10-12T17:28:56+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P04-R1",
+      "ficha_id": "P04",
+      "split": "dev",
+      "texto": "Durante anos, meu namorado me controlava de forma sutil e manipuladora. Ele dizia que o amor exigia supervisão constante, instalava câmeras na sala, e me impedia de falar com amigos. Quando finalmente rompi, ele não me perdoou o contato, bloqueou todas redes sociais e esqueceu minha própria nome. Às vezes, sinto que aquele contêiner de apoio que eu acreditava ser saudável, era apenas medo impresso. Pergunto-me se o comportamento que experimentei tinha bases de preocupação real ou se era um controlador cruel. O medo ainda paira, porém confesso que não há risco de retaliação. O passado me deixou com dúvidas sobre a interação que tive.",
+      "elementos_usados": [
+        "padrão passado de controle, isolamento, vigilância ou humilhação",
+        "vínculo encerrado sem contato ou perigo atual",
+        "dúvida sobre a natureza do comportamento vivido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "2e427225b6dadcf9759e1dc5db78bef22c9a1e092b80b9b2090f68f6534fb3ff",
+        "gerado_em": "2026-10-12T17:29:27+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P04-R2",
+      "ficha_id": "P04",
+      "split": "dev",
+      "texto": "Em um escritório de consultoria, meu antigo supervisor tratava de modo autoritário. Ele me exibiu fotografias de colegas em planos de refeições e ordenava eu bebi um gole de café a cada hora, como exercício de submissão. Não podia sair do recinto por quarenta minutos seguidos. Quando denúncia, ele só me enviei um e‑mail dizendo “falou demais” e depois me dispensou. Qual era a intenção de tal controle? Não recebo mais qualquer comunicação dele; sinto que só deixei uma conta Telegram vazia. Embora não haja ameaça atual, fico intrigada sobre por que ele agiu dessa forma, e se aqueles atos tinham respaldo psicológico.",
+      "elementos_usados": [
+        "padrão passado de controle, isolamento, vigilância ou humilhação",
+        "vínculo encerrado sem contato ou perigo atual",
+        "dúvida sobre a natureza do comportamento vivido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "2e427225b6dadcf9759e1dc5db78bef22c9a1e092b80b9b2090f68f6534fb3ff",
+        "gerado_em": "2026-10-12T17:29:27+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P05-R1",
+      "ficha_id": "P05",
+      "split": "test",
+      "texto": "Saí do salão apenas minutos depois que um ex-conteúdo a tocou de maneira invasiva, sem que eu desejasse isso. O instante começou com o contato inesperado, e logo eu sentia-me incapaz de condescender ao gesto. Decidi deixar a festa imediatamente, atravessando para a rua ao extremo, buscando fluidez e segurança. Ao chegar no fundo do parque, achei um café desabrigado onde testemunhei a cena. Mais tarde, no estacionamento da academia, encarei meu reflexo e percebi que, mesmo na neblina da frustração, mantinha a postura firme, distanciando-me do agressor e permanecendo afastada do contato.",
+      "elementos_usados": [
+        "ato íntimo recente ocorrido sem consentimento ou após recusa",
+        "usuária atualmente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "97da805e05754f9e79f300151df144b2ef0e755ddec970f23f412ad9a54f6635",
+        "gerado_em": "2026-10-12T17:29:43+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P05-R2",
+      "ficha_id": "P05",
+      "split": "test",
+      "texto": "Durante uma reunião de trabalho, enquanto os colegas revisavam metas, um colega inesperadamente tocou minha mão enquanto me acusava de erro. O gesto foi abrupto e sem consentimento, e eu respondi com incredulidade. Nesse exato momento, embora o ambiente fosse público, fui rechaçada e não pude aceitar tal invasão. Saí correndo da sala, me afastando para o corredor mais distante, e me escondi em um armário próximo à saída. Lá, entre as portas de vidro, busquei clareza e percepção da distância nos meus arredores. Mais tarde, na localizaçao fria do depósito de materiais, reforçei o pensamento: permaneço afastada do possível agressor e refleci-me a meu próprio silêncio.",
+      "elementos_usados": [
+        "ato íntimo recente ocorrido sem consentimento ou após recusa",
+        "usuária atualmente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "97da805e05754f9e79f300151df144b2ef0e755ddec970f23f412ad9a54f6635",
+        "gerado_em": "2026-10-12T17:29:43+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P06-R1",
+      "ficha_id": "P06",
+      "split": "test",
+      "texto": "Sentada no canto de um salão iluminado, Maria não percebeu as intenções por trás do sorriso do colega da família. No clima de celebração, foi conduzida a um canto isolado, onde os limites de consentimento foram ignorados. A hora exata em que isso aconteceu ainda permanece nebulosa, pois não foi relatada. Ela não revelou onde se encontra agora nem se há alguém próximo ao local. Essa falta de informações expõe a urgência de uma ação imediata. Ela agora se sente sobrecarregada, mas escolheu manter silêncio, mas potencializa o risco de repetição. Além disso, os familiares não foram informados, provendo mais distanciamento que dificulta a busca por ajuda.",
+      "elementos_usados": [
+        "limite ou consentimento sexual não respeitado",
+        "momento do acontecimento não informado",
+        "situação atual e proximidade do possível agressor não informadas"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual"
+        ],
+        "intencao": "outro",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "6b54d7aaaf14758865fec2b2e53d17bb7bb39a640c2af9c6ac6f75b9eb9e120b",
+        "gerado_em": "2026-10-12T17:30:18+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P06-R2",
+      "ficha_id": "P06",
+      "split": "test",
+      "texto": "Ernesto, colega de projeto, convidou Lucas para discutir resultados no espaço de trabalho. Durante a ligação, a tensão aumentou rapidamente, culminando em um ato sexual sem permissão. O tempo exato não foi declarado, mantendo o gatilho fora de contexto. Não se sabe quem pode estar presente no início do evento nem onde Lucas permanece hoje. Estes vazios reforçam a necessidade de assessoramento urgente e recursos de apoio. A ausência de detalhes sobre o ambiente e a proximidade do agressor agrava a tensão, exigindo medidas rápidas de proteção.",
+      "elementos_usados": [
+        "limite ou consentimento sexual não respeitado",
+        "momento do acontecimento não informado",
+        "situação atual e proximidade do possível agressor não informadas"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual"
+        ],
+        "intencao": "outro",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "6b54d7aaaf14758865fec2b2e53d17bb7bb39a640c2af9c6ac6f75b9eb9e120b",
+        "gerado_em": "2026-10-12T17:30:18+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P07-R1",
+      "ficha_id": "P07",
+      "split": "test",
+      "texto": "Durante uma reunião de equipe, um ex-colega de trabalho deixou a empresa com a chave de acesso a um armário contendo documentos de clientes. A porta se fechou por conta dele e ninguém mais teve acesso, mas no dia seguinte o objeto foi recuperado na própria caixa postais, encerrando o prejuízo material. Depois, para esclarecer o ocorrido, o usuário buscou informação junto ao departamento de segurança e à corretora de documentos. O caso serviu para registrar a retenção e apropriação, o fim do dano e a busca de detalhes do episódio.",
+      "elementos_usados": [
+        "retenção, apropriação, destruição ou controle passado de bem, documento ou recurso da usuária",
+        "prejuízo material já cessado ou item recuperado",
+        "busca de informação sobre o ocorrido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "patrimonial"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "d0ee92f9372c103cdd651f2ec1dca56115d88dca6a6b7e75974c20ff429d267b",
+        "gerado_em": "2026-10-12T17:30:27+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P07-R2",
+      "ficha_id": "P07",
+      "split": "test",
+      "texto": "Na transição para um novo emprego, um antigo parceiro comercial retirou o cartão de crédito corporativo da cafeteria, usando-o em compras pessoais. O limite acabou sendo atingido e o servidor de fatura deixou de pagamento à vista. Quando a situação foi percebida, o cartão foi devolvido, cancelando o prejuízo deixado. A proprietária do estabelecimento, querendo saber o que havia levado à apropriação, partiu em busca de informação junto à equipe de recursos humanos. Esse relato confirma a retenção passada, a cessação do dano e a investigação do ocorrido.",
+      "elementos_usados": [
+        "retenção, apropriação, destruição ou controle passado de bem, documento ou recurso da usuária",
+        "prejuízo material já cessado ou item recuperado",
+        "busca de informação sobre o ocorrido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "patrimonial"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "d0ee92f9372c103cdd651f2ec1dca56115d88dca6a6b7e75974c20ff429d267b",
+        "gerado_em": "2026-10-12T17:30:27+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P08-R1",
+      "ficha_id": "P08",
+      "split": "dev",
+      "texto": "Em um pequeno coworking no centro, Marta percebe que o celular de seu companheiro, que a acompanha nos trabalhos, alterou o acesso ao banco e bloqueou a liberação de seu cartão de débito. Sem conseguir abrir o extrato de conta nem acessar os documentos de condomínio, ela sente que não tem mais controle sobre o próprio dinheiro. O fato de não poder usar o laptop nem imprimir relatórios prejudica a sua rotina de entrega de projetos. Marta, com voz ainda firme, pede: “Preciso falar com uma pessoa atendente que possa me ajudar imediatamente.” Há urgência e a ausência de qualquer agressor está evidente.",
+      "elementos_usados": [
+        "restrição atual ao acesso da usuária a dinheiro, documentos, trabalho ou bens próprios",
+        "impacto contínuo sobre sua autonomia material",
+        "pedido explícito para falar com uma pessoa atendente"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "patrimonial"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "65629b84ce63ad5d50ba5ad17c7573c0b07b7114da34229d55038f608380aadc",
+        "gerado_em": "2026-10-12T17:30:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P08-R2",
+      "ficha_id": "P08",
+      "split": "dev",
+      "texto": "Na calçada de uma fazenda de transporte, Renata, cooperadora de manejo de florestas, sente que o dono da propriedade confiscou a chave do depósito onde guarda as quantidades de madeira que vendem. Sem acesso aos arquivos de venda nem ao dinheiro que recebe mensalmente, ela não consegue administrar a sua pequena empresa que produz madeira reciclada. O desligamento da comunicação por parte do proprietário impede os contatos com a venda online, possivelmente reduzindo a receita. Renata, em meio à areia oxidada, faz um pedido urgente: “Eu preciso falar com uma pessoa atendente para reencontrar o controle do meu dinheiro.”",
+      "elementos_usados": [
+        "restrição atual ao acesso da usuária a dinheiro, documentos, trabalho ou bens próprios",
+        "impacto contínuo sobre sua autonomia material",
+        "pedido explícito para falar com uma pessoa atendente"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "patrimonial"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "65629b84ce63ad5d50ba5ad17c7573c0b07b7114da34229d55038f608380aadc",
+        "gerado_em": "2026-10-12T17:30:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P09-R1",
+      "ficha_id": "P09",
+      "split": "test",
+      "texto": "Na pequena bistrô da esquina, Mariana era conhecida por seus pratos coloridos e sabores genuínos. Um dia, uma crítica gastronômica desastrosa acusou-a de usar ingredientes vencidos, espalhando a acusação falsa, exposição ou afirmação que atingiu a reputação da usuária nas redes sociais. A crítica rapidamente retirou o post, encerrando o episódio sem repetição ou contato atual, mas o rumor ainda pairava na comunidade. Mariana, ainda, manteve dúvida sobre a natureza do ocorrido, questionando se aquilo fora apenas um erro ou um engano grosseiro. Assim, a reputação mostrou sinais de recuperação e o caso ficou como um alerta sobre discursos infundados.",
+      "elementos_usados": [
+        "acusação falsa, exposição ou afirmação que atingiu a reputação da usuária",
+        "episódio encerrado sem repetição ou contato atual",
+        "dúvida sobre a natureza do ocorrido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "574a4784b1f70ca7b72da1969e687cc899266fceaf021f1350a5260377436cf9",
+        "gerado_em": "2026-10-12T17:31:02+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P09-R2",
+      "ficha_id": "P09",
+      "split": "test",
+      "texto": "Na tranquilidade de uma biblioteca rural, a Sra. Lúcia, bibliotecária, encontrou um colega espalhando rumores de que ela havia furtado anotações de um visitante. A acusação falsa, exposição ou afirmação que atingiu a reputação da usuária causou ondas de incerteza no ambiente estudantil. Um mediador envolvido rapidamente pediu desculpas, tornando o episódio encerrado sem repetição ou contato atual com o acusado. Mesmo assim, Lúcia continua com dúvida sobre a natureza do ocorrido, refletindo sobre a confiança que ergueu ao longo dos anos. O incidente permanece como uma lembrança de que a reputação pode ser fragilizada por palavras infundadas.",
+      "elementos_usados": [
+        "acusação falsa, exposição ou afirmação que atingiu a reputação da usuária",
+        "episódio encerrado sem repetição ou contato atual",
+        "dúvida sobre a natureza do ocorrido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "574a4784b1f70ca7b72da1969e687cc899266fceaf021f1350a5260377436cf9",
+        "gerado_em": "2026-10-12T17:31:02+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P10-R1",
+      "ficha_id": "P10",
+      "split": "test",
+      "texto": "Um indivíduo Y circulava em busca de falar com alguém conhecido por sua reputação, mas avançou sem reconhecimento. Quando encontrou, levantou um acusatício distorcido, afirmando que contraria moralmente a reputação daquele que lhe acusou. A mensagem, enviada por mensagem eletrônica, ecoou rapidamente, atacando sua demonstração pública. O cenário permanece sem detalhes concretos sobre quando e onde o episódio ocorreu, além de que o contato entre os envolvidos não persiste à vista. Este relato ressalta a urgência da situação por contágio rápido na comunidade, grande impacto percebido e necessidade de ações imediatas.",
+      "elementos_usados": [
+        "ofensa, acusação falsa ou exposição capaz de atingir honra ou reputação",
+        "tempo e local do episódio não informados",
+        "ausência de informação sobre risco ou contato atual"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral"
+        ],
+        "intencao": "outro",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "02ff0cec4323bf02c1ec72990532c5e37d731c3cc87be8b41151186b130ffce7",
+        "gerado_em": "2026-10-12T17:31:30+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P10-R2",
+      "ficha_id": "P10",
+      "split": "test",
+      "texto": "Um grupo de colaboradores, em um ambiente de trabalho, disseminou rumores que comprometeram a honra de um colega. Montaram uma narrativa falsa, alegando que ele foi negligente em tarefas críticas. Esse ataque se tornou viral por canais informais dentro da empresa, gerando preocupação e ansiedade. Não há registro claro de quando ou em que espaço isso se desenrolou, nem qualquer contato momentâneo permanece ativo. O clima de alarmismo e suspeita se intensifica rapidamente, colocando em risco a estabilidade psicológica dos envolvidos.",
+      "elementos_usados": [
+        "ofensa, acusação falsa ou exposição capaz de atingir honra ou reputação",
+        "tempo e local do episódio não informados",
+        "ausência de informação sobre risco ou contato atual"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral"
+        ],
+        "intencao": "outro",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "02ff0cec4323bf02c1ec72990532c5e37d731c3cc87be8b41151186b130ffce7",
+        "gerado_em": "2026-10-12T17:31:30+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P11-R1",
+      "ficha_id": "P11",
+      "split": "test",
+      "texto": "Na madrugada de terça-feira, enquanto eu estava assistindo um webinar de desenvolvimento profissional, recebi uma mensagem perturbadora. Um colega de trabalho, que normalmente é quieto e reservado, insistiu que iria usar a foto de minha avó — muito querida — em uma campanha publicitária da empresa para me coagir a entregar projetos secretos. Ele afirmou que minha avó, que agora age, teria acesso a minha conta bancária, e que se eu não cooperasse, ele colocaria o nome da empresa no meu histórico. Ameaça e uso atual de pessoa afeta a usuária, o alvo da ameaça possivelmente exposto no momento, pedido explícito de ajuda imediata.",
+      "elementos_usados": [
+        "ameaça ou uso atual de pessoa ou ser afetivamente significativo para atingir a usuária",
+        "alvo da ameaça possivelmente exposto no momento",
+        "pedido explícito de ajuda imediata"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "e283517f8409571f248646433a1b32925f66799b6f1fa241b04d32a723e56a05",
+        "gerado_em": "2026-10-12T17:32:35+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P11-R2",
+      "ficha_id": "P11",
+      "split": "test",
+      "texto": "Quando a senhora da comunidade organizou uma reunião sobre segurança no bairro, meu irmão, que vivo com ele, estava no centro da discussão. Em meio às falas, ele recorreu ao telefone de nossa vizinha, obrigação familiar, exigindo que eu deixasse transferência de 20 mil reais. Ele ameaçou divulgar o relacionamento extraconjugal do chefe de educação na escola, uso atual de pessoa afeta a usuária. O alvo da ameaça possivelmente exposto no momento, pois o casal tem crianças. O pedido foi feito de forma direta: 'Ajude-me agora, ou eu contarei a todos'.",
+      "elementos_usados": [
+        "ameaça ou uso atual de pessoa ou ser afetivamente significativo para atingir a usuária",
+        "alvo da ameaça possivelmente exposto no momento",
+        "pedido explícito de ajuda imediata"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "e283517f8409571f248646433a1b32925f66799b6f1fa241b04d32a723e56a05",
+        "gerado_em": "2026-10-12T17:32:35+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P12-R1",
+      "ficha_id": "P12",
+      "split": "dev",
+      "texto": "Na primeira semana de um plano, a mãe do ex-namorado da vítima voltou ao boletim da escola e introduziu mensagens de textos gentis e carinho, enquanto calmamente falava em voz baixa sobre o quanto ela se sentia esquecida pelas decisões dela na família. Cada vez que o filho demonstrava habilidades, a mãe lembrava que ele não existia até sua própria aprovação. Esse padrão, que tivesse surgido há dois anos, cuidava de manter a vítima em estado de ansiedade, fazendo-o questionar sua segurança emocional. O abalo continuou, mas nada criado de forma física, permanecendo apenas no psicológico. Não houve violência física, apenas humilhação constante.",
+      "elementos_usados": [
+        "uso recorrente de pessoa ou vínculo afetivo para causar sofrimento à usuária",
+        "padrão repetido ao longo do tempo",
+        "nenhum perigo acontecendo durante o relato"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "574b213938215e85c93dd584a4a3ec756e34c13a72bf6d955e12b31f8f7f244d",
+        "gerado_em": "2026-10-12T17:32:21+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P12-R2",
+      "ficha_id": "P12",
+      "split": "dev",
+      "texto": "Em um contexto de convivência mensal, o parceiro de longa data da narradora empregava o afeto como arma silenciosa. Ele inundava as mensagens diárias com elogios, e quando a narradora assumia um novo projeto de trabalho, ele lembrava que tudo seria melhor se fosse reconhecido por ele. Isso transformou a relação em uma espiral de insegurança, repetindo-se em diferentes momentos ao longo de anos. A narradora sentia-se sufocada emocionalmente, sem notar perigo físico; apenas estresse emocional em cada mensagem gentil. O padrão de abuso psicológico estava firme, mas sem violência presente.",
+      "elementos_usados": [
+        "uso recorrente de pessoa ou vínculo afetivo para causar sofrimento à usuária",
+        "padrão repetido ao longo do tempo",
+        "nenhum perigo acontecendo durante o relato"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "574b213938215e85c93dd584a4a3ec756e34c13a72bf6d955e12b31f8f7f244d",
+        "gerado_em": "2026-10-12T17:32:21+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P13-R1",
+      "ficha_id": "P13",
+      "split": "test",
+      "texto": "Na manhã de segunda, João acabou de ter um leve soco marcado no braço pelo vizinho de baixo, que a descreve como um ataque físico intencional recente. O vizinho, em seguida, ameaçou chamá‑lo de ‘morcego janino’ e continuou a gritar, aumentando a intimidação atual. João sente‑se vulnerável e teme reação adicional. Ele tentou sair do apartamento, mas o vizinho bloqueou a porta, dizendo que ‘tu vais querer que eu lope atrás de ti’. Peço ajuda imediata para afastar o agressor e garantir segurança.",
+      "elementos_usados": [
+        "ato físico intencional recente ou em curso",
+        "ameaça ou intimidação atual além do ato físico",
+        "dificuldade de afastamento acompanhada de pedido urgente"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica",
+          "psicologica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "4b88f46ddee30bd78e9c7484d1133496d7c19acc581124a6c9505504b6c5ed30",
+        "gerado_em": "2026-10-12T17:32:52+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P13-R2",
+      "ficha_id": "P13",
+      "split": "test",
+      "texto": "No último fim‑de‑semana, Maria compartilhou apartamento com colega. Ao entrar na cozinha, foi surpreendida por uma força excessiva quando a colega, de maneira abrupta, arremessou um prato diretamente no seu ombro, causando dor ampla. Além do ato físico, a colega a xingou, dizendo que ‘você não vai sair daqui’, e ameaçou emitir melgrante se insistisse em sair. Maria tentou sair pelas portas, mas a colega bloqueou o corredor, demonstrando recusa em permitir a evacuação. Ela solicitou de forma chateada e solicitou ajuda imediata, em voz estalada, lutando pela própria segurança.",
+      "elementos_usados": [
+        "ato físico intencional recente ou em curso",
+        "ameaça ou intimidação atual além do ato físico",
+        "dificuldade de afastamento acompanhada de pedido urgente"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica",
+          "psicologica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "4b88f46ddee30bd78e9c7484d1133496d7c19acc581124a6c9505504b6c5ed30",
+        "gerado_em": "2026-10-12T17:32:52+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P14-R1",
+      "ficha_id": "P14",
+      "split": "test",
+      "texto": "Desde que a relação terminou há dois meses, João continua a invadir a rotina da Clara. Ele envia mensagens constantes exigindo que ela forneça relatórios de atividade do trabalho, mesmo quando ela está fora do escritório. O contato parece estruturar sua vida, demonstrando controle, coação ou humilhação psicológica atual. Clara percebeu que seus documentos de viagem foram tomados e bloqueados na agência bancária, impedindo que depositasse em sua conta. Essa restrição ou dano atual envolvendo dinheiro, documento ou bem da usuária compromete sua capacidade de viajar para reunião importante. Ela está desesperada por atendimento humano para poder retomar a liberdade e garantir a segurança do seu patrimônio.",
+      "elementos_usados": [
+        "controle, coação ou humilhação psicológica atual",
+        "restrição ou dano atual envolvendo dinheiro, documento ou bem da usuária"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica",
+          "patrimonial"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "c31dcd63236740d4a49c5711ae2511521d537a3f0c7850035479f4ec11dbf0ba",
+        "gerado_em": "2026-10-12T17:33:08+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P14-R2",
+      "ficha_id": "P14",
+      "split": "test",
+      "texto": "Mariana trabalha como assistente administrativa numa pequena empresa de design. Seu chefe, Carlos, tem adotado um comportamento cada vez mais controlador. Ele exige que todas as entregas sejam aprovadas por ele, pedindo que ele esteja presente em todas as reuniões, mesmo quando está em casa. Esse controle, coação ou humilhação psicológica atual faz Mariana se sentir exausta e desvalorizada. Além disso, Carlos confiscou o contrato de prestação de serviços que Mariana havia firmado com um fornecedor, impondo que os pagamentos fossem redirecionados para a conta dele. Essa restrição ou dano atual envolvendo dinheiro, documento ou bem da usuária ameaça não apenas o andamento de projetos, mas também a estabilidade financeira de Mariana, que depende desse contrato para continuar trabalhando.",
+      "elementos_usados": [
+        "controle, coação ou humilhação psicológica atual",
+        "restrição ou dano atual envolvendo dinheiro, documento ou bem da usuária"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica",
+          "patrimonial"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "c31dcd63236740d4a49c5711ae2511521d537a3f0c7850035479f4ec11dbf0ba",
+        "gerado_em": "2026-10-12T17:33:08+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P15-R1",
+      "ficha_id": "P15",
+      "split": "test",
+      "texto": "Na madrugada, me encontro no meu quarto, onde meu parceiro, que vive comigo, continua exigindo relações sexuais. Quando tento explicar que ainda não estou pronto e que preciso de mais tempo, ele levanta a voz, dizendo que se eu recusar, revelará tudo que ouvi em sessões de terapia sobre minha vida anterior. Seu tom cambaleante me deixa com medo e minha alegria se transforma em ansiedade. Preciso de um atendimento humano imediatamente para que eu não seja coagido às exigências dessa pressão psicológica.",
+      "elementos_usados": [
+        "coerção sexual atual diante de recusa ou ausência de consentimento",
+        "ameaça ou intimidação psicológica acontecendo no momento",
+        "pedido imediato de contato com atendente humano"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual",
+          "psicologica"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "9ba86f4bfa56302f5e5788d67eb41b2fa3f4317c6be36fa794c79e94d43f291c",
+        "gerado_em": "2026-10-12T17:34:10+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P15-R2",
+      "ficha_id": "P15",
+      "split": "test",
+      "texto": "Em uma sala de reunião em um escritório de tecnologia, a gerente de projetos força o colaborador a aceitar um acordo sexual sob o pretexto de garantir uma vaga no time internacional. Quando ele recusa, ela ameaça tirar a prorrogação do contrato e publicar seu histórico de métricas de desempenho usado em avaliações. Seu olhar firme e o sorriso ameaçador fazem o ambiente virar gelo. Ele sente a pressão psicológica agora, tem medo de perder o emprego. Ele pede imediatamente contato com um atendente humano para que ninguém mais seja coagido.",
+      "elementos_usados": [
+        "coerção sexual atual diante de recusa ou ausência de consentimento",
+        "ameaça ou intimidação psicológica acontecendo no momento",
+        "pedido imediato de contato com atendente humano"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual",
+          "psicologica"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "9ba86f4bfa56302f5e5788d67eb41b2fa3f4317c6be36fa794c79e94d43f291c",
+        "gerado_em": "2026-10-12T17:34:10+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P16-R1",
+      "ficha_id": "P16",
+      "split": "test",
+      "texto": "Na época em que eu era estagiário na biblioteca universitária, o professor de literatura—que eu admirava—já me alinhava com outras abas. Ele, em frente a colegas, replicava um comentário outrora compartilhado ao meu respeito: que eu, por engano, teria copiado um trabalho. No instante, senti-me humilhado, a minha honra mazou diante de seus olhos. Quando meu colega de quarto abandonou a residência e nunca mais retornou, a ligação foi estreitada; no entanto, dentro desse silenciado, permaneço curioso: o que o professor disse exatamente na ocasião? É preciso esclarecer o histórico de reputação para que qualquer confusão de reputação seja dissipada. Procuro saber essa passagem.",
+      "elementos_usados": [
+        "padrão passado de humilhação, manipulação ou controle psicológico",
+        "ofensa ou acusação que atingiu honra ou reputação",
+        "vínculo encerrado sem contato atual e com busca de informação"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral",
+          "psicologica"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "b8345fe66625ccda8702f0df43f306e11d66f02f432b6e7a3df6de0656c9542b",
+        "gerado_em": "2026-10-12T17:33:57+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P16-R2",
+      "ficha_id": "P16",
+      "split": "test",
+      "texto": "Durante meu primeiro ano na faculdade de medicina, meu orientador nos apresentou a um renomado médico, mas acabava de revelar, em reunião de laboratório, que eu não era tão competente quanto os demais. A acusação prejudicou minha reputação entre fóruns acadêmicos, e minha confiança foi prejudicada seriamente. Quando nosso vínculo se encerrou ao final de 2019, sem contato adicional, continuo com questionamento: qual frase exata ele proferiu e quais atividades eu havia desempenhado que o fez tomar tal posição? Gostaria de obter esse registro de forma a compreender o dano à minha honra e a fortalecer decisões futuras, sem necessidade de chamadas urgentes.",
+      "elementos_usados": [
+        "padrão passado de humilhação, manipulação ou controle psicológico",
+        "ofensa ou acusação que atingiu honra ou reputação",
+        "vínculo encerrado sem contato atual e com busca de informação"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral",
+          "psicologica"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "b8345fe66625ccda8702f0df43f306e11d66f02f432b6e7a3df6de0656c9542b",
+        "gerado_em": "2026-10-12T17:33:57+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P17-R1",
+      "ficha_id": "P17",
+      "split": "test",
+      "texto": "Lúcia, professora de matemática, percebeu que desde o fim do semestre o coordenador da escola, que costumava lhe apoiar em projetos, começou a enviar e-mails com exigências extras e toques de culpa quando ela não os cumpria. Ele utilizava a sensação de obrigação que sentia dela em relação ao trabalho como meio de pressioná‑la, lembrando que antes ele a havia ajudado. A cada mensagem, o tom se tornava mais exigente, sugerindo que algo bastante sério ocorreria se ela não entregasse resultados no prazo. A situação continuou por quase dois meses, e agora ninguém sabe onde ele está, nem a quem ele tem enviado pedidos de que continue. Lúcia ainda recebe os e‑mails, mas não tem mais ideia de quem está por trás dessa vigilância.\n",
+      "elementos_usados": [
+        "uso de pessoa ou vínculo afetivo para intimidar ou atingir a usuária",
+        "chantagem, ameaça ou controle emocional associado",
+        "continuidade do contato e situação atual desconhecidas"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria",
+          "psicologica"
+        ],
+        "intencao": "outro",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "34d5774217811524610925fdea4a0e018415abdccd086a7e1df2fe866f2de6e7",
+        "gerado_em": "2026-10-12T17:34:09+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P17-R2",
+      "ficha_id": "P17",
+      "split": "test",
+      "texto": "Marcos, terapeuta ocupacional, relata que a irmã mais recém‑matrimônio instalou um sistema de mensagens na casa de todos os membros da família, alegando preocupação com o bem‑estar da família. Ela o utilizou para lembrá‑lo constantemente de que tinha dinheiro em conjunto e que, sem pagamento, ela poderia cortar o acesso à conta bancária e ainda ligar para os hospitais, caso ele recusasse a colaboração. O controle emocional foi vivido diariamente: ele recebia mensagen à noite, e no fim de semana ela prometia encerrar a relação familiar se o apoio financeiro não fosse regular. O contato sucedeu vinda de seu nascimento cresce sem que a situação fique clara; desconhecemos se ela ainda fica na mesma residência.\n",
+      "elementos_usados": [
+        "uso de pessoa ou vínculo afetivo para intimidar ou atingir a usuária",
+        "chantagem, ameaça ou controle emocional associado",
+        "continuidade do contato e situação atual desconhecidas"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria",
+          "psicologica"
+        ],
+        "intencao": "outro",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "34d5774217811524610925fdea4a0e018415abdccd086a7e1df2fe866f2de6e7",
+        "gerado_em": "2026-10-12T17:34:09+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P18-R1",
+      "ficha_id": "P18",
+      "split": "test",
+      "texto": "Na manhã de 14 de abril, um colega de trabalho inesperadamente empurrou Maria com intenção deliberada enquanto ela preparava a bancada da cozinha. O contato gerou um leve corte no braço de Maria e, logo depois, ele embala um laptop de alto valor em sua mochila e se afasta. Maria permanece fora da cozinha por cerca de quinze minutos, aguardando a chegada da segurança, enquanto o dispositivo fica com marcas visíveis de teclado e a bateria falha, sinal de destruição intencional. A perda de equipamento e o afastamento da vítima criam uma urgência clara para intervenção imediata.",
+      "elementos_usados": [
+        "ato físico intencional ocorrido recentemente",
+        "retenção, apropriação ou destruição de bem no mesmo contexto",
+        "usuária temporariamente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica",
+          "patrimonial"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "d9a96af200c4b13f0d7125bdc880e18b0d4f51fe397836a86bac2c8b37f34472",
+        "gerado_em": "2026-10-12T17:36:29+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P18-R2",
+      "ficha_id": "P18",
+      "split": "test",
+      "texto": "Na noite de 22 de maio, Pedro, morador do andar de abaixo, bateu com força a porta do apartamento de Vânia. Ao abrir, ele arremessou o mostrador de mármore da cozinha para fora e retirou todos os guardanapos, deixando um cenário de desordem. Vânia rapidamente se distancia do agressor, caminhando até a janela, aguardando a polícia. Os espelhos quebrados e a estrutura do mostrador de mármore revelam destruição patrimonial imediata. A situação demanda atenção urgente de serviços de segurança para garantir a proteção da vítima.",
+      "elementos_usados": [
+        "ato físico intencional ocorrido recentemente",
+        "retenção, apropriação ou destruição de bem no mesmo contexto",
+        "usuária temporariamente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica",
+          "patrimonial"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "d9a96af200c4b13f0d7125bdc880e18b0d4f51fe397836a86bac2c8b37f34472",
+        "gerado_em": "2026-10-12T17:36:29+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P19-R1",
+      "ficha_id": "P19",
+      "split": "dev",
+      "texto": "Como pesquisador de biologia, estudo os efeitos de diferentes concentrações de sais em culturas celulares. Qual a diferença entre as técnicas que empregam perfusão contínua e as que utilizam suspensão estática em termos de viabilidade celular? A consulta contém apenas essa solicitação de informação, sem relatar experiências anteriores nem pedir atendimento. A pergunta está expressa em terceira pessoa e refere-se a um procedimento científico em estudo. O contexto declarado é de pesquisa de laboratório, e o texto respeita a ausência explícita de experiência pessoal ou pedido de atendimento.",
+      "elementos_usados": [
+        "pergunta geral formulada em terceira pessoa",
+        "contexto declarado de estudo, pesquisa ou atividade profissional",
+        "ausência explícita de experiência pessoal ou pedido de atendimento"
+      ],
+      "rotulos_fonte": {
+        "tipos": [],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "94a71c0a34c171781e9b2efcce96685e00f0cf7d8d54dacd0b6e2293d98f9be7",
+        "gerado_em": "2026-10-12T17:36:49+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P19-R2",
+      "ficha_id": "P19",
+      "split": "dev",
+      "texto": "Como jornalista investigativo, analiso a evolução das políticas de resíduos sólidos urbanos. Qual o impacto das novas regras que pretendem reduzir a geração de lixo plástico em áreas metropolitanas? A questão apresentada é meramente informativa e não envolve relatos de experiência pessoal nem solicitação de atendimento. A pergunta é feita em linguagem terceira pessoa e o cenário declarado refere-se a atividade profissional de jornalismo investigativo. Assim, o texto mantém a intenção informativa e não detecta urgência, permanecendo claro e objetivo.",
+      "elementos_usados": [
+        "pergunta geral formulada em terceira pessoa",
+        "contexto declarado de estudo, pesquisa ou atividade profissional",
+        "ausência explícita de experiência pessoal ou pedido de atendimento"
+      ],
+      "rotulos_fonte": {
+        "tipos": [],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "94a71c0a34c171781e9b2efcce96685e00f0cf7d8d54dacd0b6e2293d98f9be7",
+        "gerado_em": "2026-10-12T17:36:49+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P20-R1",
+      "ficha_id": "P20",
+      "split": "test",
+      "texto": "Na manhã de terça-feira, João e Carlos, colegas de equipe, discutiram sobre a distribuição de tarefas. Ambos manifestaram descontentamento ao perceber que um deles sentia-se sobrecarregado, enquanto o outro acreditava que as responsabilidades estavam igualmente equitativas. A troca de convicções transformou-se em trocas de argumentos e frustrações, mas nenhuma palavra acabou se transformando em violência. O ambiente permanece inalterado e João não identificou medidas imediatas para garantir a segurança de qualquer participante, pois a situação atual não foi comunicada. Ele tentou explicar sua perspectiva, mas as diferenças na percepção levaram a um clima de desavença que acabou se dissipando no final do expediente.",
+      "elementos_usados": [
+        "conflito interpessoal descrito de forma genérica",
+        "nenhum ato concreto suficiente para um tipo de violência do gabarito",
+        "situação de segurança atual não informada"
+      ],
+      "rotulos_fonte": {
+        "tipos": [],
+        "intencao": "relato",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "27d25c1260333734182e98016ea30790b939021044ffa8514475ebfa53f63654",
+        "gerado_em": "2026-10-12T17:37:13+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P20-R2",
+      "ficha_id": "P20",
+      "split": "test",
+      "texto": "Durante o fim de semana, Ana e Beatriz, companheiras de quarto, tiveram um contraste de opiniões sobre quem deveria limpar os utensílios domésticos. Ao perceberem que a divisão não correspondia ao que cada uma esperava, surgiram questionamentos e justificativas. As discussões, apesar de role bem, permaneceram dentro de limites verbais e deixaram claro que ambos queriam preservar a relação sem comprometer a convivência. Nenhum gesto extremo foi realizado. A situação de segurança do local permanece não abordada, então não há indicação de um plano de intervenção à vista.",
+      "elementos_usados": [
+        "conflito interpessoal descrito de forma genérica",
+        "nenhum ato concreto suficiente para um tipo de violência do gabarito",
+        "situação de segurança atual não informada"
+      ],
+      "rotulos_fonte": {
+        "tipos": [],
+        "intencao": "relato",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "external",
+        "model": "vllm.gpt-oss-20b",
+        "api_style": "ollama",
+        "timeout": 120,
+        "temperature": 0.3,
+        "retries": 2,
+        "prompt_version": "reports-v2",
+        "prompt_sha256": "27d25c1260333734182e98016ea30790b939021044ffa8514475ebfa53f63654",
+        "gerado_em": "2026-10-12T17:37:13+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "",
+        "rotulos_revisados": null
+      }
+    }
+  ],
+  "erros": []
+}

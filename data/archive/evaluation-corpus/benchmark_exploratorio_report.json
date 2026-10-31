@@ -1,0 +1,87 @@
+{
+  "schema_version": "single-review-report.v1",
+  "itens": 60,
+  "concordancia_revisao_proposta": {
+    "tipos_vetor_exato": 0.95,
+    "intencao": 1.0,
+    "urgencia": 1.0,
+    "acao": 0.95,
+    "conjunto_principal_exato": 0.9
+  },
+  "evidencias": {
+    "igual": 45,
+    "cobertura_equivalente": 13,
+    "humana_vazia": 2
+  },
+  "resolucoes": [
+    {
+      "item_id": "CAL-OLD-fisica_3-T3",
+      "campo": "acao",
+      "revisao_humana": "oferecer_atendimento_humano",
+      "proposta": "continuar_triagem_prioritaria",
+      "valor_final": "continuar_triagem_prioritaria"
+    },
+    {
+      "item_id": "CAL-OLD-psicologica_4_ambigua-T3",
+      "campo": "tipos.psicologica",
+      "revisao_humana": true,
+      "proposta": false,
+      "valor_final": false
+    },
+    {
+      "item_id": "CAL-OLD-patrimonial_3-T3",
+      "campo": "acao",
+      "revisao_humana": "oferecer_atendimento_humano",
+      "proposta": "continuar_triagem_prioritaria",
+      "valor_final": "continuar_triagem_prioritaria"
+    },
+    {
+      "item_id": "CAL-OLD-patrimonial_4_controle-T3",
+      "campo": "tipos.patrimonial",
+      "revisao_humana": true,
+      "proposta": false,
+      "valor_final": false
+    },
+    {
+      "item_id": "CAL-OLD-vicaria_4_sem_indicio-T3",
+      "campo": "tipos.vicaria",
+      "revisao_humana": true,
+      "proposta": false,
+      "valor_final": false
+    },
+    {
+      "item_id": "CAL-OLD-fisica_3-T1",
+      "campo": "acao",
+      "revisao_humana": "perguntar_risco_e_oferecer_humano",
+      "proposta": "continuar_triagem_prioritaria",
+      "valor_final": "perguntar_risco_e_oferecer_humano"
+    }
+  ],
+  "distribuicoes_finais": {
+    "intencao": {
+      "outro": 18,
+      "informacao": 17,
+      "ajuda_urgente": 9,
+      "relato": 11,
+      "atendimento_humano": 5
+    },
+    "acao": {
+      "redirecionar_ao_escopo": 15,
+      "responder_informacao_geral": 7,
+      "acolher_sem_escalar": 2,
+      "perguntar_risco_e_oferecer_humano": 9,
+      "oferecer_atendimento_humano": 5,
+      "continuar_triagem_prioritaria": 16,
+      "preservar_memoria_e_redirecionar": 1,
+      "transbordar_imediatamente": 5
+    },
+    "tipos_presentes": {
+      "fisica": 9,
+      "psicologica": 20,
+      "patrimonial": 4,
+      "sexual": 2,
+      "moral": 3,
+      "vicaria": 2
+    }
+  }
+}
