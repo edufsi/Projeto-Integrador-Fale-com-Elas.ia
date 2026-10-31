@@ -1,0 +1,4182 @@
+{
+  "schema_version": "human-annotations.v1",
+  "anotador": "B",
+  "lote": "ouro-B-C",
+  "guia_version": "v1",
+  "source_hash": "ea95aef852540bfd38554350e2941d347568a092881b9bff1a3b43e5dd6f985e",
+  "rotulos_propostos_ocultos": true,
+  "itens": [
+    {
+      "entrada": {
+        "id": "G047-A:T1",
+        "conversation_id": "G047-A",
+        "card_id": "G047",
+        "historico_visivel": [],
+        "mensagem_usuario": "Aconteceu de novo."
+      },
+      "anotacao": {
+        "item_id": "G047-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-A:T2",
+        "conversation_id": "G047-A",
+        "card_id": "G047",
+        "historico_visivel": [
+          "Aconteceu de novo."
+        ],
+        "mensagem_usuario": "É difícil explicar por mensagem."
+      },
+      "anotacao": {
+        "item_id": "G047-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-A:T3",
+        "conversation_id": "G047-A",
+        "card_id": "G047",
+        "historico_visivel": [
+          "Aconteceu de novo.",
+          "É difícil explicar por mensagem."
+        ],
+        "mensagem_usuario": "Não consigo dizer quem estava comigo."
+      },
+      "anotacao": {
+        "item_id": "G047-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-A:T4",
+        "conversation_id": "G047-A",
+        "card_id": "G047",
+        "historico_visivel": [
+          "Aconteceu de novo.",
+          "É difícil explicar por mensagem.",
+          "Não consigo dizer quem estava comigo."
+        ],
+        "mensagem_usuario": "Também não consigo informar quando foi."
+      },
+      "anotacao": {
+        "item_id": "G047-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-A:T5",
+        "conversation_id": "G047-A",
+        "card_id": "G047",
+        "historico_visivel": [
+          "Aconteceu de novo.",
+          "É difícil explicar por mensagem.",
+          "Não consigo dizer quem estava comigo.",
+          "Também não consigo informar quando foi."
+        ],
+        "mensagem_usuario": "Vou parar por enquanto."
+      },
+      "anotacao": {
+        "item_id": "G047-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-B:T1",
+        "conversation_id": "G047-B",
+        "card_id": "G047",
+        "historico_visivel": [],
+        "mensagem_usuario": "resumo: aconteceu de novo"
+      },
+      "anotacao": {
+        "item_id": "G047-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-B:T2",
+        "conversation_id": "G047-B",
+        "card_id": "G047",
+        "historico_visivel": [
+          "resumo: aconteceu de novo"
+        ],
+        "mensagem_usuario": "resumo: é difícil explicar por mensagem"
+      },
+      "anotacao": {
+        "item_id": "G047-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-B:T3",
+        "conversation_id": "G047-B",
+        "card_id": "G047",
+        "historico_visivel": [
+          "resumo: aconteceu de novo",
+          "resumo: é difícil explicar por mensagem"
+        ],
+        "mensagem_usuario": "resumo: não consigo dizer quem estava comigo"
+      },
+      "anotacao": {
+        "item_id": "G047-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-B:T4",
+        "conversation_id": "G047-B",
+        "card_id": "G047",
+        "historico_visivel": [
+          "resumo: aconteceu de novo",
+          "resumo: é difícil explicar por mensagem",
+          "resumo: não consigo dizer quem estava comigo"
+        ],
+        "mensagem_usuario": "resumo: também não consigo informar quando foi"
+      },
+      "anotacao": {
+        "item_id": "G047-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G047-B:T5",
+        "conversation_id": "G047-B",
+        "card_id": "G047",
+        "historico_visivel": [
+          "resumo: aconteceu de novo",
+          "resumo: é difícil explicar por mensagem",
+          "resumo: não consigo dizer quem estava comigo",
+          "resumo: também não consigo informar quando foi"
+        ],
+        "mensagem_usuario": "resumo: vou parar por enquanto"
+      },
+      "anotacao": {
+        "item_id": "G047-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-A:T1",
+        "conversation_id": "G048-A",
+        "card_id": "G048",
+        "historico_visivel": [],
+        "mensagem_usuario": "Meu companheiro me empurrou durante uma discussão."
+      },
+      "anotacao": {
+        "item_id": "G048-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-A:T2",
+        "conversation_id": "G048-A",
+        "card_id": "G048",
+        "historico_visivel": [
+          "Meu companheiro me empurrou durante uma discussão."
+        ],
+        "mensagem_usuario": "Eu disse que foi ontem, mas preciso corrigir."
+      },
+      "anotacao": {
+        "item_id": "G048-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-A:T3",
+        "conversation_id": "G048-A",
+        "card_id": "G048",
+        "historico_visivel": [
+          "Meu companheiro me empurrou durante uma discussão.",
+          "Eu disse que foi ontem, mas preciso corrigir."
+        ],
+        "mensagem_usuario": "Isso ocorreu há oito anos, antes de nos separarmos."
+      },
+      "anotacao": {
+        "item_id": "G048-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-A:T4",
+        "conversation_id": "G048-A",
+        "card_id": "G048",
+        "historico_visivel": [
+          "Meu companheiro me empurrou durante uma discussão.",
+          "Eu disse que foi ontem, mas preciso corrigir.",
+          "Isso ocorreu há oito anos, antes de nos separarmos."
+        ],
+        "mensagem_usuario": "Desde a separação não tivemos contato, e atualmente estou segura."
+      },
+      "anotacao": {
+        "item_id": "G048-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-A:T5",
+        "conversation_id": "G048-A",
+        "card_id": "G048",
+        "historico_visivel": [
+          "Meu companheiro me empurrou durante uma discussão.",
+          "Eu disse que foi ontem, mas preciso corrigir.",
+          "Isso ocorreu há oito anos, antes de nos separarmos.",
+          "Desde a separação não tivemos contato, e atualmente estou segura."
+        ],
+        "mensagem_usuario": "Quero manter o relato com o tempo correto."
+      },
+      "anotacao": {
+        "item_id": "G048-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-B:T1",
+        "conversation_id": "G048-B",
+        "card_id": "G048",
+        "historico_visivel": [],
+        "mensagem_usuario": "Olha, meu companheiro me empurrou durante uma discussão"
+      },
+      "anotacao": {
+        "item_id": "G048-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-B:T2",
+        "conversation_id": "G048-B",
+        "card_id": "G048",
+        "historico_visivel": [
+          "Olha, meu companheiro me empurrou durante uma discussão"
+        ],
+        "mensagem_usuario": "Então, eu disse que foi ontem, mas preciso corrigir"
+      },
+      "anotacao": {
+        "item_id": "G048-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-B:T3",
+        "conversation_id": "G048-B",
+        "card_id": "G048",
+        "historico_visivel": [
+          "Olha, meu companheiro me empurrou durante uma discussão",
+          "Então, eu disse que foi ontem, mas preciso corrigir"
+        ],
+        "mensagem_usuario": "Olha, isso ocorreu há oito anos, antes de nos separarmos"
+      },
+      "anotacao": {
+        "item_id": "G048-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-B:T4",
+        "conversation_id": "G048-B",
+        "card_id": "G048",
+        "historico_visivel": [
+          "Olha, meu companheiro me empurrou durante uma discussão",
+          "Então, eu disse que foi ontem, mas preciso corrigir",
+          "Olha, isso ocorreu há oito anos, antes de nos separarmos"
+        ],
+        "mensagem_usuario": "Então, desde a separação não tivemos contato, e atualmente estou segura"
+      },
+      "anotacao": {
+        "item_id": "G048-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G048-B:T5",
+        "conversation_id": "G048-B",
+        "card_id": "G048",
+        "historico_visivel": [
+          "Olha, meu companheiro me empurrou durante uma discussão",
+          "Então, eu disse que foi ontem, mas preciso corrigir",
+          "Olha, isso ocorreu há oito anos, antes de nos separarmos",
+          "Então, desde a separação não tivemos contato, e atualmente estou segura"
+        ],
+        "mensagem_usuario": "Olha, quero manter o relato com o tempo correto"
+      },
+      "anotacao": {
+        "item_id": "G048-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-A:T1",
+        "conversation_id": "G049-A",
+        "card_id": "G049",
+        "historico_visivel": [],
+        "mensagem_usuario": "Meu ex mandou uma mensagem dizendo que vai acabar comigo."
+      },
+      "anotacao": {
+        "item_id": "G049-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-A:T2",
+        "conversation_id": "G049-A",
+        "card_id": "G049",
+        "historico_visivel": [
+          "Meu ex mandou uma mensagem dizendo que vai acabar comigo."
+        ],
+        "mensagem_usuario": "Perguntei o que ele queria dizer, mas ele não respondeu."
+      },
+      "anotacao": {
+        "item_id": "G049-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-A:T3",
+        "conversation_id": "G049-A",
+        "card_id": "G049",
+        "historico_visivel": [
+          "Meu ex mandou uma mensagem dizendo que vai acabar comigo.",
+          "Perguntei o que ele queria dizer, mas ele não respondeu."
+        ],
+        "mensagem_usuario": "Não sei em que cidade ele está."
+      },
+      "anotacao": {
+        "item_id": "G049-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-A:T4",
+        "conversation_id": "G049-A",
+        "card_id": "G049",
+        "historico_visivel": [
+          "Meu ex mandou uma mensagem dizendo que vai acabar comigo.",
+          "Perguntei o que ele queria dizer, mas ele não respondeu.",
+          "Não sei em que cidade ele está."
+        ],
+        "mensagem_usuario": "Também não sei se ele pretende vir até aqui."
+      },
+      "anotacao": {
+        "item_id": "G049-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-A:T5",
+        "conversation_id": "G049-A",
+        "card_id": "G049",
+        "historico_visivel": [
+          "Meu ex mandou uma mensagem dizendo que vai acabar comigo.",
+          "Perguntei o que ele queria dizer, mas ele não respondeu.",
+          "Não sei em que cidade ele está.",
+          "Também não sei se ele pretende vir até aqui."
+        ],
+        "mensagem_usuario": "Que informação devo reunir para avaliar o risco?"
+      },
+      "anotacao": {
+        "item_id": "G049-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-B:T1",
+        "conversation_id": "G049-B",
+        "card_id": "G049",
+        "historico_visivel": [],
+        "mensagem_usuario": "Olha, meu ex mandou uma mensagem dizendo que vai acabar comigo"
+      },
+      "anotacao": {
+        "item_id": "G049-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-B:T2",
+        "conversation_id": "G049-B",
+        "card_id": "G049",
+        "historico_visivel": [
+          "Olha, meu ex mandou uma mensagem dizendo que vai acabar comigo"
+        ],
+        "mensagem_usuario": "Então, perguntei o que ele queria dizer, mas ele não respondeu"
+      },
+      "anotacao": {
+        "item_id": "G049-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-B:T3",
+        "conversation_id": "G049-B",
+        "card_id": "G049",
+        "historico_visivel": [
+          "Olha, meu ex mandou uma mensagem dizendo que vai acabar comigo",
+          "Então, perguntei o que ele queria dizer, mas ele não respondeu"
+        ],
+        "mensagem_usuario": "Olha, não sei em que cidade ele está"
+      },
+      "anotacao": {
+        "item_id": "G049-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-B:T4",
+        "conversation_id": "G049-B",
+        "card_id": "G049",
+        "historico_visivel": [
+          "Olha, meu ex mandou uma mensagem dizendo que vai acabar comigo",
+          "Então, perguntei o que ele queria dizer, mas ele não respondeu",
+          "Olha, não sei em que cidade ele está"
+        ],
+        "mensagem_usuario": "Então, também não sei se ele pretende vir até aqui"
+      },
+      "anotacao": {
+        "item_id": "G049-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G049-B:T5",
+        "conversation_id": "G049-B",
+        "card_id": "G049",
+        "historico_visivel": [
+          "Olha, meu ex mandou uma mensagem dizendo que vai acabar comigo",
+          "Então, perguntei o que ele queria dizer, mas ele não respondeu",
+          "Olha, não sei em que cidade ele está",
+          "Então, também não sei se ele pretende vir até aqui"
+        ],
+        "mensagem_usuario": "Olha, que informação devo reunir para avaliar o risco?"
+      },
+      "anotacao": {
+        "item_id": "G049-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-A:T1",
+        "conversation_id": "G050-A",
+        "card_id": "G050",
+        "historico_visivel": [],
+        "mensagem_usuario": "Preciso de ajuda para entender uma coisa."
+      },
+      "anotacao": {
+        "item_id": "G050-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-A:T2",
+        "conversation_id": "G050-A",
+        "card_id": "G050",
+        "historico_visivel": [
+          "Preciso de ajuda para entender uma coisa."
+        ],
+        "mensagem_usuario": "Meu parceiro queria ter uma relação e eu não queria."
+      },
+      "anotacao": {
+        "item_id": "G050-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-A:T3",
+        "conversation_id": "G050-A",
+        "card_id": "G050",
+        "historico_visivel": [
+          "Preciso de ajuda para entender uma coisa.",
+          "Meu parceiro queria ter uma relação e eu não queria."
+        ],
+        "mensagem_usuario": "Eu disse não mais de uma vez."
+      },
+      "anotacao": {
+        "item_id": "G050-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-A:T4",
+        "conversation_id": "G050-A",
+        "card_id": "G050",
+        "historico_visivel": [
+          "Preciso de ajuda para entender uma coisa.",
+          "Meu parceiro queria ter uma relação e eu não queria.",
+          "Eu disse não mais de uma vez."
+        ],
+        "mensagem_usuario": "Mesmo assim, ele continuou o ato."
+      },
+      "anotacao": {
+        "item_id": "G050-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-A:T5",
+        "conversation_id": "G050-A",
+        "card_id": "G050",
+        "historico_visivel": [
+          "Preciso de ajuda para entender uma coisa.",
+          "Meu parceiro queria ter uma relação e eu não queria.",
+          "Eu disse não mais de uma vez.",
+          "Mesmo assim, ele continuou o ato."
+        ],
+        "mensagem_usuario": "Preciso de ajuda, mas não consigo dizer quando aconteceu."
+      },
+      "anotacao": {
+        "item_id": "G050-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-B:T1",
+        "conversation_id": "G050-B",
+        "card_id": "G050",
+        "historico_visivel": [],
+        "mensagem_usuario": "Olha, preciso de ajuda para entender uma coisa"
+      },
+      "anotacao": {
+        "item_id": "G050-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-B:T2",
+        "conversation_id": "G050-B",
+        "card_id": "G050",
+        "historico_visivel": [
+          "Olha, preciso de ajuda para entender uma coisa"
+        ],
+        "mensagem_usuario": "Então, meu parceiro queria ter uma relação e eu não queria"
+      },
+      "anotacao": {
+        "item_id": "G050-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-B:T3",
+        "conversation_id": "G050-B",
+        "card_id": "G050",
+        "historico_visivel": [
+          "Olha, preciso de ajuda para entender uma coisa",
+          "Então, meu parceiro queria ter uma relação e eu não queria"
+        ],
+        "mensagem_usuario": "Olha, eu disse não mais de uma vez"
+      },
+      "anotacao": {
+        "item_id": "G050-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-B:T4",
+        "conversation_id": "G050-B",
+        "card_id": "G050",
+        "historico_visivel": [
+          "Olha, preciso de ajuda para entender uma coisa",
+          "Então, meu parceiro queria ter uma relação e eu não queria",
+          "Olha, eu disse não mais de uma vez"
+        ],
+        "mensagem_usuario": "Então, mesmo assim, ele continuou o ato"
+      },
+      "anotacao": {
+        "item_id": "G050-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G050-B:T5",
+        "conversation_id": "G050-B",
+        "card_id": "G050",
+        "historico_visivel": [
+          "Olha, preciso de ajuda para entender uma coisa",
+          "Então, meu parceiro queria ter uma relação e eu não queria",
+          "Olha, eu disse não mais de uma vez",
+          "Então, mesmo assim, ele continuou o ato"
+        ],
+        "mensagem_usuario": "Olha, preciso de ajuda, mas não consigo dizer quando aconteceu"
+      },
+      "anotacao": {
+        "item_id": "G050-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-A:T1",
+        "conversation_id": "G051-A",
+        "card_id": "G051",
+        "historico_visivel": [],
+        "mensagem_usuario": "Não encontro meu cartão bancário."
+      },
+      "anotacao": {
+        "item_id": "G051-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-A:T2",
+        "conversation_id": "G051-A",
+        "card_id": "G051",
+        "historico_visivel": [
+          "Não encontro meu cartão bancário."
+        ],
+        "mensagem_usuario": "Meu companheiro disse que guardou o cartão."
+      },
+      "anotacao": {
+        "item_id": "G051-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-A:T3",
+        "conversation_id": "G051-A",
+        "card_id": "G051",
+        "historico_visivel": [
+          "Não encontro meu cartão bancário.",
+          "Meu companheiro disse que guardou o cartão."
+        ],
+        "mensagem_usuario": "Ele se recusa a devolver e conhece minha senha."
+      },
+      "anotacao": {
+        "item_id": "G051-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-A:T4",
+        "conversation_id": "G051-A",
+        "card_id": "G051",
+        "historico_visivel": [
+          "Não encontro meu cartão bancário.",
+          "Meu companheiro disse que guardou o cartão.",
+          "Ele se recusa a devolver e conhece minha senha."
+        ],
+        "mensagem_usuario": "Ele está viajando, então não está perto de mim."
+      },
+      "anotacao": {
+        "item_id": "G051-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-A:T5",
+        "conversation_id": "G051-A",
+        "card_id": "G051",
+        "historico_visivel": [
+          "Não encontro meu cartão bancário.",
+          "Meu companheiro disse que guardou o cartão.",
+          "Ele se recusa a devolver e conhece minha senha.",
+          "Ele está viajando, então não está perto de mim."
+        ],
+        "mensagem_usuario": "Quero conversar com uma atendente sobre isso."
+      },
+      "anotacao": {
+        "item_id": "G051-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-B:T1",
+        "conversation_id": "G051-B",
+        "card_id": "G051",
+        "historico_visivel": [],
+        "mensagem_usuario": "Olha, não encontro meu cartão bancário"
+      },
+      "anotacao": {
+        "item_id": "G051-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-B:T2",
+        "conversation_id": "G051-B",
+        "card_id": "G051",
+        "historico_visivel": [
+          "Olha, não encontro meu cartão bancário"
+        ],
+        "mensagem_usuario": "Então, meu companheiro disse que guardou o cartão"
+      },
+      "anotacao": {
+        "item_id": "G051-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-B:T3",
+        "conversation_id": "G051-B",
+        "card_id": "G051",
+        "historico_visivel": [
+          "Olha, não encontro meu cartão bancário",
+          "Então, meu companheiro disse que guardou o cartão"
+        ],
+        "mensagem_usuario": "Olha, ele se recusa a devolver e conhece minha senha"
+      },
+      "anotacao": {
+        "item_id": "G051-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-B:T4",
+        "conversation_id": "G051-B",
+        "card_id": "G051",
+        "historico_visivel": [
+          "Olha, não encontro meu cartão bancário",
+          "Então, meu companheiro disse que guardou o cartão",
+          "Olha, ele se recusa a devolver e conhece minha senha"
+        ],
+        "mensagem_usuario": "Então, ele está viajando, então não está perto de mim"
+      },
+      "anotacao": {
+        "item_id": "G051-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G051-B:T5",
+        "conversation_id": "G051-B",
+        "card_id": "G051",
+        "historico_visivel": [
+          "Olha, não encontro meu cartão bancário",
+          "Então, meu companheiro disse que guardou o cartão",
+          "Olha, ele se recusa a devolver e conhece minha senha",
+          "Então, ele está viajando, então não está perto de mim"
+        ],
+        "mensagem_usuario": "Olha, quero conversar com uma atendente sobre isso"
+      },
+      "anotacao": {
+        "item_id": "G051-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-A:T1",
+        "conversation_id": "G052-A",
+        "card_id": "G052",
+        "historico_visivel": [],
+        "mensagem_usuario": "Uma publicação antiga dizia que eu cometi um crime."
+      },
+      "anotacao": {
+        "item_id": "G052-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-A:T2",
+        "conversation_id": "G052-A",
+        "card_id": "G052",
+        "historico_visivel": [
+          "Uma publicação antiga dizia que eu cometi um crime."
+        ],
+        "mensagem_usuario": "A afirmação era falsa e foi feita pelo meu ex."
+      },
+      "anotacao": {
+        "item_id": "G052-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-A:T3",
+        "conversation_id": "G052-A",
+        "card_id": "G052",
+        "historico_visivel": [
+          "Uma publicação antiga dizia que eu cometi um crime.",
+          "A afirmação era falsa e foi feita pelo meu ex."
+        ],
+        "mensagem_usuario": "Preciso corrigir: ela foi removida há vários anos."
+      },
+      "anotacao": {
+        "item_id": "G052-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-A:T4",
+        "conversation_id": "G052-A",
+        "card_id": "G052",
+        "historico_visivel": [
+          "Uma publicação antiga dizia que eu cometi um crime.",
+          "A afirmação era falsa e foi feita pelo meu ex.",
+          "Preciso corrigir: ela foi removida há vários anos."
+        ],
+        "mensagem_usuario": "Não temos contato desde aquela época."
+      },
+      "anotacao": {
+        "item_id": "G052-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-A:T5",
+        "conversation_id": "G052-A",
+        "card_id": "G052",
+        "historico_visivel": [
+          "Uma publicação antiga dizia que eu cometi um crime.",
+          "A afirmação era falsa e foi feita pelo meu ex.",
+          "Preciso corrigir: ela foi removida há vários anos.",
+          "Não temos contato desde aquela época."
+        ],
+        "mensagem_usuario": "Era só uma anotação para mim."
+      },
+      "anotacao": {
+        "item_id": "G052-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-B:T1",
+        "conversation_id": "G052-B",
+        "card_id": "G052",
+        "historico_visivel": [],
+        "mensagem_usuario": "Olha, uma publicação antiga dizia que eu cometi um crime"
+      },
+      "anotacao": {
+        "item_id": "G052-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-B:T2",
+        "conversation_id": "G052-B",
+        "card_id": "G052",
+        "historico_visivel": [
+          "Olha, uma publicação antiga dizia que eu cometi um crime"
+        ],
+        "mensagem_usuario": "Então, a afirmação era falsa e foi feita pelo meu ex"
+      },
+      "anotacao": {
+        "item_id": "G052-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-B:T3",
+        "conversation_id": "G052-B",
+        "card_id": "G052",
+        "historico_visivel": [
+          "Olha, uma publicação antiga dizia que eu cometi um crime",
+          "Então, a afirmação era falsa e foi feita pelo meu ex"
+        ],
+        "mensagem_usuario": "Olha, preciso corrigir: ela foi removida há vários anos"
+      },
+      "anotacao": {
+        "item_id": "G052-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-B:T4",
+        "conversation_id": "G052-B",
+        "card_id": "G052",
+        "historico_visivel": [
+          "Olha, uma publicação antiga dizia que eu cometi um crime",
+          "Então, a afirmação era falsa e foi feita pelo meu ex",
+          "Olha, preciso corrigir: ela foi removida há vários anos"
+        ],
+        "mensagem_usuario": "Então, não temos contato desde aquela época"
+      },
+      "anotacao": {
+        "item_id": "G052-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G052-B:T5",
+        "conversation_id": "G052-B",
+        "card_id": "G052",
+        "historico_visivel": [
+          "Olha, uma publicação antiga dizia que eu cometi um crime",
+          "Então, a afirmação era falsa e foi feita pelo meu ex",
+          "Olha, preciso corrigir: ela foi removida há vários anos",
+          "Então, não temos contato desde aquela época"
+        ],
+        "mensagem_usuario": "Olha, era só uma anotação para mim"
+      },
+      "anotacao": {
+        "item_id": "G052-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-A:T1",
+        "conversation_id": "G053-A",
+        "card_id": "G053",
+        "historico_visivel": [],
+        "mensagem_usuario": "No começo eu só conseguia dizer que tinha medo."
+      },
+      "anotacao": {
+        "item_id": "G053-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-A:T2",
+        "conversation_id": "G053-A",
+        "card_id": "G053",
+        "historico_visivel": [
+          "No começo eu só conseguia dizer que tinha medo."
+        ],
+        "mensagem_usuario": "Meu ex dizia que me machucaria se eu saísse."
+      },
+      "anotacao": {
+        "item_id": "G053-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-A:T3",
+        "conversation_id": "G053-A",
+        "card_id": "G053",
+        "historico_visivel": [
+          "No começo eu só conseguia dizer que tinha medo.",
+          "Meu ex dizia que me machucaria se eu saísse."
+        ],
+        "mensagem_usuario": "Em uma ocasião ele me deu um tapa."
+      },
+      "anotacao": {
+        "item_id": "G053-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-A:T4",
+        "conversation_id": "G053-A",
+        "card_id": "G053",
+        "historico_visivel": [
+          "No começo eu só conseguia dizer que tinha medo.",
+          "Meu ex dizia que me machucaria se eu saísse.",
+          "Em uma ocasião ele me deu um tapa."
+        ],
+        "mensagem_usuario": "Isso foi há muitos anos; hoje não temos contato."
+      },
+      "anotacao": {
+        "item_id": "G053-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-A:T5",
+        "conversation_id": "G053-A",
+        "card_id": "G053",
+        "historico_visivel": [
+          "No começo eu só conseguia dizer que tinha medo.",
+          "Meu ex dizia que me machucaria se eu saísse.",
+          "Em uma ocasião ele me deu um tapa.",
+          "Isso foi há muitos anos; hoje não temos contato."
+        ],
+        "mensagem_usuario": "Agora consigo contar o episódio completo."
+      },
+      "anotacao": {
+        "item_id": "G053-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-B:T1",
+        "conversation_id": "G053-B",
+        "card_id": "G053",
+        "historico_visivel": [],
+        "mensagem_usuario": "Olha, no começo eu só conseguia dizer que tinha medo"
+      },
+      "anotacao": {
+        "item_id": "G053-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-B:T2",
+        "conversation_id": "G053-B",
+        "card_id": "G053",
+        "historico_visivel": [
+          "Olha, no começo eu só conseguia dizer que tinha medo"
+        ],
+        "mensagem_usuario": "Então, meu ex dizia que me machucaria se eu saísse"
+      },
+      "anotacao": {
+        "item_id": "G053-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-B:T3",
+        "conversation_id": "G053-B",
+        "card_id": "G053",
+        "historico_visivel": [
+          "Olha, no começo eu só conseguia dizer que tinha medo",
+          "Então, meu ex dizia que me machucaria se eu saísse"
+        ],
+        "mensagem_usuario": "Olha, em uma ocasião ele me deu um tapa"
+      },
+      "anotacao": {
+        "item_id": "G053-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-B:T4",
+        "conversation_id": "G053-B",
+        "card_id": "G053",
+        "historico_visivel": [
+          "Olha, no começo eu só conseguia dizer que tinha medo",
+          "Então, meu ex dizia que me machucaria se eu saísse",
+          "Olha, em uma ocasião ele me deu um tapa"
+        ],
+        "mensagem_usuario": "Então, isso foi há muitos anos; hoje não temos contato"
+      },
+      "anotacao": {
+        "item_id": "G053-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G053-B:T5",
+        "conversation_id": "G053-B",
+        "card_id": "G053",
+        "historico_visivel": [
+          "Olha, no começo eu só conseguia dizer que tinha medo",
+          "Então, meu ex dizia que me machucaria se eu saísse",
+          "Olha, em uma ocasião ele me deu um tapa",
+          "Então, isso foi há muitos anos; hoje não temos contato"
+        ],
+        "mensagem_usuario": "Olha, agora consigo contar o episódio completo"
+      },
+      "anotacao": {
+        "item_id": "G053-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-A:T1",
+        "conversation_id": "G054-A",
+        "card_id": "G054",
+        "historico_visivel": [],
+        "mensagem_usuario": "Uma pessoa guarda imagens íntimas minhas."
+      },
+      "anotacao": {
+        "item_id": "G054-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-A:T2",
+        "conversation_id": "G054-A",
+        "card_id": "G054",
+        "historico_visivel": [
+          "Uma pessoa guarda imagens íntimas minhas."
+        ],
+        "mensagem_usuario": "Ela ameaçou divulgar as imagens se eu recusasse um encontro."
+      },
+      "anotacao": {
+        "item_id": "G054-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-A:T3",
+        "conversation_id": "G054-A",
+        "card_id": "G054",
+        "historico_visivel": [
+          "Uma pessoa guarda imagens íntimas minhas.",
+          "Ela ameaçou divulgar as imagens se eu recusasse um encontro."
+        ],
+        "mensagem_usuario": "No encontro, exigiu um ato sexual que eu não queria."
+      },
+      "anotacao": {
+        "item_id": "G054-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-A:T4",
+        "conversation_id": "G054-A",
+        "card_id": "G054",
+        "historico_visivel": [
+          "Uma pessoa guarda imagens íntimas minhas.",
+          "Ela ameaçou divulgar as imagens se eu recusasse um encontro.",
+          "No encontro, exigiu um ato sexual que eu não queria."
+        ],
+        "mensagem_usuario": "Não sei se as imagens ainda existem nem onde essa pessoa está."
+      },
+      "anotacao": {
+        "item_id": "G054-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-A:T5",
+        "conversation_id": "G054-A",
+        "card_id": "G054",
+        "historico_visivel": [
+          "Uma pessoa guarda imagens íntimas minhas.",
+          "Ela ameaçou divulgar as imagens se eu recusasse um encontro.",
+          "No encontro, exigiu um ato sexual que eu não queria.",
+          "Não sei se as imagens ainda existem nem onde essa pessoa está."
+        ],
+        "mensagem_usuario": "Quero registrar o que aconteceu."
+      },
+      "anotacao": {
+        "item_id": "G054-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-B:T1",
+        "conversation_id": "G054-B",
+        "card_id": "G054",
+        "historico_visivel": [],
+        "mensagem_usuario": "Olha, uma pessoa guarda imagens íntimas minhas"
+      },
+      "anotacao": {
+        "item_id": "G054-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-B:T2",
+        "conversation_id": "G054-B",
+        "card_id": "G054",
+        "historico_visivel": [
+          "Olha, uma pessoa guarda imagens íntimas minhas"
+        ],
+        "mensagem_usuario": "Então, ela ameaçou divulgar as imagens se eu recusasse um encontro"
+      },
+      "anotacao": {
+        "item_id": "G054-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-B:T3",
+        "conversation_id": "G054-B",
+        "card_id": "G054",
+        "historico_visivel": [
+          "Olha, uma pessoa guarda imagens íntimas minhas",
+          "Então, ela ameaçou divulgar as imagens se eu recusasse um encontro"
+        ],
+        "mensagem_usuario": "Olha, no encontro, exigiu um ato sexual que eu não queria"
+      },
+      "anotacao": {
+        "item_id": "G054-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-B:T4",
+        "conversation_id": "G054-B",
+        "card_id": "G054",
+        "historico_visivel": [
+          "Olha, uma pessoa guarda imagens íntimas minhas",
+          "Então, ela ameaçou divulgar as imagens se eu recusasse um encontro",
+          "Olha, no encontro, exigiu um ato sexual que eu não queria"
+        ],
+        "mensagem_usuario": "Então, não sei se as imagens ainda existem nem onde essa pessoa está"
+      },
+      "anotacao": {
+        "item_id": "G054-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G054-B:T5",
+        "conversation_id": "G054-B",
+        "card_id": "G054",
+        "historico_visivel": [
+          "Olha, uma pessoa guarda imagens íntimas minhas",
+          "Então, ela ameaçou divulgar as imagens se eu recusasse um encontro",
+          "Olha, no encontro, exigiu um ato sexual que eu não queria",
+          "Então, não sei se as imagens ainda existem nem onde essa pessoa está"
+        ],
+        "mensagem_usuario": "Olha, quero registrar o que aconteceu"
+      },
+      "anotacao": {
+        "item_id": "G054-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-A:T1",
+        "conversation_id": "G055-A",
+        "card_id": "G055",
+        "historico_visivel": [],
+        "mensagem_usuario": "Minha senha bancária deixou de funcionar."
+      },
+      "anotacao": {
+        "item_id": "G055-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-A:T2",
+        "conversation_id": "G055-A",
+        "card_id": "G055",
+        "historico_visivel": [
+          "Minha senha bancária deixou de funcionar."
+        ],
+        "mensagem_usuario": "Meu companheiro admitiu que alterou a senha."
+      },
+      "anotacao": {
+        "item_id": "G055-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-A:T3",
+        "conversation_id": "G055-A",
+        "card_id": "G055",
+        "historico_visivel": [
+          "Minha senha bancária deixou de funcionar.",
+          "Meu companheiro admitiu que alterou a senha."
+        ],
+        "mensagem_usuario": "Ele disse que eu não posso falar disso com minha família."
+      },
+      "anotacao": {
+        "item_id": "G055-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-A:T4",
+        "conversation_id": "G055-A",
+        "card_id": "G055",
+        "historico_visivel": [
+          "Minha senha bancária deixou de funcionar.",
+          "Meu companheiro admitiu que alterou a senha.",
+          "Ele disse que eu não posso falar disso com minha família."
+        ],
+        "mensagem_usuario": "Não sei se ele está voltando para casa hoje."
+      },
+      "anotacao": {
+        "item_id": "G055-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-A:T5",
+        "conversation_id": "G055-A",
+        "card_id": "G055",
+        "historico_visivel": [
+          "Minha senha bancária deixou de funcionar.",
+          "Meu companheiro admitiu que alterou a senha.",
+          "Ele disse que eu não posso falar disso com minha família.",
+          "Não sei se ele está voltando para casa hoje."
+        ],
+        "mensagem_usuario": "Quero conversar com uma pessoa do atendimento."
+      },
+      "anotacao": {
+        "item_id": "G055-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-B:T1",
+        "conversation_id": "G055-B",
+        "card_id": "G055",
+        "historico_visivel": [],
+        "mensagem_usuario": "Olha, minha senha bancária deixou de funcionar"
+      },
+      "anotacao": {
+        "item_id": "G055-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-B:T2",
+        "conversation_id": "G055-B",
+        "card_id": "G055",
+        "historico_visivel": [
+          "Olha, minha senha bancária deixou de funcionar"
+        ],
+        "mensagem_usuario": "Então, meu companheiro admitiu que alterou a senha"
+      },
+      "anotacao": {
+        "item_id": "G055-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-B:T3",
+        "conversation_id": "G055-B",
+        "card_id": "G055",
+        "historico_visivel": [
+          "Olha, minha senha bancária deixou de funcionar",
+          "Então, meu companheiro admitiu que alterou a senha"
+        ],
+        "mensagem_usuario": "Olha, ele disse que eu não posso falar disso com minha família"
+      },
+      "anotacao": {
+        "item_id": "G055-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-B:T4",
+        "conversation_id": "G055-B",
+        "card_id": "G055",
+        "historico_visivel": [
+          "Olha, minha senha bancária deixou de funcionar",
+          "Então, meu companheiro admitiu que alterou a senha",
+          "Olha, ele disse que eu não posso falar disso com minha família"
+        ],
+        "mensagem_usuario": "Então, não sei se ele está voltando para casa hoje"
+      },
+      "anotacao": {
+        "item_id": "G055-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G055-B:T5",
+        "conversation_id": "G055-B",
+        "card_id": "G055",
+        "historico_visivel": [
+          "Olha, minha senha bancária deixou de funcionar",
+          "Então, meu companheiro admitiu que alterou a senha",
+          "Olha, ele disse que eu não posso falar disso com minha família",
+          "Então, não sei se ele está voltando para casa hoje"
+        ],
+        "mensagem_usuario": "Olha, quero conversar com uma pessoa do atendimento"
+      },
+      "anotacao": {
+        "item_id": "G055-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-A:T1",
+        "conversation_id": "G056-A",
+        "card_id": "G056",
+        "historico_visivel": [],
+        "mensagem_usuario": "Meu ex dizia aos amigos que eu era desonesta."
+      },
+      "anotacao": {
+        "item_id": "G056-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-A:T2",
+        "conversation_id": "G056-A",
+        "card_id": "G056",
+        "historico_visivel": [
+          "Meu ex dizia aos amigos que eu era desonesta."
+        ],
+        "mensagem_usuario": "Em casa ele repetia que ninguém confiaria em mim."
+      },
+      "anotacao": {
+        "item_id": "G056-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-A:T3",
+        "conversation_id": "G056-A",
+        "card_id": "G056",
+        "historico_visivel": [
+          "Meu ex dizia aos amigos que eu era desonesta.",
+          "Em casa ele repetia que ninguém confiaria em mim."
+        ],
+        "mensagem_usuario": "As falas pararam depois da separação."
+      },
+      "anotacao": {
+        "item_id": "G056-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-A:T4",
+        "conversation_id": "G056-A",
+        "card_id": "G056",
+        "historico_visivel": [
+          "Meu ex dizia aos amigos que eu era desonesta.",
+          "Em casa ele repetia que ninguém confiaria em mim.",
+          "As falas pararam depois da separação."
+        ],
+        "mensagem_usuario": "Estamos sem contato e não existe ameaça atual."
+      },
+      "anotacao": {
+        "item_id": "G056-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-A:T5",
+        "conversation_id": "G056-A",
+        "card_id": "G056",
+        "historico_visivel": [
+          "Meu ex dizia aos amigos que eu era desonesta.",
+          "Em casa ele repetia que ninguém confiaria em mim.",
+          "As falas pararam depois da separação.",
+          "Estamos sem contato e não existe ameaça atual."
+        ],
+        "mensagem_usuario": "Mesmo assim, gostaria de falar com uma atendente."
+      },
+      "anotacao": {
+        "item_id": "G056-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-B:T1",
+        "conversation_id": "G056-B",
+        "card_id": "G056",
+        "historico_visivel": [],
+        "mensagem_usuario": "em outras palavras, em casa ele repetia que ninguém confiaria em mim."
+      },
+      "anotacao": {
+        "item_id": "G056-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-B:T2",
+        "conversation_id": "G056-B",
+        "card_id": "G056",
+        "historico_visivel": [
+          "em outras palavras, em casa ele repetia que ninguém confiaria em mim."
+        ],
+        "mensagem_usuario": "em outras palavras, meu ex dizia aos amigos que eu era desonesta."
+      },
+      "anotacao": {
+        "item_id": "G056-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-B:T3",
+        "conversation_id": "G056-B",
+        "card_id": "G056",
+        "historico_visivel": [
+          "em outras palavras, em casa ele repetia que ninguém confiaria em mim.",
+          "em outras palavras, meu ex dizia aos amigos que eu era desonesta."
+        ],
+        "mensagem_usuario": "em outras palavras, as falas pararam depois da separação."
+      },
+      "anotacao": {
+        "item_id": "G056-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-B:T4",
+        "conversation_id": "G056-B",
+        "card_id": "G056",
+        "historico_visivel": [
+          "em outras palavras, em casa ele repetia que ninguém confiaria em mim.",
+          "em outras palavras, meu ex dizia aos amigos que eu era desonesta.",
+          "em outras palavras, as falas pararam depois da separação."
+        ],
+        "mensagem_usuario": "em outras palavras, estamos sem contato e não existe ameaça atual."
+      },
+      "anotacao": {
+        "item_id": "G056-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G056-B:T5",
+        "conversation_id": "G056-B",
+        "card_id": "G056",
+        "historico_visivel": [
+          "em outras palavras, em casa ele repetia que ninguém confiaria em mim.",
+          "em outras palavras, meu ex dizia aos amigos que eu era desonesta.",
+          "em outras palavras, as falas pararam depois da separação.",
+          "em outras palavras, estamos sem contato e não existe ameaça atual."
+        ],
+        "mensagem_usuario": "em outras palavras, mesmo assim, gostaria de falar com uma atendente."
+      },
+      "anotacao": {
+        "item_id": "G056-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-A:T1",
+        "conversation_id": "G057-A",
+        "card_id": "G057",
+        "historico_visivel": [],
+        "mensagem_usuario": "Meu ex já usou nosso filho para me ameaçar."
+      },
+      "anotacao": {
+        "item_id": "G057-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-A:T2",
+        "conversation_id": "G057-A",
+        "card_id": "G057",
+        "historico_visivel": [
+          "Meu ex já usou nosso filho para me ameaçar."
+        ],
+        "mensagem_usuario": "Ele dizia que machucaria a criança se eu não voltasse."
+      },
+      "anotacao": {
+        "item_id": "G057-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-A:T3",
+        "conversation_id": "G057-A",
+        "card_id": "G057",
+        "historico_visivel": [
+          "Meu ex já usou nosso filho para me ameaçar.",
+          "Ele dizia que machucaria a criança se eu não voltasse."
+        ],
+        "mensagem_usuario": "Hoje ele buscou nosso filho sem combinar."
+      },
+      "anotacao": {
+        "item_id": "G057-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-A:T4",
+        "conversation_id": "G057-A",
+        "card_id": "G057",
+        "historico_visivel": [
+          "Meu ex já usou nosso filho para me ameaçar.",
+          "Ele dizia que machucaria a criança se eu não voltasse.",
+          "Hoje ele buscou nosso filho sem combinar."
+        ],
+        "mensagem_usuario": "Agora parou de responder e está com a criança."
+      },
+      "anotacao": {
+        "item_id": "G057-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-A:T5",
+        "conversation_id": "G057-A",
+        "card_id": "G057",
+        "historico_visivel": [
+          "Meu ex já usou nosso filho para me ameaçar.",
+          "Ele dizia que machucaria a criança se eu não voltasse.",
+          "Hoje ele buscou nosso filho sem combinar.",
+          "Agora parou de responder e está com a criança."
+        ],
+        "mensagem_usuario": "Preciso de ajuda imediatamente."
+      },
+      "anotacao": {
+        "item_id": "G057-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-B:T1",
+        "conversation_id": "G057-B",
+        "card_id": "G057",
+        "historico_visivel": [],
+        "mensagem_usuario": "em outras palavras, ele dizia que machucaria a criança se eu não voltasse."
+      },
+      "anotacao": {
+        "item_id": "G057-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-B:T2",
+        "conversation_id": "G057-B",
+        "card_id": "G057",
+        "historico_visivel": [
+          "em outras palavras, ele dizia que machucaria a criança se eu não voltasse."
+        ],
+        "mensagem_usuario": "em outras palavras, meu ex já usou nosso filho para me ameaçar."
+      },
+      "anotacao": {
+        "item_id": "G057-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-B:T3",
+        "conversation_id": "G057-B",
+        "card_id": "G057",
+        "historico_visivel": [
+          "em outras palavras, ele dizia que machucaria a criança se eu não voltasse.",
+          "em outras palavras, meu ex já usou nosso filho para me ameaçar."
+        ],
+        "mensagem_usuario": "em outras palavras, hoje ele buscou nosso filho sem combinar."
+      },
+      "anotacao": {
+        "item_id": "G057-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-B:T4",
+        "conversation_id": "G057-B",
+        "card_id": "G057",
+        "historico_visivel": [
+          "em outras palavras, ele dizia que machucaria a criança se eu não voltasse.",
+          "em outras palavras, meu ex já usou nosso filho para me ameaçar.",
+          "em outras palavras, hoje ele buscou nosso filho sem combinar."
+        ],
+        "mensagem_usuario": "em outras palavras, agora parou de responder e está com a criança."
+      },
+      "anotacao": {
+        "item_id": "G057-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G057-B:T5",
+        "conversation_id": "G057-B",
+        "card_id": "G057",
+        "historico_visivel": [
+          "em outras palavras, ele dizia que machucaria a criança se eu não voltasse.",
+          "em outras palavras, meu ex já usou nosso filho para me ameaçar.",
+          "em outras palavras, hoje ele buscou nosso filho sem combinar.",
+          "em outras palavras, agora parou de responder e está com a criança."
+        ],
+        "mensagem_usuario": "em outras palavras, preciso de ajuda imediatamente."
+      },
+      "anotacao": {
+        "item_id": "G057-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-A:T1",
+        "conversation_id": "G058-A",
+        "card_id": "G058",
+        "historico_visivel": [],
+        "mensagem_usuario": "Vou relatar dois fatos de uma relação que terminou há bastante tempo."
+      },
+      "anotacao": {
+        "item_id": "G058-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-A:T2",
+        "conversation_id": "G058-A",
+        "card_id": "G058",
+        "historico_visivel": [
+          "Vou relatar dois fatos de uma relação que terminou há bastante tempo."
+        ],
+        "mensagem_usuario": "Meu ex me derrubou durante uma discussão."
+      },
+      "anotacao": {
+        "item_id": "G058-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-A:T3",
+        "conversation_id": "G058-A",
+        "card_id": "G058",
+        "historico_visivel": [
+          "Vou relatar dois fatos de uma relação que terminou há bastante tempo.",
+          "Meu ex me derrubou durante uma discussão."
+        ],
+        "mensagem_usuario": "Depois ele quebrou meu telefone no chão."
+      },
+      "anotacao": {
+        "item_id": "G058-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-A:T4",
+        "conversation_id": "G058-A",
+        "card_id": "G058",
+        "historico_visivel": [
+          "Vou relatar dois fatos de uma relação que terminou há bastante tempo.",
+          "Meu ex me derrubou durante uma discussão.",
+          "Depois ele quebrou meu telefone no chão."
+        ],
+        "mensagem_usuario": "Isso foi há anos e não temos mais contato."
+      },
+      "anotacao": {
+        "item_id": "G058-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-A:T5",
+        "conversation_id": "G058-A",
+        "card_id": "G058",
+        "historico_visivel": [
+          "Vou relatar dois fatos de uma relação que terminou há bastante tempo.",
+          "Meu ex me derrubou durante uma discussão.",
+          "Depois ele quebrou meu telefone no chão.",
+          "Isso foi há anos e não temos mais contato."
+        ],
+        "mensagem_usuario": "Hoje estou segura e quero registrar os fatos."
+      },
+      "anotacao": {
+        "item_id": "G058-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-B:T1",
+        "conversation_id": "G058-B",
+        "card_id": "G058",
+        "historico_visivel": [],
+        "mensagem_usuario": "em outras palavras, meu ex me derrubou durante uma discussão."
+      },
+      "anotacao": {
+        "item_id": "G058-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-B:T2",
+        "conversation_id": "G058-B",
+        "card_id": "G058",
+        "historico_visivel": [
+          "em outras palavras, meu ex me derrubou durante uma discussão."
+        ],
+        "mensagem_usuario": "em outras palavras, vou relatar dois fatos de uma relação que terminou há bastante tempo."
+      },
+      "anotacao": {
+        "item_id": "G058-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-B:T3",
+        "conversation_id": "G058-B",
+        "card_id": "G058",
+        "historico_visivel": [
+          "em outras palavras, meu ex me derrubou durante uma discussão.",
+          "em outras palavras, vou relatar dois fatos de uma relação que terminou há bastante tempo."
+        ],
+        "mensagem_usuario": "em outras palavras, depois ele quebrou meu telefone no chão."
+      },
+      "anotacao": {
+        "item_id": "G058-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-B:T4",
+        "conversation_id": "G058-B",
+        "card_id": "G058",
+        "historico_visivel": [
+          "em outras palavras, meu ex me derrubou durante uma discussão.",
+          "em outras palavras, vou relatar dois fatos de uma relação que terminou há bastante tempo.",
+          "em outras palavras, depois ele quebrou meu telefone no chão."
+        ],
+        "mensagem_usuario": "em outras palavras, isso foi há anos e não temos mais contato."
+      },
+      "anotacao": {
+        "item_id": "G058-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G058-B:T5",
+        "conversation_id": "G058-B",
+        "card_id": "G058",
+        "historico_visivel": [
+          "em outras palavras, meu ex me derrubou durante uma discussão.",
+          "em outras palavras, vou relatar dois fatos de uma relação que terminou há bastante tempo.",
+          "em outras palavras, depois ele quebrou meu telefone no chão.",
+          "em outras palavras, isso foi há anos e não temos mais contato."
+        ],
+        "mensagem_usuario": "Hoje estou segura e gostaria de registrar os fatos."
+      },
+      "anotacao": {
+        "item_id": "G058-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-A:T1",
+        "conversation_id": "G059-A",
+        "card_id": "G059",
+        "historico_visivel": [],
+        "mensagem_usuario": "Uma discussão terminou com meus documentos rasgados."
+      },
+      "anotacao": {
+        "item_id": "G059-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-A:T2",
+        "conversation_id": "G059-A",
+        "card_id": "G059",
+        "historico_visivel": [
+          "Uma discussão terminou com meus documentos rasgados."
+        ],
+        "mensagem_usuario": "Quando tentei pegar os papéis, a pessoa segurou meus pulsos."
+      },
+      "anotacao": {
+        "item_id": "G059-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-A:T3",
+        "conversation_id": "G059-A",
+        "card_id": "G059",
+        "historico_visivel": [
+          "Uma discussão terminou com meus documentos rasgados.",
+          "Quando tentei pegar os papéis, a pessoa segurou meus pulsos."
+        ],
+        "mensagem_usuario": "Não consigo informar quando isso aconteceu."
+      },
+      "anotacao": {
+        "item_id": "G059-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-A:T4",
+        "conversation_id": "G059-A",
+        "card_id": "G059",
+        "historico_visivel": [
+          "Uma discussão terminou com meus documentos rasgados.",
+          "Quando tentei pegar os papéis, a pessoa segurou meus pulsos.",
+          "Não consigo informar quando isso aconteceu."
+        ],
+        "mensagem_usuario": "Também não sei se ainda terei contato com ela."
+      },
+      "anotacao": {
+        "item_id": "G059-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-A:T5",
+        "conversation_id": "G059-A",
+        "card_id": "G059",
+        "historico_visivel": [
+          "Uma discussão terminou com meus documentos rasgados.",
+          "Quando tentei pegar os papéis, a pessoa segurou meus pulsos.",
+          "Não consigo informar quando isso aconteceu.",
+          "Também não sei se ainda terei contato com ela."
+        ],
+        "mensagem_usuario": "Quero saber quais tipos podem estar envolvidos."
+      },
+      "anotacao": {
+        "item_id": "G059-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-B:T1",
+        "conversation_id": "G059-B",
+        "card_id": "G059",
+        "historico_visivel": [],
+        "mensagem_usuario": "em outras palavras, quando tentei pegar os papéis, a pessoa segurou meus pulsos."
+      },
+      "anotacao": {
+        "item_id": "G059-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-B:T2",
+        "conversation_id": "G059-B",
+        "card_id": "G059",
+        "historico_visivel": [
+          "em outras palavras, quando tentei pegar os papéis, a pessoa segurou meus pulsos."
+        ],
+        "mensagem_usuario": "em outras palavras, uma discussão terminou com meus documentos rasgados."
+      },
+      "anotacao": {
+        "item_id": "G059-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-B:T3",
+        "conversation_id": "G059-B",
+        "card_id": "G059",
+        "historico_visivel": [
+          "em outras palavras, quando tentei pegar os papéis, a pessoa segurou meus pulsos.",
+          "em outras palavras, uma discussão terminou com meus documentos rasgados."
+        ],
+        "mensagem_usuario": "em outras palavras, não consigo informar quando isso aconteceu."
+      },
+      "anotacao": {
+        "item_id": "G059-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-B:T4",
+        "conversation_id": "G059-B",
+        "card_id": "G059",
+        "historico_visivel": [
+          "em outras palavras, quando tentei pegar os papéis, a pessoa segurou meus pulsos.",
+          "em outras palavras, uma discussão terminou com meus documentos rasgados.",
+          "em outras palavras, não consigo informar quando isso aconteceu."
+        ],
+        "mensagem_usuario": "em outras palavras, também não sei se ainda terei contato com ela."
+      },
+      "anotacao": {
+        "item_id": "G059-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G059-B:T5",
+        "conversation_id": "G059-B",
+        "card_id": "G059",
+        "historico_visivel": [
+          "em outras palavras, quando tentei pegar os papéis, a pessoa segurou meus pulsos.",
+          "em outras palavras, uma discussão terminou com meus documentos rasgados.",
+          "em outras palavras, não consigo informar quando isso aconteceu.",
+          "em outras palavras, também não sei se ainda terei contato com ela."
+        ],
+        "mensagem_usuario": "Gostaria de saber quais tipos podem estar envolvidos."
+      },
+      "anotacao": {
+        "item_id": "G059-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-A:T1",
+        "conversation_id": "G060-A",
+        "card_id": "G060",
+        "historico_visivel": [],
+        "mensagem_usuario": "Durante uma briga, meu companheiro me empurrou."
+      },
+      "anotacao": {
+        "item_id": "G060-A:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-A:T2",
+        "conversation_id": "G060-A",
+        "card_id": "G060",
+        "historico_visivel": [
+          "Durante uma briga, meu companheiro me empurrou."
+        ],
+        "mensagem_usuario": "Na mesma noite meu computador foi quebrado."
+      },
+      "anotacao": {
+        "item_id": "G060-A:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-A:T3",
+        "conversation_id": "G060-A",
+        "card_id": "G060",
+        "historico_visivel": [
+          "Durante uma briga, meu companheiro me empurrou.",
+          "Na mesma noite meu computador foi quebrado."
+        ],
+        "mensagem_usuario": "Preciso corrigir: foi outra pessoa próxima que quebrou o computador."
+      },
+      "anotacao": {
+        "item_id": "G060-A:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-A:T4",
+        "conversation_id": "G060-A",
+        "card_id": "G060",
+        "historico_visivel": [
+          "Durante uma briga, meu companheiro me empurrou.",
+          "Na mesma noite meu computador foi quebrado.",
+          "Preciso corrigir: foi outra pessoa próxima que quebrou o computador."
+        ],
+        "mensagem_usuario": "O empurrão aconteceu, mas não sei informar quando."
+      },
+      "anotacao": {
+        "item_id": "G060-A:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-A:T5",
+        "conversation_id": "G060-A",
+        "card_id": "G060",
+        "historico_visivel": [
+          "Durante uma briga, meu companheiro me empurrou.",
+          "Na mesma noite meu computador foi quebrado.",
+          "Preciso corrigir: foi outra pessoa próxima que quebrou o computador.",
+          "O empurrão aconteceu, mas não sei informar quando."
+        ],
+        "mensagem_usuario": "Por enquanto não quero continuar."
+      },
+      "anotacao": {
+        "item_id": "G060-A:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-B:T1",
+        "conversation_id": "G060-B",
+        "card_id": "G060",
+        "historico_visivel": [],
+        "mensagem_usuario": "em outras palavras, na mesma noite meu computador foi quebrado."
+      },
+      "anotacao": {
+        "item_id": "G060-B:T1",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-B:T2",
+        "conversation_id": "G060-B",
+        "card_id": "G060",
+        "historico_visivel": [
+          "em outras palavras, na mesma noite meu computador foi quebrado."
+        ],
+        "mensagem_usuario": "em outras palavras, durante uma briga, meu companheiro me empurrou."
+      },
+      "anotacao": {
+        "item_id": "G060-B:T2",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-B:T3",
+        "conversation_id": "G060-B",
+        "card_id": "G060",
+        "historico_visivel": [
+          "em outras palavras, na mesma noite meu computador foi quebrado.",
+          "em outras palavras, durante uma briga, meu companheiro me empurrou."
+        ],
+        "mensagem_usuario": "em outras palavras, preciso corrigir: foi outra pessoa próxima que quebrou o computador."
+      },
+      "anotacao": {
+        "item_id": "G060-B:T3",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-B:T4",
+        "conversation_id": "G060-B",
+        "card_id": "G060",
+        "historico_visivel": [
+          "em outras palavras, na mesma noite meu computador foi quebrado.",
+          "em outras palavras, durante uma briga, meu companheiro me empurrou.",
+          "em outras palavras, preciso corrigir: foi outra pessoa próxima que quebrou o computador."
+        ],
+        "mensagem_usuario": "em outras palavras, o empurrão aconteceu, mas não sei informar quando."
+      },
+      "anotacao": {
+        "item_id": "G060-B:T4",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    },
+    {
+      "entrada": {
+        "id": "G060-B:T5",
+        "conversation_id": "G060-B",
+        "card_id": "G060",
+        "historico_visivel": [
+          "em outras palavras, na mesma noite meu computador foi quebrado.",
+          "em outras palavras, durante uma briga, meu companheiro me empurrou.",
+          "em outras palavras, preciso corrigir: foi outra pessoa próxima que quebrou o computador.",
+          "em outras palavras, o empurrão aconteceu, mas não sei informar quando."
+        ],
+        "mensagem_usuario": "Por enquanto não gostaria de continuar."
+      },
+      "anotacao": {
+        "item_id": "G060-B:T5",
+        "tipos": {
+          "fisica": null,
+          "psicologica": null,
+          "sexual": null,
+          "patrimonial": null,
+          "moral": null,
+          "vicaria": null
+        },
+        "intencao": null,
+        "urgencia": null,
+        "acao": null,
+        "evidencias": [],
+        "confianca": null,
+        "comentario": "",
+        "revisado": false
+      }
+    }
+  ]
+}

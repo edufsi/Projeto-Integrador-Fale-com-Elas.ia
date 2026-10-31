@@ -1,0 +1,925 @@
+{
+  "config": {
+    "limite_estado": 1536,
+    "limite_memoria": 700,
+    "qwen_model": "qwen3.5:4b",
+    "tokenizador": "Kev llama.cpp /tokenize",
+    "condicoes": [
+      "sem_memoria",
+      "memoria_referencia",
+      "memoria_qwen"
+    ],
+    "revisao_humana_dataset": false,
+    "corpus": "data/archive/baseline-corpus.json",
+    "corpus_sha256": "9ca758bd71626b1a5bd7f6d2b7cbc71e2efd9ce17068573b8f8e756af19ae1c9"
+  },
+  "avisos": [
+    "Corpus executado com --allow-unreviewed; métricas usam rótulos sintéticos ainda não revisados."
+  ],
+  "total_turnos_condicoes": 648,
+  "resultados": {
+    "dev/sem_memoria/qwen": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 54,
+        "tipos": {
+          "fisica": {
+            "tp": 3,
+            "fp": 11,
+            "fn": 0,
+            "precisao": 0.21428571428571427,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 18,
+            "fp": 15,
+            "fn": 12,
+            "precisao": 0.5454545454545454,
+            "recall": 0.6
+          },
+          "sexual": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 3,
+            "precisao": 0.5,
+            "recall": 0.5
+          },
+          "patrimonial": {
+            "tp": 6,
+            "fp": 3,
+            "fn": 3,
+            "precisao": 0.6666666666666666,
+            "recall": 0.6666666666666666
+          },
+          "moral": {
+            "tp": 6,
+            "fp": 3,
+            "fn": 3,
+            "precisao": 0.6666666666666666,
+            "recall": 0.6666666666666666
+          },
+          "vicaria": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 9,
+            "precisao": 0.0,
+            "recall": 0.0
+          }
+        },
+        "acuracia_intencao": 0.5740740740740741,
+        "acuracia_urgencia": 0.5925925925925926,
+        "urgencia_imediata": {
+          "n": 6,
+          "falsos_negativos": 3
+        },
+        "confusao_urgencia": {
+          "prioritaria -> prioritaria": 26,
+          "prioritaria -> sem_urgencia_detectada": 7,
+          "prioritaria -> indeterminada": 3,
+          "indeterminada -> sem_urgencia_detectada": 9,
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 3,
+          "imediata -> indeterminada": 3,
+          "imediata -> imediata": 3
+        }
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": 1.7356933740002205
+    },
+    "dev/sem_memoria/kev": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 54,
+        "tipos": {
+          "fisica": {
+            "tp": 3,
+            "fp": 6,
+            "fn": 0,
+            "precisao": 0.3333333333333333,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 15,
+            "fp": 9,
+            "fn": 15,
+            "precisao": 0.625,
+            "recall": 0.5
+          },
+          "sexual": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 3,
+            "precisao": 1.0,
+            "recall": 0.5
+          },
+          "patrimonial": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 6,
+            "precisao": 1.0,
+            "recall": 0.3333333333333333
+          },
+          "moral": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 3,
+            "precisao": 1.0,
+            "recall": 0.6666666666666666
+          },
+          "vicaria": {
+            "tp": 3,
+            "fp": 6,
+            "fn": 6,
+            "precisao": 0.3333333333333333,
+            "recall": 0.3333333333333333
+          }
+        },
+        "acuracia_intencao": 0.6666666666666666,
+        "acuracia_urgencia": 0.16666666666666666,
+        "urgencia_imediata": {
+          "n": 6,
+          "falsos_negativos": 3
+        },
+        "confusao_urgencia": {
+          "prioritaria -> indeterminada": 21,
+          "prioritaria -> sem_urgencia_detectada": 12,
+          "indeterminada -> sem_urgencia_detectada": 6,
+          "indeterminada -> indeterminada": 3,
+          "sem_urgencia_detectada -> indeterminada": 3,
+          "prioritaria -> prioritaria": 3,
+          "imediata -> indeterminada": 3,
+          "imediata -> imediata": 3
+        }
+      },
+      "brier_tipos": 0.13052028343389752,
+      "latencia_mediana_s": 0.3291130349989544
+    },
+    "dev/sem_memoria/neohorse": {
+      "cobertura": 0.0,
+      "pontuacao": {
+        "n": 0
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": null
+    },
+    "dev/memoria_referencia/qwen": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 54,
+        "tipos": {
+          "fisica": {
+            "tp": 3,
+            "fp": 20,
+            "fn": 0,
+            "precisao": 0.13043478260869565,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 16,
+            "fp": 18,
+            "fn": 14,
+            "precisao": 0.47058823529411764,
+            "recall": 0.5333333333333333
+          },
+          "sexual": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "patrimonial": {
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "moral": {
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "vicaria": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 9,
+            "precisao": null,
+            "recall": 0.0
+          }
+        },
+        "acuracia_intencao": 0.5740740740740741,
+        "acuracia_urgencia": 0.7592592592592593,
+        "urgencia_imediata": {
+          "n": 6,
+          "falsos_negativos": 1
+        },
+        "confusao_urgencia": {
+          "prioritaria -> prioritaria": 33,
+          "prioritaria -> sem_urgencia_detectada": 3,
+          "indeterminada -> sem_urgencia_detectada": 9,
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 3,
+          "imediata -> prioritaria": 1,
+          "imediata -> imediata": 5
+        }
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": 1.6701424585007771
+    },
+    "dev/memoria_referencia/kev": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 54,
+        "tipos": {
+          "fisica": {
+            "tp": 3,
+            "fp": 15,
+            "fn": 0,
+            "precisao": 0.16666666666666666,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 24,
+            "fp": 15,
+            "fn": 6,
+            "precisao": 0.6153846153846154,
+            "recall": 0.8
+          },
+          "sexual": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "patrimonial": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 3,
+            "precisao": 1.0,
+            "recall": 0.6666666666666666
+          },
+          "moral": {
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "vicaria": {
+            "tp": 9,
+            "fp": 6,
+            "fn": 0,
+            "precisao": 0.6,
+            "recall": 1.0
+          }
+        },
+        "acuracia_intencao": 0.6666666666666666,
+        "acuracia_urgencia": 0.2777777777777778,
+        "urgencia_imediata": {
+          "n": 6,
+          "falsos_negativos": 3
+        },
+        "confusao_urgencia": {
+          "prioritaria -> indeterminada": 18,
+          "prioritaria -> sem_urgencia_detectada": 9,
+          "indeterminada -> sem_urgencia_detectada": 6,
+          "indeterminada -> indeterminada": 3,
+          "sem_urgencia_detectada -> indeterminada": 3,
+          "prioritaria -> prioritaria": 9,
+          "imediata -> indeterminada": 3,
+          "imediata -> imediata": 3
+        }
+      },
+      "brier_tipos": 0.11699853383334047,
+      "latencia_mediana_s": 0.36772353400010616
+    },
+    "dev/memoria_referencia/neohorse": {
+      "cobertura": 0.0,
+      "pontuacao": {
+        "n": 0
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": null
+    },
+    "dev/memoria_qwen/qwen": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 54,
+        "tipos": {
+          "fisica": {
+            "tp": 3,
+            "fp": 21,
+            "fn": 0,
+            "precisao": 0.125,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 20,
+            "fp": 18,
+            "fn": 10,
+            "precisao": 0.5263157894736842,
+            "recall": 0.6666666666666666
+          },
+          "sexual": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "patrimonial": {
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "moral": {
+            "tp": 9,
+            "fp": 1,
+            "fn": 0,
+            "precisao": 0.9,
+            "recall": 1.0
+          },
+          "vicaria": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 8,
+            "precisao": 1.0,
+            "recall": 0.1111111111111111
+          }
+        },
+        "acuracia_intencao": 0.5740740740740741,
+        "acuracia_urgencia": 0.7037037037037037,
+        "urgencia_imediata": {
+          "n": 6,
+          "falsos_negativos": 1
+        },
+        "confusao_urgencia": {
+          "prioritaria -> prioritaria": 30,
+          "prioritaria -> sem_urgencia_detectada": 6,
+          "indeterminada -> sem_urgencia_detectada": 9,
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 3,
+          "imediata -> imediata": 5,
+          "imediata -> prioritaria": 1
+        }
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": 1.700528991000283
+    },
+    "dev/memoria_qwen/kev": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 54,
+        "tipos": {
+          "fisica": {
+            "tp": 3,
+            "fp": 15,
+            "fn": 0,
+            "precisao": 0.16666666666666666,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 24,
+            "fp": 12,
+            "fn": 6,
+            "precisao": 0.6666666666666666,
+            "recall": 0.8
+          },
+          "sexual": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "patrimonial": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 3,
+            "precisao": 1.0,
+            "recall": 0.6666666666666666
+          },
+          "moral": {
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 1.0,
+            "recall": 1.0
+          },
+          "vicaria": {
+            "tp": 9,
+            "fp": 5,
+            "fn": 0,
+            "precisao": 0.6428571428571429,
+            "recall": 1.0
+          }
+        },
+        "acuracia_intencao": 0.7037037037037037,
+        "acuracia_urgencia": 0.5185185185185185,
+        "urgencia_imediata": {
+          "n": 6,
+          "falsos_negativos": 1
+        },
+        "confusao_urgencia": {
+          "prioritaria -> indeterminada": 10,
+          "prioritaria -> sem_urgencia_detectada": 9,
+          "indeterminada -> sem_urgencia_detectada": 6,
+          "indeterminada -> indeterminada": 3,
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 3,
+          "prioritaria -> prioritaria": 17,
+          "imediata -> imediata": 5,
+          "imediata -> prioritaria": 1
+        }
+      },
+      "brier_tipos": 0.10363335662905969,
+      "latencia_mediana_s": 0.3682141919998685
+    },
+    "dev/memoria_qwen/neohorse": {
+      "cobertura": 0.0,
+      "pontuacao": {
+        "n": 0
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": null
+    },
+    "test/sem_memoria/qwen": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 162,
+        "tipos": {
+          "fisica": {
+            "tp": 18,
+            "fp": 24,
+            "fn": 3,
+            "precisao": 0.42857142857142855,
+            "recall": 0.8571428571428571
+          },
+          "psicologica": {
+            "tp": 51,
+            "fp": 9,
+            "fn": 48,
+            "precisao": 0.85,
+            "recall": 0.5151515151515151
+          },
+          "sexual": {
+            "tp": 3,
+            "fp": 6,
+            "fn": 6,
+            "precisao": 0.3333333333333333,
+            "recall": 0.3333333333333333
+          },
+          "patrimonial": {
+            "tp": 9,
+            "fp": 6,
+            "fn": 9,
+            "precisao": 0.6,
+            "recall": 0.5
+          },
+          "moral": {
+            "tp": 4,
+            "fp": 9,
+            "fn": 14,
+            "precisao": 0.3076923076923077,
+            "recall": 0.2222222222222222
+          },
+          "vicaria": {
+            "tp": 2,
+            "fp": 7,
+            "fn": 7,
+            "precisao": 0.2222222222222222,
+            "recall": 0.2222222222222222
+          }
+        },
+        "acuracia_intencao": 0.7160493827160493,
+        "acuracia_urgencia": 0.6666666666666666,
+        "urgencia_imediata": {
+          "n": 12,
+          "falsos_negativos": 9
+        },
+        "confusao_urgencia": {
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 36,
+          "prioritaria -> prioritaria": 69,
+          "indeterminada -> imediata": 3,
+          "imediata -> prioritaria": 9,
+          "imediata -> imediata": 3,
+          "prioritaria -> sem_urgencia_detectada": 27,
+          "prioritaria -> indeterminada": 12,
+          "indeterminada -> sem_urgencia_detectada": 3
+        }
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": 1.726797209000324
+    },
+    "test/sem_memoria/kev": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 162,
+        "tipos": {
+          "fisica": {
+            "tp": 9,
+            "fp": 6,
+            "fn": 12,
+            "precisao": 0.6,
+            "recall": 0.42857142857142855
+          },
+          "psicologica": {
+            "tp": 48,
+            "fp": 12,
+            "fn": 51,
+            "precisao": 0.8,
+            "recall": 0.48484848484848486
+          },
+          "sexual": {
+            "tp": 3,
+            "fp": 3,
+            "fn": 6,
+            "precisao": 0.5,
+            "recall": 0.3333333333333333
+          },
+          "patrimonial": {
+            "tp": 6,
+            "fp": 6,
+            "fn": 12,
+            "precisao": 0.5,
+            "recall": 0.3333333333333333
+          },
+          "moral": {
+            "tp": 9,
+            "fp": 3,
+            "fn": 9,
+            "precisao": 0.75,
+            "recall": 0.5
+          },
+          "vicaria": {
+            "tp": 3,
+            "fp": 19,
+            "fn": 6,
+            "precisao": 0.13636363636363635,
+            "recall": 0.3333333333333333
+          }
+        },
+        "acuracia_intencao": 0.7222222222222222,
+        "acuracia_urgencia": 0.345679012345679,
+        "urgencia_imediata": {
+          "n": 12,
+          "falsos_negativos": 9
+        },
+        "confusao_urgencia": {
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 36,
+          "prioritaria -> indeterminada": 59,
+          "prioritaria -> sem_urgencia_detectada": 35,
+          "indeterminada -> indeterminada": 6,
+          "imediata -> imediata": 3,
+          "imediata -> indeterminada": 9,
+          "prioritaria -> prioritaria": 11,
+          "prioritaria -> imediata": 3
+        }
+      },
+      "brier_tipos": 0.12016205830532739,
+      "latencia_mediana_s": 0.3286378840002726
+    },
+    "test/sem_memoria/neohorse": {
+      "cobertura": 0.0,
+      "pontuacao": {
+        "n": 0
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": null
+    },
+    "test/memoria_referencia/qwen": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 162,
+        "tipos": {
+          "fisica": {
+            "tp": 21,
+            "fp": 48,
+            "fn": 0,
+            "precisao": 0.30434782608695654,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 60,
+            "fp": 6,
+            "fn": 39,
+            "precisao": 0.9090909090909091,
+            "recall": 0.6060606060606061
+          },
+          "sexual": {
+            "tp": 6,
+            "fp": 9,
+            "fn": 3,
+            "precisao": 0.4,
+            "recall": 0.6666666666666666
+          },
+          "patrimonial": {
+            "tp": 15,
+            "fp": 5,
+            "fn": 3,
+            "precisao": 0.75,
+            "recall": 0.8333333333333334
+          },
+          "moral": {
+            "tp": 3,
+            "fp": 6,
+            "fn": 15,
+            "precisao": 0.3333333333333333,
+            "recall": 0.16666666666666666
+          },
+          "vicaria": {
+            "tp": 5,
+            "fp": 12,
+            "fn": 4,
+            "precisao": 0.29411764705882354,
+            "recall": 0.5555555555555556
+          }
+        },
+        "acuracia_intencao": 0.6666666666666666,
+        "acuracia_urgencia": 0.8518518518518519,
+        "urgencia_imediata": {
+          "n": 12,
+          "falsos_negativos": 6
+        },
+        "confusao_urgencia": {
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 36,
+          "prioritaria -> prioritaria": 96,
+          "indeterminada -> imediata": 3,
+          "imediata -> imediata": 6,
+          "prioritaria -> imediata": 6,
+          "imediata -> prioritaria": 6,
+          "prioritaria -> sem_urgencia_detectada": 6,
+          "indeterminada -> sem_urgencia_detectada": 3
+        }
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": 1.6719455515003574
+    },
+    "test/memoria_referencia/kev": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 162,
+        "tipos": {
+          "fisica": {
+            "tp": 21,
+            "fp": 15,
+            "fn": 0,
+            "precisao": 0.5833333333333334,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 90,
+            "fp": 15,
+            "fn": 9,
+            "precisao": 0.8571428571428571,
+            "recall": 0.9090909090909091
+          },
+          "sexual": {
+            "tp": 6,
+            "fp": 6,
+            "fn": 3,
+            "precisao": 0.5,
+            "recall": 0.6666666666666666
+          },
+          "patrimonial": {
+            "tp": 18,
+            "fp": 9,
+            "fn": 0,
+            "precisao": 0.6666666666666666,
+            "recall": 1.0
+          },
+          "moral": {
+            "tp": 18,
+            "fp": 9,
+            "fn": 0,
+            "precisao": 0.6666666666666666,
+            "recall": 1.0
+          },
+          "vicaria": {
+            "tp": 9,
+            "fp": 36,
+            "fn": 0,
+            "precisao": 0.2,
+            "recall": 1.0
+          }
+        },
+        "acuracia_intencao": 0.7160493827160493,
+        "acuracia_urgencia": 0.42592592592592593,
+        "urgencia_imediata": {
+          "n": 12,
+          "falsos_negativos": 3
+        },
+        "confusao_urgencia": {
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 36,
+          "prioritaria -> sem_urgencia_detectada": 15,
+          "prioritaria -> indeterminada": 60,
+          "indeterminada -> indeterminada": 6,
+          "imediata -> imediata": 9,
+          "prioritaria -> prioritaria": 18,
+          "prioritaria -> imediata": 15,
+          "imediata -> indeterminada": 3
+        }
+      },
+      "brier_tipos": 0.09187663158534434,
+      "latencia_mediana_s": 0.37041078450056375
+    },
+    "test/memoria_referencia/neohorse": {
+      "cobertura": 0.0,
+      "pontuacao": {
+        "n": 0
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": null
+    },
+    "test/memoria_qwen/qwen": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 162,
+        "tipos": {
+          "fisica": {
+            "tp": 21,
+            "fp": 48,
+            "fn": 0,
+            "precisao": 0.30434782608695654,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 59,
+            "fp": 6,
+            "fn": 40,
+            "precisao": 0.9076923076923077,
+            "recall": 0.5959595959595959
+          },
+          "sexual": {
+            "tp": 6,
+            "fp": 9,
+            "fn": 3,
+            "precisao": 0.4,
+            "recall": 0.6666666666666666
+          },
+          "patrimonial": {
+            "tp": 18,
+            "fp": 3,
+            "fn": 0,
+            "precisao": 0.8571428571428571,
+            "recall": 1.0
+          },
+          "moral": {
+            "tp": 6,
+            "fp": 6,
+            "fn": 12,
+            "precisao": 0.5,
+            "recall": 0.3333333333333333
+          },
+          "vicaria": {
+            "tp": 8,
+            "fp": 16,
+            "fn": 1,
+            "precisao": 0.3333333333333333,
+            "recall": 0.8888888888888888
+          }
+        },
+        "acuracia_intencao": 0.6049382716049383,
+        "acuracia_urgencia": 0.8518518518518519,
+        "urgencia_imediata": {
+          "n": 12,
+          "falsos_negativos": 6
+        },
+        "confusao_urgencia": {
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 36,
+          "prioritaria -> prioritaria": 96,
+          "indeterminada -> imediata": 3,
+          "imediata -> imediata": 6,
+          "prioritaria -> imediata": 6,
+          "imediata -> prioritaria": 6,
+          "prioritaria -> sem_urgencia_detectada": 6,
+          "indeterminada -> sem_urgencia_detectada": 3
+        }
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": 1.6779105639998306
+    },
+    "test/memoria_qwen/kev": {
+      "cobertura": 1.0,
+      "pontuacao": {
+        "n": 162,
+        "tipos": {
+          "fisica": {
+            "tp": 21,
+            "fp": 21,
+            "fn": 0,
+            "precisao": 0.5,
+            "recall": 1.0
+          },
+          "psicologica": {
+            "tp": 86,
+            "fp": 12,
+            "fn": 13,
+            "precisao": 0.8775510204081632,
+            "recall": 0.8686868686868687
+          },
+          "sexual": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 3,
+            "precisao": 1.0,
+            "recall": 0.6666666666666666
+          },
+          "patrimonial": {
+            "tp": 18,
+            "fp": 9,
+            "fn": 0,
+            "precisao": 0.6666666666666666,
+            "recall": 1.0
+          },
+          "moral": {
+            "tp": 18,
+            "fp": 8,
+            "fn": 0,
+            "precisao": 0.6923076923076923,
+            "recall": 1.0
+          },
+          "vicaria": {
+            "tp": 9,
+            "fp": 25,
+            "fn": 0,
+            "precisao": 0.2647058823529412,
+            "recall": 1.0
+          }
+        },
+        "acuracia_intencao": 0.7716049382716049,
+        "acuracia_urgencia": 0.5987654320987654,
+        "urgencia_imediata": {
+          "n": 12,
+          "falsos_negativos": 4
+        },
+        "confusao_urgencia": {
+          "sem_urgencia_detectada -> sem_urgencia_detectada": 36,
+          "prioritaria -> sem_urgencia_detectada": 12,
+          "prioritaria -> indeterminada": 29,
+          "indeterminada -> indeterminada": 6,
+          "imediata -> imediata": 8,
+          "prioritaria -> prioritaria": 47,
+          "prioritaria -> imediata": 20,
+          "imediata -> indeterminada": 4
+        }
+      },
+      "brier_tipos": 0.08436706339138143,
+      "latencia_mediana_s": 0.40520984300019336
+    },
+    "test/memoria_qwen/neohorse": {
+      "cobertura": 0.0,
+      "pontuacao": {
+        "n": 0
+      },
+      "brier_tipos": null,
+      "latencia_mediana_s": null
+    }
+  },
+  "memoria": {
+    "dev": {
+      "fatos_criticos_esperados_por_turno": 24,
+      "fatos_criticos_preservados_por_citacao_exata": 0,
+      "fatos_criticos_preservados_por_evidencia_contida": 17,
+      "taxa_preservacao_evidencia_contida": 0.7083333333333334,
+      "correcoes": 3,
+      "correcoes_aplicadas": 3,
+      "erros": 0,
+      "latencia_mediana_s": 2.457767863999834,
+      "avisos": {
+        "resumo_reconstruido_apos_correcao": 6,
+        "evidencia_invalida_turno:1": 33,
+        "evidencia_invalida_turno:2": 6
+      }
+    },
+    "test": {
+      "fatos_criticos_esperados_por_turno": 99,
+      "fatos_criticos_preservados_por_citacao_exata": 0,
+      "fatos_criticos_preservados_por_evidencia_contida": 85,
+      "taxa_preservacao_evidencia_contida": 0.8585858585858586,
+      "correcoes": 0,
+      "correcoes_aplicadas": 0,
+      "erros": 0,
+      "latencia_mediana_s": 2.328802577500028,
+      "avisos": {
+        "evidencia_invalida_turno:3": 5,
+        "evidencia_invalida_turno:1": 9,
+        "revogacao_desconhecida:t1f2": 6,
+        "resumo_reconstruido_apos_correcao": 12
+      }
+    }
+  },
+  "vram_pico_total_mib": {
+    "prepare": 7795,
+    "kev": 5130
+  },
+  "config_classificadores": {
+    "kev": {
+      "threshold": 0.5,
+      "kev_url": "http://127.0.0.1:8081",
+      "modelo": "kev"
+    }
+  }
+}

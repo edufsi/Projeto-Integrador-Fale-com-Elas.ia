@@ -1,0 +1,14 @@
+{
+  "limite_estado": 1536,
+  "limite_memoria": 700,
+  "qwen_model": "qwen3.5:4b",
+  "tokenizador": "Kev llama.cpp /tokenize",
+  "condicoes": [
+    "sem_memoria",
+    "memoria_referencia",
+    "memoria_qwen"
+  ],
+  "revisao_humana_dataset": false,
+  "corpus": "data/archive/baseline-corpus.json",
+  "corpus_sha256": "9ca758bd71626b1a5bd7f6d2b7cbc71e2efd9ce17068573b8f8e756af19ae1c9"
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "human-annotations.v1",
+  "type": "object",
+  "required": ["schema_version", "anotador", "lote", "itens"],
+  "properties": {
+    "schema_version": {"const": "human-annotations.v1"},
+    "anotador": {"type": "string", "minLength": 1},
+    "lote": {"type": "string"},
+    "itens": {"type": "array", "items": {"type": "object", "required": ["entrada", "anotacao"]}}
+  }
+}

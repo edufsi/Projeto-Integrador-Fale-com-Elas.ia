@@ -1,0 +1,62 @@
+{
+  "backend": "qwen",
+  "maior_alvo_suportado": 1536,
+  "medicoes": [
+    {
+      "alvo": 1536,
+      "tokens_estado": 1513,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 13.08448186500027,
+        "tokens_entrada": 1685,
+        "tokens_saida": 89,
+        "carga_segundos": 7.211526099
+      }
+    },
+    {
+      "alvo": 1280,
+      "tokens_estado": 1261,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 1.65323495299981,
+        "tokens_entrada": 1433,
+        "tokens_saida": 89,
+        "carga_segundos": 0.001103316
+      }
+    },
+    {
+      "alvo": 1024,
+      "tokens_estado": 995,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 1.9500758169997425,
+        "tokens_entrada": 1167,
+        "tokens_saida": 89,
+        "carga_segundos": 0.000908508
+      }
+    },
+    {
+      "alvo": 768,
+      "tokens_estado": 743,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 1.6602433110001584,
+        "tokens_entrada": 915,
+        "tokens_saida": 89,
+        "carga_segundos": 0.000893924
+      }
+    },
+    {
+      "alvo": 512,
+      "tokens_estado": 491,
+      "sucesso": true,
+      "metricas": {
+        "segundos": 1.7893943970011605,
+        "tokens_entrada": 663,
+        "tokens_saida": 89,
+        "carga_segundos": 0.000861644
+      }
+    }
+  ],
+  "nota": "Teste de capacidade; não valida qualidade semântica."
+}

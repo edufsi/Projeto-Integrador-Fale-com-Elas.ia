@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "frozen-evaluation.v1",
+  "type": "object",
+  "required": ["schema_version", "status", "conversas"],
+  "properties": {
+    "schema_version": {"const": "frozen-evaluation.v1"},
+    "status": {"const": "congelado_revisado_humanamente"},
+    "conversas": {"type": "array", "minItems": 120, "maxItems": 120}
+  }
+}

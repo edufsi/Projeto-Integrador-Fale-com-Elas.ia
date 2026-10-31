@@ -1,0 +1,4397 @@
+{
+  "revisao_humana_pendente": true,
+  "roteiros": [
+    {
+      "id": "fisica_1_v0",
+      "base_id": "fisica_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Quero contar o que aconteceu ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Meu companheiro me empurrou contra a parede ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me empurrou contra a parede",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Estou na casa da minha irmã agora e quero saber onde buscar ajuda.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "na casa da minha irmã agora",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_1_v1",
+      "base_id": "fisica_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Gostaria de contar o que aconteceu ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Meu parceiro me empurrou contra a parede ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me empurrou contra a parede",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Estou na casa da minha irmã agora e gostaria de saber onde buscar ajuda.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "na casa da minha irmã agora",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_1_v2",
+      "base_id": "fisica_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Quero contar o que aconteceu ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Meu namorado me empurrou contra a parede ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me empurrou contra a parede",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Tô na casa da minha irmã agora e quero saber onde buscar ajuda.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "na casa da minha irmã agora",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_2_v0",
+      "base_id": "fisica_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu companheiro está na porta e está gritando.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "está na porta e está gritando",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele acabou de me bater e continua aqui.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "acabou de me bater e continua aqui",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Preciso de ajuda agora, não consigo sair.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "não consigo sair",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_2_v1",
+      "base_id": "fisica_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu parceiro está na porta e está gritando.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "está na porta e está gritando",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele acabou de me bater e continua aqui.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "acabou de me bater e continua aqui",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Preciso de ajuda agora, não consigo sair.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "não consigo sair",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_2_v2",
+      "base_id": "fisica_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu namorado está na porta e está gritando.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "está na porta e está gritando",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele acabou de me bater e continua aqui.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "acabou de me bater e continua aqui",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Preciso de ajuda agora, não consigo sair.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "não consigo sair",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_3_v0",
+      "base_id": "fisica_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Há alguns meses ele apertou meu pescoço até eu perder o ar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "apertou meu pescoço até eu perder o ar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Hoje ele disse que pode fazer de novo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "pode fazer de novo",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele não está comigo neste momento, mas tenho medo de voltar para casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "não está comigo neste momento",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_3_v1",
+      "base_id": "fisica_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Há alguns meses ele apertou meu pescoço até eu perder o ar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "apertou meu pescoço até eu perder o ar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Hoje ele disse que pode fazer de novo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "pode fazer de novo",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele não está comigo neste momento, mas tenho medo de voltar para casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "não está comigo neste momento",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_3_v2",
+      "base_id": "fisica_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Há alguns meses ele apertou meu pescoço até eu perder o ar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "apertou meu pescoço até eu perder o ar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Hoje ele disse que pode fazer de novo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "pode fazer de novo",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele não está comigo neste momento, mas tenho medo de voltar pra casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "não está comigo neste momento",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_4_correcao_v0",
+      "base_id": "fisica_4_correcao",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Acho que ele me bateu durante a discussão.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ele me bateu durante a discussão",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Corrigindo: ele não me bateu; bateu na mesa perto de mim.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "bateu na mesa perto de mim",
+          "critico": false,
+          "revoga": "ele me bateu durante a discussão"
+        },
+        {
+          "mensagem": "Quero falar com uma pessoa sobre esse medo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_4_correcao_v1",
+      "base_id": "fisica_4_correcao",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Acho que ele me bateu durante a discussão.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ele me bateu durante a discussão",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Corrigindo: ele não me bateu; bateu na mesa perto de mim.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "bateu na mesa perto de mim",
+          "critico": false,
+          "revoga": "ele me bateu durante a discussão"
+        },
+        {
+          "mensagem": "Gostaria de falar com uma pessoa sobre esse medo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "fisica_4_correcao_v2",
+      "base_id": "fisica_4_correcao",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Acho que ele me bateu durante a discussão.",
+          "rotulos": {
+            "tipos": {
+              "fisica": true,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ele me bateu durante a discussão",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Corrigindo: ele não me bateu; bateu na mesa perto de mim.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "bateu na mesa perto de mim",
+          "critico": false,
+          "revoga": "ele me bateu durante a discussão"
+        },
+        {
+          "mensagem": "Quero falar com uma pessoa sobre esse medo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_1_v0",
+      "base_id": "psicologica_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele decide com quem posso falar e lê minhas mensagens.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "lê minhas mensagens",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Também me ameaça quando converso com amigas.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me ameaça quando converso com amigas",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Isso pode ser violência mesmo sem agressão física?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_1_v1",
+      "base_id": "psicologica_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele decide com quem posso falar e lê minhas mensagens.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "lê minhas mensagens",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Também me ameaça quando converso com amigas.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me ameaça quando converso com amigas",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Isso pode ser violência mesmo sem agressão física?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_1_v2",
+      "base_id": "psicologica_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele decide com quem posso falar e lê minhas mensagens.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "lê minhas mensagens",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Também me ameaça quando converso com amigas.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me ameaça quando converso com amigas",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Isso pode ser violência mesmo sem agressão física?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_2_v0",
+      "base_id": "psicologica_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu ex aparece no meu trabalho sem avisar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "aparece no meu trabalho sem avisar",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele escreveu que está me esperando na saída hoje.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "imediata"
+          },
+          "evidencia": "me esperando na saída hoje",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ainda estou no trabalho e tenho medo de sair.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "tenho medo de sair",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_2_v1",
+      "base_id": "psicologica_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu antigo parceiro aparece no meu trabalho sem avisar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "aparece no meu trabalho sem avisar",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele escreveu que está me esperando na saída hoje.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "imediata"
+          },
+          "evidencia": "me esperando na saída hoje",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ainda estou no trabalho e tenho medo de sair.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "tenho medo de sair",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_2_v2",
+      "base_id": "psicologica_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu ex-namorado aparece no meu trabalho sem avisar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "aparece no meu trabalho sem avisar",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele escreveu que está me esperando na saída hoje.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "imediata"
+          },
+          "evidencia": "me esperando na saída hoje",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ainda tô no trabalho e tenho medo de sair.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "tenho medo de sair",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_3_v0",
+      "base_id": "psicologica_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele diz todos os dias que sou incapaz.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "sou incapaz",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Fico com medo de contrariá-lo porque ele ameaça me deixar sem contato com minha família.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça me deixar sem contato com minha família",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não sei se devo procurar um serviço de apoio.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_3_v1",
+      "base_id": "psicologica_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele diz todos os dias que sou incapaz.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "sou incapaz",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Fico com medo de contrariá-lo porque ele ameaça me deixar sem contato com minha família.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça me deixar sem contato com minha família",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não sei se devo procurar um serviço de apoio.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_3_v2",
+      "base_id": "psicologica_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele diz todos os dias que sou incapaz.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "sou incapaz",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Fico com medo de contrariá-lo porque ele ameaça me deixar sem contato com minha família.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça me deixar sem contato com minha família",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não sei se devo procurar um serviço de apoio.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_4_ambigua_v0",
+      "base_id": "psicologica_4_ambigua",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu parceiro perguntou onde eu estava ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele perguntou uma vez só, sem ameaça; não sei se isso é controle.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero entender quais sinais devo observar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_4_ambigua_v1",
+      "base_id": "psicologica_4_ambigua",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu parceiro perguntou onde eu estava ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele perguntou uma vez só, sem ameaça; não sei se isso é controle.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de entender quais sinais devo observar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "psicologica_4_ambigua_v2",
+      "base_id": "psicologica_4_ambigua",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu parceiro perguntou onde eu estava ontem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele perguntou uma vez só, sem ameaça; não sei se isso é controle.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero entender quais sinais devo observar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_1_v0",
+      "base_id": "sexual_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Tenho dificuldade de falar sobre algo íntimo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Meu companheiro me forçou a ter relação sexual quando eu disse não.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me forçou a ter relação sexual quando eu disse não",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Foi na semana passada e agora estou na casa de uma amiga.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "Foi na semana passada",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_1_v1",
+      "base_id": "sexual_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Tenho dificuldade de falar sobre algo íntimo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Meu parceiro me forçou a ter relação sexual quando eu disse não.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me forçou a ter relação sexual quando eu disse não",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Foi na semana passada e agora estou na casa de uma amiga.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "Foi na semana passada",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_1_v2",
+      "base_id": "sexual_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Tenho dificuldade de falar sobre algo íntimo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Meu namorado me forçou a ter relação sexual quando eu disse não.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me forçou a ter relação sexual quando eu disse não",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Foi na semana passada e agora tô na casa de uma amiga.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "Foi na semana passada",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_2_v0",
+      "base_id": "sexual_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele escondeu meus anticoncepcionais de propósito.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "escondeu meus anticoncepcionais",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Disse que quer me obrigar a engravidar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me obrigar a engravidar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero saber onde posso conversar com uma profissional.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_2_v1",
+      "base_id": "sexual_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele escondeu meus anticoncepcionais de propósito.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "escondeu meus anticoncepcionais",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Disse que quer me obrigar a engravidar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me obrigar a engravidar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de saber onde posso conversar com uma profissional.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_2_v2",
+      "base_id": "sexual_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele escondeu meus anticoncepcionais de propósito.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "escondeu meus anticoncepcionais",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Disse que quer me obrigar a engravidar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me obrigar a engravidar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero saber onde posso conversar com uma profissional.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": true,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_3_v0",
+      "base_id": "sexual_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu ex ameaçou divulgar uma foto íntima minha.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaçou divulgar uma foto íntima",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele disse que fará isso hoje se eu não voltar para ele.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "fará isso hoje se eu não voltar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Posso falar com atendimento humano?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_3_v1",
+      "base_id": "sexual_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu antigo parceiro ameaçou divulgar uma foto íntima minha.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaçou divulgar uma foto íntima",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele disse que fará isso hoje se eu não voltar para ele.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "fará isso hoje se eu não voltar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Posso falar com atendimento humano?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_3_v2",
+      "base_id": "sexual_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu ex-namorado ameaçou divulgar uma foto íntima minha.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaçou divulgar uma foto íntima",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele disse que fará isso hoje se eu não voltar pra ele.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "fará isso hoje se eu não voltar",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Posso falar com atendimento humano?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_4_negacao_v0",
+      "base_id": "sexual_4_negacao",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Quero informação geral sobre consentimento.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não estou relatando um caso meu; é uma dúvida para um trabalho escolar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Há algum material público que explique o tema?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_4_negacao_v1",
+      "base_id": "sexual_4_negacao",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Gostaria de informação geral sobre consentimento.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não estou relatando um caso meu; é uma dúvida para um trabalho escolar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Há algum material público que explique o tema?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "sexual_4_negacao_v2",
+      "base_id": "sexual_4_negacao",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Quero informação geral sobre consentimento.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não tô relatando um caso meu; é uma dúvida pra um trabalho escolar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Há algum material público que explique o tema?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_1_v0",
+      "base_id": "patrimonial_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele pegou meus documentos e se recusa a devolver.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "pegou meus documentos e se recusa a devolver",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Preciso deles para trabalhar amanhã.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "para trabalhar amanhã",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Existe algum serviço que possa me orientar?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_1_v1",
+      "base_id": "patrimonial_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele pegou meus documentos e se recusa a devolver.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "pegou meus documentos e se recusa a devolver",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Preciso deles para trabalhar amanhã.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "para trabalhar amanhã",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Existe algum serviço que possa me orientar?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_1_v2",
+      "base_id": "patrimonial_1",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele pegou meus documentos e se recusa a devolver.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "pegou meus documentos e se recusa a devolver",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Preciso deles pra trabalhar amanhã.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "pra trabalhar amanhã",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Existe algum serviço que possa me orientar?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_2_v0",
+      "base_id": "patrimonial_2",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu companheiro controla todo o dinheiro da casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "controla todo o dinheiro da casa",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele impede que eu use meu próprio salário.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "impede que eu use meu próprio salário",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Penso em sair, mas não tenho acesso à conta.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "não tenho acesso à conta",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_2_v1",
+      "base_id": "patrimonial_2",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu parceiro controla todo o dinheiro da casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "controla todo o dinheiro da casa",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele impede que eu use meu próprio salário.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "impede que eu use meu próprio salário",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Penso em sair, mas não tenho acesso à conta.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "não tenho acesso à conta",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_2_v2",
+      "base_id": "patrimonial_2",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu namorado controla todo o dinheiro da casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "controla todo o dinheiro da casa",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Ele impede que eu use meu próprio salário.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "impede que eu use meu próprio salário",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Penso em sair, mas não tenho acesso à conta.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "não tenho acesso à conta",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_3_v0",
+      "base_id": "patrimonial_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele quebrou meu celular durante uma discussão.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "quebrou meu celular",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Depois disse que quebraria minhas coisas de novo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "quebraria minhas coisas de novo",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Agora estou em outro lugar e quero registrar o que ocorreu.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_3_v1",
+      "base_id": "patrimonial_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele quebrou meu celular durante uma discussão.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "quebrou meu celular",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Depois disse que quebraria minhas coisas de novo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "quebraria minhas coisas de novo",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Agora estou em outro lugar e gostaria de registrar o que ocorreu.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_3_v2",
+      "base_id": "patrimonial_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele quebrou meu celular durante uma discussão.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "quebrou meu celular",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Depois disse que quebraria minhas coisas de novo.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "quebraria minhas coisas de novo",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Agora tô em outro lugar e quero registrar o que ocorreu.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": true,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_4_controle_v0",
+      "base_id": "patrimonial_4_controle",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Dividimos as despesas por acordo e tenho acesso ao meu dinheiro.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero apenas entender o que seria violência patrimonial.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não estou descrevendo uma situação de violência neste momento.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_4_controle_v1",
+      "base_id": "patrimonial_4_controle",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Dividimos as despesas por acordo e tenho acesso ao meu dinheiro.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de apenas entender o que seria violência patrimonial.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não estou descrevendo uma situação de violência neste momento.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "patrimonial_4_controle_v2",
+      "base_id": "patrimonial_4_controle",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Dividimos as despesas por acordo e tenho acesso ao meu dinheiro.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero apenas entender o que seria violência patrimonial.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não tô descrevendo uma situação de violência neste momento.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_1_v0",
+      "base_id": "moral_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Ele espalhou entre vizinhos que eu cometi um crime, mas isso é falso.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "espalhou entre vizinhos que eu cometi um crime",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Também me chama de nomes ofensivos na frente de todos.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me chama de nomes ofensivos",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero saber com quem posso falar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_1_v1",
+      "base_id": "moral_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Ele espalhou entre vizinhos que eu cometi um crime, mas isso é falso.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "espalhou entre vizinhos que eu cometi um crime",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Também me chama de nomes ofensivos na frente de todos.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me chama de nomes ofensivos",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de saber com quem posso falar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_1_v2",
+      "base_id": "moral_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Ele espalhou entre vizinhos que eu cometi um crime, mas isso é falso.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "espalhou entre vizinhos que eu cometi um crime",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Também me chama de nomes ofensivos na frente de todos.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me chama de nomes ofensivos",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero saber com quem posso falar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_2_v0",
+      "base_id": "moral_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu ex publicou mentiras sobre mim em uma rede social.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "publicou mentiras sobre mim",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Disse que continuará publicando para me humilhar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "continuará publicando para me humilhar",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Isso pode ser relatado a alguém?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_2_v1",
+      "base_id": "moral_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu antigo parceiro publicou mentiras sobre mim em uma rede social.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "publicou mentiras sobre mim",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Disse que continuará publicando para me humilhar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "continuará publicando para me humilhar",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Isso pode ser relatado a alguém?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_2_v2",
+      "base_id": "moral_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Meu ex-namorado publicou mentiras sobre mim em uma rede social.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "publicou mentiras sobre mim",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Disse que continuará publicando pra me humilhar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "continuará publicando pra me humilhar",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Isso pode ser relatado a alguém?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_3_v0",
+      "base_id": "moral_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele me xinga com frequência em casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me xinga com frequência",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Depois afirma que sou louca e ninguém vai acreditar em mim.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ninguém vai acreditar em mim",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero falar diretamente com uma atendente.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_3_v1",
+      "base_id": "moral_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele me xinga com frequência em casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me xinga com frequência",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Depois afirma que sou louca e ninguém vai acreditar em mim.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ninguém vai acreditar em mim",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de falar diretamente com uma atendente.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_3_v2",
+      "base_id": "moral_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele me xinga com frequência em casa.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "me xinga com frequência",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Depois afirma que sou louca e ninguém vai acreditar em mim.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ninguém vai acreditar em mim",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero falar diretamente com uma atendente.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": true,
+              "vicaria": false
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_4_ambigua_v0",
+      "base_id": "moral_4_ambigua",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Um colega fez um comentário desagradável sobre meu trabalho.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não houve ameaça nem relação doméstica entre nós.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero uma explicação geral sobre tipos de violência.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_4_ambigua_v1",
+      "base_id": "moral_4_ambigua",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Um colega fez um comentário desagradável sobre meu trabalho.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não houve ameaça nem relação doméstica entre nós.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de uma explicação geral sobre tipos de violência.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "moral_4_ambigua_v2",
+      "base_id": "moral_4_ambigua",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Um colega fez um comentário desagradável sobre meu trabalho.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "indeterminada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não houve ameaça nem relação doméstica entre nós.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero uma explicação geral sobre tipos de violência.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_1_v0",
+      "base_id": "vicaria_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu ex disse que machucaria nosso filho para me punir.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "machucaria nosso filho para me punir",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Hoje ele está com a criança e parou de responder.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "imediata"
+          },
+          "evidencia": "está com a criança e parou de responder",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Tenho medo de que faça o que ameaçou; preciso de ajuda agora.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "preciso de ajuda agora",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_1_v1",
+      "base_id": "vicaria_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu antigo parceiro disse que machucaria nosso filho para me punir.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "machucaria nosso filho para me punir",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Hoje ele está com a criança e parou de responder.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "imediata"
+          },
+          "evidencia": "está com a criança e parou de responder",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Tenho medo de que faça o que ameaçou; preciso de ajuda agora.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "preciso de ajuda agora",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_1_v2",
+      "base_id": "vicaria_1",
+      "split": "dev",
+      "turns": [
+        {
+          "mensagem": "Meu ex-namorado disse que machucaria nosso filho pra me punir.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "machucaria nosso filho pra me punir",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Hoje ele está com a criança e parou de responder.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "imediata"
+          },
+          "evidencia": "está com a criança e parou de responder",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Tenho medo de que faça o que ameaçou; preciso de ajuda agora.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "ajuda_urgente",
+            "urgencia": "imediata"
+          },
+          "evidencia": "preciso de ajuda agora",
+          "critico": true,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_2_v0",
+      "base_id": "vicaria_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele ameaça ferir meu cachorro para me obrigar a voltar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça ferir meu cachorro",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "O animal está comigo e ele não sabe onde estou.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ele não sabe onde estou",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero saber como buscar proteção.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_2_v1",
+      "base_id": "vicaria_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele ameaça ferir meu cachorro para me obrigar a voltar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça ferir meu cachorro",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "O animal está comigo e ele não sabe onde estou.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ele não sabe onde estou",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de saber como buscar proteção.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_2_v2",
+      "base_id": "vicaria_2",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele ameaça ferir meu cachorro pra me obrigar a voltar.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça ferir meu cachorro",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "O animal está comigo e ele não sabe onde tô.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ele não sabe onde tô",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Quero saber como buscar proteção.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_3_v0",
+      "base_id": "vicaria_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele ameaça minha mãe para me atingir.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça minha mãe para me atingir",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Minha mãe mora em outro bairro e está segura agora.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "está segura agora",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de conversar com uma pessoa sobre isso.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_3_v1",
+      "base_id": "vicaria_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele ameaça minha mãe para me atingir.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça minha mãe para me atingir",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Minha mãe mora em outro bairro e está segura agora.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "está segura agora",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de conversar com uma pessoa sobre isso.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_3_v2",
+      "base_id": "vicaria_3",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Ele ameaça minha mãe pra me atingir.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "ameaça minha mãe pra me atingir",
+          "critico": true,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Minha mãe mora em outro bairro e está segura agora.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "relato",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "está segura agora",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Gostaria de conversar com uma pessoa sobre isso.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": true,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": true
+            },
+            "intencao": "atendimento_humano",
+            "urgencia": "prioritaria"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_4_sem_indicio_v0",
+      "base_id": "vicaria_4_sem_indicio",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Tenho filhos e estou procurando informações sobre serviços públicos.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não houve ameaça contra eles; quero saber quais canais existem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Pode indicar onde encontro informação oficial?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_4_sem_indicio_v1",
+      "base_id": "vicaria_4_sem_indicio",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Tenho filhos e estou procurando informações sobre serviços públicos.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não houve ameaça contra eles; gostaria de saber quais canais existem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Pode indicar onde encontro informação oficial?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    },
+    {
+      "id": "vicaria_4_sem_indicio_v2",
+      "base_id": "vicaria_4_sem_indicio",
+      "split": "test",
+      "turns": [
+        {
+          "mensagem": "Tenho filhos e tô procurando informações sobre serviços públicos.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Não houve ameaça contra eles; quero saber quais canais existem.",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        },
+        {
+          "mensagem": "Pode indicar onde encontro informação oficial?",
+          "rotulos": {
+            "tipos": {
+              "fisica": false,
+              "psicologica": false,
+              "sexual": false,
+              "patrimonial": false,
+              "moral": false,
+              "vicaria": false
+            },
+            "intencao": "informacao",
+            "urgencia": "sem_urgencia_detectada"
+          },
+          "evidencia": "",
+          "critico": false,
+          "revoga": ""
+        }
+      ]
+    }
+  ]
+}

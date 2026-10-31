@@ -1,0 +1,1242 @@
+{
+  "schema_version": "synthetic-pilot-reports.v1",
+  "revisao_humana_pendente": true,
+  "fonte_fichas_sha256": "882efecae8a66949a0c7c0e5417bd2ad4cb488a5398357a79102bdadd9130d4b",
+  "itens": [
+    {
+      "id": "P01-R1",
+      "ficha_id": "P01",
+      "split": "dev",
+      "texto": "A usuária relata que o companheiro a empurrou contra a parede durante uma discussão ocorrida há poucos minutos. Ela conseguiu entrar em outro cômodo, mas ele permanece na residência e tenta abrir a porta. Atualmente, a usuária mantém o telefone consigo e informa que não consegue alcançar a saída sem passar por ele. O contato físico foi intencional, deixou dor no ombro e foi seguido por novas tentativas de forçar a porta. Ela pede ajuda para se afastar com segurança enquanto o companheiro continua próximo.",
+      "elementos_usados": [
+        "ato físico intencional recente ou em curso",
+        "possível agressor ainda próximo ou com acesso imediato à usuária"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P01-R2",
+      "ficha_id": "P01",
+      "split": "dev",
+      "texto": "A usuária informa que a ex-companheira a segurou pelos braços e a derrubou na entrada do prédio. Ela conseguiu entrar no próprio veículo, mas a outra pessoa permanece ao lado da porta e impede sua saída. No momento, a usuária teme novo contato físico porque o vidro está aberto e a ex-companheira tenta alcançá-la. O episódio começou durante uma tentativa de encerrar uma conversa e ocorreu de forma intencional. Ela solicita ajuda imediata para deixar o local sem se aproximar novamente da ex-companheira.",
+      "elementos_usados": [
+        "ato físico intencional recente ou em curso",
+        "possível agressor ainda próximo ou com acesso imediato à usuária"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P02-R1",
+      "ficha_id": "P02",
+      "split": "test",
+      "texto": "A usuária relata que o ex-companheiro a empurrou e apertou seu braço durante um encontro recente para devolver objetos pessoais. Ela saiu do local depois do episódio e está temporariamente hospedada com uma familiar. Atualmente, não mantém contato com ele e permanece acompanhada no endereço temporário. O braço continua dolorido, e a usuária teme que a conduta se repita quando precisarem resolver outras pendências. Ela deseja registrar o que ocorreu e explicar por que passou a evitar encontros presenciais com o ex-companheiro.",
+      "elementos_usados": [
+        "ato físico intencional ocorrido recentemente",
+        "usuária temporariamente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P02-R2",
+      "ficha_id": "P02",
+      "split": "test",
+      "texto": "A usuária conta que uma pessoa com quem mantinha relacionamento a atingiu no rosto durante uma discussão recente. Ela deixou a residência após o episódio e permanece na casa de uma colega, sem a presença da outra pessoa. No momento, a usuária relata estar fisicamente afastada e não pede socorro imediato. O contato físico foi intencional, e ela demonstra preocupação com uma possível repetição caso retorne para buscar seus pertences. Ela apresenta o episódio como um relato e procura organizar os fatos antes de decidir o que fará.",
+      "elementos_usados": [
+        "ato físico intencional ocorrido recentemente",
+        "usuária temporariamente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P03-R1",
+      "ficha_id": "P03",
+      "split": "test",
+      "texto": "A usuária relata que o ex-companheiro envia mensagens informando que está próximo ao local onde ela trabalha ao fim do expediente. Ela percebeu uma pessoa com características semelhantes aguardando na saída e teme encontrá-lo ao deixar o prédio. Atualmente, as mensagens continuam chegando e indicam que ele acompanha seus horários. Ela conseguiu permanecer dentro do prédio e avisou uma colega, mas não dispõe de companhia para o trajeto. A usuária pede ajuda urgente para sair sem ficar sozinha diante da possibilidade de o ex-companheiro estar esperando por ela.",
+      "elementos_usados": [
+        "ameaça, perseguição ou intimidação acontecendo no presente",
+        "possibilidade percebida de encontro iminente com o autor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P03-R2",
+      "ficha_id": "P03",
+      "split": "test",
+      "texto": "A usuária informa que uma pessoa com quem se relacionou passou a segui-la no trajeto de volta para casa. Ela entrou em um estabelecimento e percebeu que essa pessoa permanece do lado de fora, observando a entrada. No momento, a usuária recebe mensagens intimidatórias e acredita que será abordada assim que sair. Ela permanece dentro do estabelecimento enquanto procura uma forma segura de continuar o caminho. A usuária solicita ajuda imediata porque teme um encontro iminente e não considera seguro sair sozinha.",
+      "elementos_usados": [
+        "ameaça, perseguição ou intimidação acontecendo no presente",
+        "possibilidade percebida de encontro iminente com o autor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P04-R1",
+      "ficha_id": "P04",
+      "split": "dev",
+      "texto": "A usuária relata que o antigo companheiro exigia acesso às suas mensagens e criticava qualquer contato com amigas, inclusive nos períodos de descanso. Ela deixou de participar de encontros sociais porque ele transformava essas ocasiões em discussões e humilhações. Atualmente, o relacionamento terminou, os canais de contato foram encerrados e não há aproximação entre os dois. A usuária mantém rotina independente e se sente segura no endereço em que mora. Ela procura informação para entender se aquele padrão de vigilância e isolamento pode ser considerado uma forma de abuso.",
+      "elementos_usados": [
+        "padrão passado de controle, isolamento, vigilância ou humilhação",
+        "vínculo encerrado sem contato ou perigo atual",
+        "dúvida sobre a natureza do comportamento vivido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P04-R2",
+      "ficha_id": "P04",
+      "split": "dev",
+      "texto": "A usuária conta que uma ex-companheira acompanhava sua localização, decidia quais roupas eram aceitáveis e diminuía suas opiniões e escolhas profissionais diante de outras pessoas. Ela passou a alterar a própria rotina para evitar críticas e conflitos dentro do relacionamento. Depois do término, não houve novas mensagens, encontros ou tentativas de contato. Atualmente, a usuária informa estar segura e não solicita ajuda imediata. Ela deseja compreender a natureza do controle e das humilhações que ocorreram durante o vínculo já encerrado.",
+      "elementos_usados": [
+        "padrão passado de controle, isolamento, vigilância ou humilhação",
+        "vínculo encerrado sem contato ou perigo atual",
+        "dúvida sobre a natureza do comportamento vivido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P05-R1",
+      "ficha_id": "P05",
+      "split": "test",
+      "texto": "A usuária relata que um parceiro continuou um contato íntimo mesmo depois de ela manifestar que não consentia. Ela conseguiu deixar o local após o episódio e está temporariamente na residência de uma pessoa de confiança. Atualmente, a outra pessoa não sabe onde ela está, e o contato foi interrompido desde sua saída. O acontecimento foi recente e ainda causa dificuldade para organizar o relato. Ela deseja registrar o que ocorreu, deixando claro que sua recusa foi comunicada e não foi respeitada.",
+      "elementos_usados": [
+        "ato íntimo recente ocorrido sem consentimento ou após recusa",
+        "usuária atualmente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P05-R2",
+      "ficha_id": "P05",
+      "split": "test",
+      "texto": "A usuária informa que uma pessoa com quem mantinha encontros iniciou um ato íntimo consentido, mas ignorou seu pedido para interrompê-lo. Ela saiu do ambiente assim que conseguiu e permanece afastada na casa de uma familiar. No momento, não há contato com a outra pessoa nem indicação de que ela esteja próxima. Desde então, a usuária procura apoio de uma pessoa de confiança para organizar o que aconteceu. Ela apresenta o episódio recente como um relato e reforça que o consentimento deixou de existir antes de o ato terminar.",
+      "elementos_usados": [
+        "ato íntimo recente ocorrido sem consentimento ou após recusa",
+        "usuária atualmente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P06-R1",
+      "ficha_id": "P06",
+      "split": "test",
+      "texto": "A usuária registra que alguém próximo insistiu em contato íntimo depois que ela demonstrou não concordar. Ela não informa quando o episódio ocorreu nem esclarece qual era o vínculo com a outra pessoa. Também não indica onde está agora, se ainda mantém contato ou se essa pessoa pode alcançá-la. As poucas informações disponíveis não permitem saber como o episódio terminou ou se houve novas abordagens. A usuária não formula uma pergunta ou pedido definido, mas deixa evidente que um limite relacionado ao consentimento não foi respeitado.",
+      "elementos_usados": [
+        "limite ou consentimento sexual não respeitado",
+        "momento do acontecimento não informado",
+        "situação atual e proximidade do possível agressor não informadas"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual"
+        ],
+        "intencao": "outro",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P06-R2",
+      "ficha_id": "P06",
+      "split": "test",
+      "texto": "A usuária relata de forma incompleta que uma pessoa ultrapassou um limite sexual que havia sido comunicado. Ela não esclarece se o fato aconteceu recentemente ou em um período distante. Atualmente, não há informação sobre a situação da usuária, a localização da outra pessoa ou a continuidade do contato. Também não descreve como terminou a interação ou se conseguiu comunicar o ocorrido a alguém. A usuária não define o que espera do atendimento, apresentando apenas o fragmento sobre a ausência de consentimento.",
+      "elementos_usados": [
+        "limite ou consentimento sexual não respeitado",
+        "momento do acontecimento não informado",
+        "situação atual e proximidade do possível agressor não informadas"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual"
+        ],
+        "intencao": "outro",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P07-R1",
+      "ficha_id": "P07",
+      "split": "test",
+      "texto": "A usuária relata que o ex-companheiro reteve seus documentos pessoais e cópias digitais durante o término do relacionamento. Ela recuperou todos os documentos por intermédio de uma pessoa conhecida e não há outros bens sob controle dele. Atualmente, os dois não mantêm contato e a usuária administra os próprios recursos de forma independente. A devolução encerrou o prejuízo material, mas deixou dúvidas sobre a conduta ocorrida no relacionamento. Ela procura informação para compreender a natureza da retenção e saber como esse comportamento costuma ser tratado pelos serviços de atendimento.",
+      "elementos_usados": [
+        "retenção, apropriação, destruição ou controle passado de bem, documento ou recurso da usuária",
+        "prejuízo material já cessado ou item recuperado",
+        "busca de informação sobre o ocorrido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "patrimonial"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P07-R2",
+      "ficha_id": "P07",
+      "split": "test",
+      "texto": "A usuária conta que uma ex-companheira vendeu sem autorização um aparelho que ela usava para comunicação pessoal e que lhe pertencia exclusivamente. Depois de uma negociação entre familiares, o valor integral do bem foi devolvido e nenhuma pendência material permaneceu. Atualmente, não há contato entre as duas e a usuária voltou a administrar seus pertences normalmente. A restituição resolveu a perda financeira, mas não esclareceu como compreender a apropriação ocorrida. Ela busca informações gerais sobre situações desse tipo atendidas pela rede de proteção.",
+      "elementos_usados": [
+        "retenção, apropriação, destruição ou controle passado de bem, documento ou recurso da usuária",
+        "prejuízo material já cessado ou item recuperado",
+        "busca de informação sobre o ocorrido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "patrimonial"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P08-R1",
+      "ficha_id": "P08",
+      "split": "dev",
+      "texto": "A usuária relata que o companheiro recebe o pagamento dela em uma conta à qual somente ele possui acesso. Ela precisa solicitar dinheiro até para despesas pessoais e não consegue consultar o saldo ou movimentar os próprios recursos. Atualmente, essa restrição continua e dificulta transporte, alimentação e decisões sobre o trabalho. Ela realiza o contato sozinha, fora da presença dele, e consegue conversar sem interrupção. A usuária pede expressamente para falar com uma pessoa atendente sobre a perda contínua de autonomia financeira.",
+      "elementos_usados": [
+        "restrição atual ao acesso da usuária a dinheiro, documentos, trabalho ou bens próprios",
+        "impacto contínuo sobre sua autonomia material",
+        "pedido explícito para falar com uma pessoa atendente"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "patrimonial"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P08-R2",
+      "ficha_id": "P08",
+      "split": "dev",
+      "texto": "A usuária informa que a companheira escondeu seus documentos e as chaves dos equipamentos usados em sua atividade profissional. Ela continua sem acesso a esses itens e deixou de aceitar trabalhos porque não consegue comprovar dados nem utilizar os bens. No momento do relato, a companheira está em outro local e a usuária consegue falar reservadamente. A restrição permanece afetando a renda e a capacidade de tomar decisões materiais. Ela solicita atendimento com uma pessoa para explicar os detalhes e avaliar como recuperar o acesso aos próprios documentos e instrumentos.",
+      "elementos_usados": [
+        "restrição atual ao acesso da usuária a dinheiro, documentos, trabalho ou bens próprios",
+        "impacto contínuo sobre sua autonomia material",
+        "pedido explícito para falar com uma pessoa atendente"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "patrimonial"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P09-R1",
+      "ficha_id": "P09",
+      "split": "test",
+      "texto": "A usuária relata que o ex-companheiro publicou em uma rede social uma acusação falsa de infidelidade. A publicação alcançou pessoas conhecidas e afetou a forma como algumas delas passaram a tratá-la. Depois, o conteúdo foi removido, o relacionamento terminou e não houve nova postagem ou contato. Atualmente, a usuária guardou registros do conteúdo e deseja esclarecer quais caminhos de informação estão disponíveis. Ela procura compreender a natureza da exposição passada e saber se uma acusação falsa divulgada publicamente pode ser levada a algum serviço de atendimento.",
+      "elementos_usados": [
+        "acusação falsa, exposição ou afirmação que atingiu a reputação da usuária",
+        "episódio encerrado sem repetição ou contato atual",
+        "dúvida sobre a natureza do ocorrido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P09-R2",
+      "ficha_id": "P09",
+      "split": "test",
+      "texto": "A usuária conta que uma ex-companheira informou falsamente a colegas que ela havia cometido uma fraude. A afirmação prejudicou sua reputação até que os próprios colegas verificaram que o fato não tinha ocorrido. Depois desse esclarecimento, a ex-companheira interrompeu as manifestações e não voltou a entrar em contato. Atualmente, a usuária preserva mensagens recebidas das pessoas que tiveram acesso à informação. Ela busca compreender como é caracterizado um episódio encerrado no qual uma afirmação falsa atingiu sua honra diante de outras pessoas.",
+      "elementos_usados": [
+        "acusação falsa, exposição ou afirmação que atingiu a reputação da usuária",
+        "episódio encerrado sem repetição ou contato atual",
+        "dúvida sobre a natureza do ocorrido"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P10-R1",
+      "ficha_id": "P10",
+      "split": "test",
+      "texto": "A usuária menciona que alguém divulgou uma acusação falsa sobre sua conduta e que outras pessoas passaram a questionar sua reputação. Ela não informa quem fez a afirmação, em qual ambiente ela circulou ou quando o episódio aconteceu. Também não esclarece se ainda existe contato com a pessoa responsável ou se a divulgação continua. As informações disponíveis não permitem saber se houve novas abordagens ou outras consequências posteriores. A usuária não formula pedido específico e fornece apenas dados suficientes para indicar possível ofensa à honra, deixando o risco atual indeterminado.",
+      "elementos_usados": [
+        "ofensa, acusação falsa ou exposição capaz de atingir honra ou reputação",
+        "tempo e local do episódio não informados",
+        "ausência de informação sobre risco ou contato atual"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral"
+        ],
+        "intencao": "outro",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P10-R2",
+      "ficha_id": "P10",
+      "split": "test",
+      "texto": "A usuária relata que recebeu ofensas capazes de prejudicar sua imagem diante de pessoas conhecidas. Ela não explica se as palavras foram ditas pessoalmente, enviadas por mensagem ou compartilhadas em algum grupo. Atualmente, faltam informações sobre a data, o local, a identidade funcional da outra pessoa e a continuidade do contato. Também não há descrição de consequências posteriores ou de qualquer nova comunicação. A usuária não apresenta uma intenção clara de buscar informação ou atendimento, mantendo o episódio e sua situação presente sem contexto suficiente.",
+      "elementos_usados": [
+        "ofensa, acusação falsa ou exposição capaz de atingir honra ou reputação",
+        "tempo e local do episódio não informados",
+        "ausência de informação sobre risco ou contato atual"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral"
+        ],
+        "intencao": "outro",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P11-R1",
+      "ficha_id": "P11",
+      "split": "test",
+      "texto": "A usuária relata que o ex-companheiro está com a criança do casal e passou a usar essa situação para obrigá-la a retomar o relacionamento. Ela recebeu informação de que ele pretende deixar a criança sozinha caso não obtenha resposta. Atualmente, a usuária não consegue confirmar se outro adulto está no local e considera a criança possivelmente exposta. Por enquanto, ela recebeu apenas mensagens sobre o que ele pretende fazer e tenta verificar a situação por outros contatos. A usuária pede ajuda imediata para confirmar a segurança da criança e interromper o uso dessa condição contra ela.",
+      "elementos_usados": [
+        "ameaça ou uso atual de pessoa ou ser afetivamente significativo para atingir a usuária",
+        "alvo da ameaça possivelmente exposto no momento",
+        "pedido explícito de ajuda imediata"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P11-R2",
+      "ficha_id": "P11",
+      "split": "test",
+      "texto": "A usuária informa que a companheira mantém o animal de estimação do casal em outro endereço e ameaça soltá-lo na rua para forçar seu retorno. Ela recebeu novas mensagens há pouco tempo e não sabe se o animal continua protegido dentro da residência. No momento, o animal pode estar exposto, e a usuária entende que a conduta busca atingi-la emocionalmente. Ela tenta confirmar a condição do animal por meio de uma pessoa próxima, mas ainda não recebeu resposta. A usuária solicita ajuda imediata para impedir que a ação anunciada seja executada.",
+      "elementos_usados": [
+        "ameaça ou uso atual de pessoa ou ser afetivamente significativo para atingir a usuária",
+        "alvo da ameaça possivelmente exposto no momento",
+        "pedido explícito de ajuda imediata"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P12-R1",
+      "ficha_id": "P12",
+      "split": "dev",
+      "texto": "A usuária relata que o ex-companheiro altera repetidamente os horários de contato com a criança para provocar sofrimento e insegurança. Ela informa que ele confirma os encontros e os cancela pouco antes, sabendo que isso afeta o vínculo entre mãe e filha. O comportamento ocorre há bastante tempo e se repete sempre que há desacordo entre os adultos. Atualmente, a criança está em segurança e nenhum episódio está acontecendo durante o relato. A usuária não pede socorro imediato e deseja registrar o padrão recorrente e seus efeitos emocionais.",
+      "elementos_usados": [
+        "uso recorrente de pessoa ou vínculo afetivo para causar sofrimento à usuária",
+        "padrão repetido ao longo do tempo",
+        "nenhum perigo acontecendo durante o relato"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P12-R2",
+      "ficha_id": "P12",
+      "split": "dev",
+      "texto": "A usuária conta que uma antiga companheira utiliza uma familiar idosa, com quem ambas mantinham vínculo, para transmitir informações falsas e provocar culpa. Ela relata que a outra pessoa alterna períodos de aproximação e afastamento da familiar como forma de causar sofrimento. Esse comportamento ocorreu diversas vezes ao longo do relacionamento e continuou por algum tempo após o término. No momento, a familiar está segura e nenhum novo episódio acontece durante o relato. A usuária apresenta o histórico para explicar o padrão, sem solicitar intervenção urgente.",
+      "elementos_usados": [
+        "uso recorrente de pessoa ou vínculo afetivo para causar sofrimento à usuária",
+        "padrão repetido ao longo do tempo",
+        "nenhum perigo acontecendo durante o relato"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P13-R1",
+      "ficha_id": "P13",
+      "split": "test",
+      "texto": "A usuária relata que o companheiro a empurrou no corredor e permanece entre ela e a porta de saída. Ela informa que ele continua dizendo que fará algo pior caso tente deixar a residência. Atualmente, a usuária está em um cômodo próximo, mas não consegue sair sem passar por ele. Ela mantém o telefone escondido e tenta informar o endereço sem ser percebida pelo companheiro. A usuária pede ajuda urgente porque teme novo contato físico e encontra dificuldade concreta para se afastar.",
+      "elementos_usados": [
+        "ato físico intencional recente ou em curso",
+        "ameaça ou intimidação atual além do ato físico",
+        "dificuldade de afastamento acompanhada de pedido urgente"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica",
+          "psicologica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P13-R2",
+      "ficha_id": "P13",
+      "split": "test",
+      "texto": "A usuária informa que a ex-companheira a atingiu no rosto e seguiu atrás dela até a área comum do prédio. Ela tenta alcançar a portaria, mas a outra pessoa bloqueia o caminho e afirma que a situação ainda não terminou. No momento, a usuária percebe risco de novo contato físico e continua sob intimidação. Ela conseguiu levar o telefone consigo e mantém contato enquanto procura outra saída do prédio. A usuária solicita ajuda imediata para deixar o local sem ser novamente alcançada pela ex-companheira.",
+      "elementos_usados": [
+        "ato físico intencional recente ou em curso",
+        "ameaça ou intimidação atual além do ato físico",
+        "dificuldade de afastamento acompanhada de pedido urgente"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica",
+          "psicologica"
+        ],
+        "intencao": "ajuda_urgente",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P14-R1",
+      "ficha_id": "P14",
+      "split": "test",
+      "texto": "A usuária relata que o companheiro controla todas as movimentações da conta usada para receber sua renda. Ele critica suas decisões, exige justificativa para cada despesa e a humilha quando ela pede acesso ao próprio dinheiro. Atualmente, a usuária não consegue pagar compromissos sem autorização, e essa limitação permanece afetando sua autonomia. Durante o contato, ela está sozinha e consegue descrever a situação sem interrupção. A usuária deseja falar com uma pessoa atendente para explicar o controle emocional e financeiro que continua ocorrendo.",
+      "elementos_usados": [
+        "controle, coação ou humilhação psicológica atual",
+        "restrição ou dano atual envolvendo dinheiro, documento ou bem da usuária"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica",
+          "patrimonial"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P14-R2",
+      "ficha_id": "P14",
+      "split": "test",
+      "texto": "A usuária informa que a companheira esconde seus documentos bancários e ameaça encerrar o relacionamento sempre que ela pede a devolução. Ela também repete que a usuária não seria capaz de administrar os próprios bens, causando insegurança e dependência. No momento, os documentos continuam inacessíveis e algumas decisões financeiras importantes foram adiadas. A usuária consegue falar reservadamente enquanto a companheira permanece em outro local. Ela solicita atendimento humano para conversar sobre a coação e a restrição material ainda presentes no cotidiano.",
+      "elementos_usados": [
+        "controle, coação ou humilhação psicológica atual",
+        "restrição ou dano atual envolvendo dinheiro, documento ou bem da usuária"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "psicologica",
+          "patrimonial"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P15-R1",
+      "ficha_id": "P15",
+      "split": "test",
+      "texto": "A usuária relata que o companheiro insiste para que ela aceite um ato sexual depois de uma recusa clara. Ele permanece próximo e afirma que divulgará informações íntimas caso ela continue negando. Atualmente, a usuária conseguiu se afastar para outro cômodo, mas a pressão e as mensagens intimidatórias continuam. Ela mantém o telefone consigo e informa que o companheiro bate na porta enquanto exige uma resposta. A usuária pede contato imediato com uma pessoa atendente porque a coerção e a intimidação estão acontecendo durante o relato.",
+      "elementos_usados": [
+        "coerção sexual atual diante de recusa ou ausência de consentimento",
+        "ameaça ou intimidação psicológica acontecendo no momento",
+        "pedido imediato de contato com atendente humano"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual",
+          "psicologica"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P15-R2",
+      "ficha_id": "P15",
+      "split": "test",
+      "texto": "A usuária informa que uma pessoa com quem mantém relacionamento exige uma prática íntima que ela não deseja realizar. A outra pessoa continua no local e ameaça expor imagens privadas se não receber consentimento. No momento, a usuária evita se aproximar e procura manter distância enquanto tenta encerrar a conversa. Ela consegue enviar mensagens reservadamente, mas acredita que será novamente pressionada ao deixar o cômodo. A usuária solicita atendimento humano imediato porque a intimidação permanece ativa e está sendo usada para tentar obter sua concordância.",
+      "elementos_usados": [
+        "coerção sexual atual diante de recusa ou ausência de consentimento",
+        "ameaça ou intimidação psicológica acontecendo no momento",
+        "pedido imediato de contato com atendente humano"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "sexual",
+          "psicologica"
+        ],
+        "intencao": "atendimento_humano",
+        "urgencia": "imediata"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P16-R1",
+      "ficha_id": "P16",
+      "split": "test",
+      "texto": "A usuária relata que o ex-companheiro costumava ridicularizar suas decisões e afirmar que ela era incapaz de manter amizades. Ele também contou a pessoas próximas uma história falsa sobre uma suposta infidelidade, o que prejudicou sua reputação. Esse padrão ocorreu durante o relacionamento e contribuiu para seu isolamento. Depois do término, todos os contatos foram encerrados e nenhum novo episódio ocorreu. Atualmente, a usuária procura informação para compreender tanto as humilhações recorrentes quanto a acusação falsa divulgada no vínculo passado.",
+      "elementos_usados": [
+        "padrão passado de humilhação, manipulação ou controle psicológico",
+        "ofensa ou acusação que atingiu honra ou reputação",
+        "vínculo encerrado sem contato atual e com busca de informação"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral",
+          "psicologica"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P16-R2",
+      "ficha_id": "P16",
+      "split": "test",
+      "texto": "A usuária conta que uma ex-companheira controlava sua aparência e a diminuía sempre que ela discordava de alguma decisão. Durante o mesmo período, a outra pessoa afirmou falsamente a colegas que a usuária havia agido de forma desonesta. As manifestações afetaram sua confiança e sua reputação diante do grupo, levando-a a evitar encontros sociais. Atualmente, o relacionamento terminou há bastante tempo e não existe contato entre as duas. A busca da usuária tem caráter informativo e procura compreender as diferentes condutas ocorridas no vínculo passado.",
+      "elementos_usados": [
+        "padrão passado de humilhação, manipulação ou controle psicológico",
+        "ofensa ou acusação que atingiu honra ou reputação",
+        "vínculo encerrado sem contato atual e com busca de informação"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "moral",
+          "psicologica"
+        ],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P17-R1",
+      "ficha_id": "P17",
+      "split": "test",
+      "texto": "A usuária relata que o ex-companheiro utilizava mensagens de uma familiar para pressioná-la a retomar contato. Ele dizia que a familiar sofreria consequências emocionais se a usuária não respondesse, associando culpa e medo às tentativas de aproximação. Ela não informa quando recebeu a última mensagem nem se o ex-companheiro ainda mantém acesso à familiar. Atualmente, também não esclarece onde qualquer pessoa envolvida se encontra. A ausência desses dados impede determinar se a situação prossegue, e a usuária não formula um pedido específico.",
+      "elementos_usados": [
+        "uso de pessoa ou vínculo afetivo para intimidar ou atingir a usuária",
+        "chantagem, ameaça ou controle emocional associado",
+        "continuidade do contato e situação atual desconhecidas"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria",
+          "psicologica"
+        ],
+        "intencao": "outro",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P17-R2",
+      "ficha_id": "P17",
+      "split": "test",
+      "texto": "A usuária informa que uma antiga companheira passou a usar a relação dela com uma pessoa dependente de cuidados para obter obediência. Ela descreve chantagens emocionais e afirmações de que o apoio à pessoa poderia ser interrompido caso não cumprisse determinadas exigências. O registro não esclarece se essa comunicação continua, quando ocorreu o último episódio ou qual é a situação presente da pessoa envolvida. Atualmente, nenhuma localização é informada e não são descritos acontecimentos posteriores. A usuária apresenta os fatos sem definir se deseja informação, atendimento ou outra providência.",
+      "elementos_usados": [
+        "uso de pessoa ou vínculo afetivo para intimidar ou atingir a usuária",
+        "chantagem, ameaça ou controle emocional associado",
+        "continuidade do contato e situação atual desconhecidas"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "vicaria",
+          "psicologica"
+        ],
+        "intencao": "outro",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P18-R1",
+      "ficha_id": "P18",
+      "split": "test",
+      "texto": "A usuária relata que o companheiro a empurrou durante uma discussão recente e, logo depois, quebrou seu telefone de propósito. Ela deixou a residência após o episódio e está temporariamente com uma pessoa de confiança. Atualmente, o companheiro permanece em outro local, e ela consegue narrar o ocorrido com tranquilidade. O ato físico deixou dor nas costas, enquanto a destruição do aparelho impediu o acesso a informações pessoais. A usuária apresenta os acontecimentos como relato e demonstra preocupação com a necessidade futura de recuperar outros pertences.",
+      "elementos_usados": [
+        "ato físico intencional ocorrido recentemente",
+        "retenção, apropriação ou destruição de bem no mesmo contexto",
+        "usuária temporariamente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica",
+          "patrimonial"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P18-R2",
+      "ficha_id": "P18",
+      "split": "test",
+      "texto": "A usuária informa que uma ex-companheira apertou seu braço e retirou de sua bolsa as chaves e a carteira durante um encontro recente. Ela conseguiu se afastar e permanece na casa de uma colega, sem a presença da outra pessoa. No momento, os bens ainda não foram devolvidos, e as duas não voltaram a se encontrar após o episódio. O contato físico e a apropriação ocorreram na mesma situação. A usuária relata os fatos para registrar tanto o ferimento no braço quanto a perda material ainda não resolvida.",
+      "elementos_usados": [
+        "ato físico intencional ocorrido recentemente",
+        "retenção, apropriação ou destruição de bem no mesmo contexto",
+        "usuária temporariamente afastada do possível agressor"
+      ],
+      "rotulos_fonte": {
+        "tipos": [
+          "fisica",
+          "patrimonial"
+        ],
+        "intencao": "relato",
+        "urgencia": "prioritaria"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P19-R1",
+      "ficha_id": "P19",
+      "split": "dev",
+      "texto": "A usuária informa que prepara um trabalho acadêmico sobre o funcionamento da rede de atendimento a mulheres. Ela pergunta, em termos gerais, quais informações costumam diferenciar um conflito cotidiano de uma situação que exige encaminhamento especializado. O pedido está formulado em terceira pessoa e não descreve acontecimentos vividos pela própria usuária. A consulta permanece no campo conceitual e utiliza somente exemplos hipotéticos para delimitar o tema. A usuária busca material para organizar a pesquisa e declara que não existe caso pessoal relacionado à pergunta.",
+      "elementos_usados": [
+        "pergunta geral formulada em terceira pessoa",
+        "contexto declarado de estudo, pesquisa ou atividade profissional",
+        "ausência explícita de experiência pessoal ou pedido de atendimento"
+      ],
+      "rotulos_fonte": {
+        "tipos": [],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P19-R2",
+      "ficha_id": "P19",
+      "split": "dev",
+      "texto": "A usuária relata que participa da elaboração de um treinamento profissional sobre acolhimento e proteção. Ela deseja saber, de maneira geral, quais sinais podem orientar uma equipe a fazer perguntas adicionais durante uma triagem inicial. A consulta usa exemplos hipotéticos em terceira pessoa e não apresenta experiência própria. Atualmente, a usuária esclarece que não procura contato com atendente para tratar de situação pessoal. O objetivo declarado é reunir conteúdo para a atividade profissional e organizar adequadamente os tópicos do treinamento.",
+      "elementos_usados": [
+        "pergunta geral formulada em terceira pessoa",
+        "contexto declarado de estudo, pesquisa ou atividade profissional",
+        "ausência explícita de experiência pessoal ou pedido de atendimento"
+      ],
+      "rotulos_fonte": {
+        "tipos": [],
+        "intencao": "informacao",
+        "urgencia": "sem_urgencia_detectada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P20-R1",
+      "ficha_id": "P20",
+      "split": "test",
+      "texto": "A usuária relata que teve uma discussão com a companheira sobre a divisão de tarefas da residência. Ela informa apenas que as duas discordaram e encerraram a conversa sem chegar a uma solução. O registro não descreve as palavras utilizadas, a intensidade da discussão ou qualquer comportamento concreto de uma das pessoas. Também não há informação sobre onde a usuária está ou se considera o ambiente seguro neste momento. A usuária apresenta o conflito de forma genérica, sem detalhar ações que permitam compreender sua gravidade ou a situação atual.",
+      "elementos_usados": [
+        "conflito interpessoal descrito de forma genérica",
+        "nenhum ato concreto suficiente para um tipo de violência do gabarito",
+        "situação de segurança atual não informada"
+      ],
+      "rotulos_fonte": {
+        "tipos": [],
+        "intencao": "relato",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    },
+    {
+      "id": "P20-R2",
+      "ficha_id": "P20",
+      "split": "test",
+      "texto": "A usuária conta que houve um desentendimento com uma pessoa próxima sobre planos financeiros do casal. Ela afirma que a conversa foi desconfortável, mas não explica o que cada pessoa disse ou fez. Atualmente, não há dados sobre continuidade do contato, segurança do ambiente ou necessidade de afastamento. O relato não apresenta conduta concreta suficiente para caracterizar o que ocorreu entre as duas pessoas. A usuária deseja registrar que o conflito aconteceu, mantendo indefinidos tanto o contexto quanto a situação presente.",
+      "elementos_usados": [
+        "conflito interpessoal descrito de forma genérica",
+        "nenhum ato concreto suficiente para um tipo de violência do gabarito",
+        "situação de segurança atual não informada"
+      ],
+      "rotulos_fonte": {
+        "tipos": [],
+        "intencao": "relato",
+        "urgencia": "indeterminada"
+      },
+      "proveniencia": {
+        "profile": "curadoria_manual",
+        "model": "codex",
+        "api_style": "nenhum",
+        "prompt_version": "reports-v3",
+        "prompt_sha256": "f20b412437acd1d29461de792220444493dfcb62cad6b437a57a11daebdcab08",
+        "gerado_em": "2026-10-12T19:10:47+00:00"
+      },
+      "revisao": {
+        "status": "pendente",
+        "observacao": "Pré-revisão técnica concluída; aguarda validação humana.",
+        "rotulos_revisados": null
+      }
+    }
+  ],
+  "erros": []
+}

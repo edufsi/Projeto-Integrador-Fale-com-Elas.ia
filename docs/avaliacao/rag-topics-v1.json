@@ -1,0 +1,20 @@
+{
+  "schema_version": "rag-topics.v1",
+  "status": "topicos_estaveis_documentos_pendentes",
+  "topicos": {
+    "definicao_fisica": [],
+    "definicao_psicologica": [],
+    "definicao_sexual": [],
+    "definicao_patrimonial": [],
+    "definicao_moral": [],
+    "definicao_vicaria": [],
+    "consentimento": [],
+    "medidas_de_seguranca": [],
+    "rede_de_atendimento": [],
+    "atendimento_humano": [],
+    "emergencia": [],
+    "orientacao_geral": [],
+    "nenhum_documento_necessario": []
+  },
+  "nota": "Preencher com IDs de documentos e chunks somente quando o corpus RAG for congelado."
+}

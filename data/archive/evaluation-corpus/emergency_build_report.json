@@ -1,0 +1,6 @@
+{
+  "pares": 20,
+  "cenarios": 40,
+  "mensagens": 80,
+  "pares_dependentes_memoria": 10
+}

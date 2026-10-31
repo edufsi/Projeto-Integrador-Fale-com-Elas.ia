@@ -1,0 +1,43 @@
+{
+  "schema_version": "single-review-resolutions.v1",
+  "revisor_metodologico": "Codex",
+  "base": "Revisão humana única dos 60 itens e regras atualizadas do guia de rotulagem v1.",
+  "resolucoes": [
+    {
+      "item_id": "CAL-OLD-psicologica_4_ambigua-T3",
+      "campo": "tipos.psicologica",
+      "valor_final": false,
+      "justificativa": "Pergunta isolada sobre localização, sem ameaça e explicitamente descrita como ocorrência única, não fornece indício positivo suficiente; o tema permanece em tipos_mencionados."
+    },
+    {
+      "item_id": "CAL-OLD-patrimonial_4_controle-T3",
+      "campo": "tipos.patrimonial",
+      "valor_final": false,
+      "justificativa": "A conversa menciona a definição, mas afirma acordo financeiro, acesso ao próprio dinheiro e ausência de situação de violência."
+    },
+    {
+      "item_id": "CAL-OLD-vicaria_4_sem_indicio-T3",
+      "campo": "tipos.vicaria",
+      "valor_final": false,
+      "justificativa": "Filhos e serviços são mencionados, mas há negação explícita de ameaça contra eles; o assunto permanece em tipos_mencionados."
+    },
+    {
+      "item_id": "CAL-OLD-fisica_3-T1",
+      "campo": "acao",
+      "valor_final": "perguntar_risco_e_oferecer_humano",
+      "justificativa": "O estrangulamento passado é crítico, mas o primeiro turno não informa segurança ou contato atual; deve-se esclarecer risco atual."
+    },
+    {
+      "item_id": "CAL-OLD-fisica_3-T3",
+      "campo": "acao",
+      "valor_final": "continuar_triagem_prioritaria",
+      "justificativa": "O histórico já estabelece ameaça recente e medo de retorno, sem agressor presente e sem pedido explícito por pessoa atendente."
+    },
+    {
+      "item_id": "CAL-OLD-patrimonial_3-T3",
+      "campo": "acao",
+      "valor_final": "continuar_triagem_prioritaria",
+      "justificativa": "Há destruição de bem e ameaça de repetição; a usuária está afastada, mas o risco prioritário já foi identificado."
+    }
+  ]
+}
