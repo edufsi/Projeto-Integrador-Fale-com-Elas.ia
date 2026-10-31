@@ -1,0 +1,112 @@
+name: notas-ia
+
+services:
+  ollama:
+    image: ollama/ollama:${OLLAMA_VERSION:-latest}
+    restart: unless-stopped
+    volumes:
+      - ollama-models:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 10s
+
+  ollama-model:
+    image: ollama/ollama:${OLLAMA_VERSION:-latest}
+    restart: "no"
+    entrypoint: ["/bin/ollama"]
+    command: ["pull", "qwen3.5:4b"]
+    # Compartilhar a pilha de rede evita depender do DNS interno durante a
+    # tarefa transitória de inicialização do modelo.
+    network_mode: "service:ollama"
+    environment:
+      OLLAMA_HOST: http://127.0.0.1:11434
+    depends_on:
+      ollama:
+        condition: service_healthy
+
+  ollama-warmup:
+    image: ollama/ollama:${OLLAMA_VERSION:-latest}
+    restart: "no"
+    entrypoint: ["/bin/ollama"]
+    command: ["run", "qwen3.5:4b", "Responda apenas OK."]
+    network_mode: "service:ollama"
+    environment:
+      OLLAMA_HOST: http://127.0.0.1:11434
+    depends_on:
+      ollama-model:
+        condition: service_completed_successfully
+
+  legal-index:
+    build:
+      context: ./services/legal-mcp
+    restart: "no"
+    command: ["python", "-m", "legal_rag", "index", "--strategy", "bm25"]
+    volumes:
+      - legal-index:/app/indice
+
+  legal-mcp:
+    build:
+      context: ./services/legal-mcp
+    restart: unless-stopped
+    command: ["python", "-m", "legal_rag", "serve", "--host", "0.0.0.0", "--port", "8001"]
+    ports:
+      - "127.0.0.1:8001:8001"
+    volumes:
+      - legal-index:/app/indice
+    depends_on:
+      legal-index:
+        condition: service_completed_successfully
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8001/health/ready', timeout=3)"
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 5s
+
+  backend:
+    build:
+      context: ./apps/backend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./data/private:/data/private
+    depends_on:
+      legal-mcp:
+        condition: service_healthy
+      ollama-warmup:
+        condition: service_completed_successfully
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health/ready', timeout=3)"
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 5s
+
+  cli:
+    build:
+      context: ./apps/backend
+    profiles: ["cli"]
+    restart: "no"
+    entrypoint: ["python", "-m", "notas_ia"]
+    command: ["chat", "--url", "http://backend:8000"]
+    stdin_open: true
+    tty: true
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  ollama-models:
+  legal-index:
