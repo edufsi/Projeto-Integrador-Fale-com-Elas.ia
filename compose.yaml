@@ -39,13 +39,30 @@ services:
       ollama-model:
         condition: service_completed_successfully
 
+  ollama-llama8-model:
+    image: ollama/ollama:${OLLAMA_VERSION:-latest}
+    profiles: ["llama8"]
+    restart: "no"
+    entrypoint: ["/bin/ollama"]
+    command: ["pull", "llama3.1:8b"]
+    network_mode: "service:ollama"
+    environment:
+      OLLAMA_HOST: http://127.0.0.1:11434
+    depends_on:
+      ollama:
+        condition: service_healthy
+
   legal-index:
     build:
       context: ./services/legal-mcp
     restart: "no"
-    command: ["python", "-m", "legal_rag", "index", "--strategy", "bm25"]
+    # A pilha padrão é híbrida. O segundo comando também baixa/prepara o
+    # multilingual-e5-small no volume de cache compartilhado antes de o MCP subir.
+    command:
+      ["/bin/sh", "-c", "python -m legal_rag index --strategy bm25 && python -m legal_rag index --strategy dense --model e5-small"]
     volumes:
       - legal-index:/app/indice
+      - legal-model-cache:/root/.cache
 
   legal-mcp:
     build:
@@ -56,6 +73,9 @@ services:
       - "127.0.0.1:8001:8001"
     volumes:
       - legal-index:/app/indice
+      # DenseRetriever usa local_files_only=True durante uma consulta; portanto,
+      # o cache baixado pelo legal-index precisa estar disponível aqui também.
+      - legal-model-cache:/root/.cache
     depends_on:
       legal-index:
         condition: service_completed_successfully
@@ -78,6 +98,11 @@ services:
       - "127.0.0.1:8000:8000"
     volumes:
       - ./data/private:/data/private
+    # O classificador Kev é iniciado separadamente (fora deste Compose). A entrada
+    # explícita também torna `host.docker.internal` disponível em Docker Engine
+    # no Linux; no Docker Desktop ela continua apontando para a máquina hospedeira.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     depends_on:
       legal-mcp:
         condition: service_healthy
@@ -103,6 +128,9 @@ services:
     command: ["chat", "--url", "http://backend:8000"]
     stdin_open: true
     tty: true
+    volumes:
+      - ./data/archive:/data/archive:ro
+      - ./data/private:/data/private
     depends_on:
       backend:
         condition: service_healthy
@@ -110,3 +138,4 @@ services:
 volumes:
   ollama-models:
   legal-index:
+  legal-model-cache:

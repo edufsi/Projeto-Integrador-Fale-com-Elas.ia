@@ -1,0 +1,6 @@
+services:
+  backend:
+    environment:
+      CHAT_CLASSIFICATION_MODE: shadow
+      CHAT_ONLINE_CLASSIFIERS: local-qwen4
+      CHAT_AGENT_CONTEXT_CLASSIFIER: ""

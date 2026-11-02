@@ -152,6 +152,9 @@ class OllamaProvider(_HTTPProvider):
         }
         if request.tools:
             payload["tools"] = request.tools
+        if request.json_mode:
+            # Ollama accepts a JSON format constraint independently of tool calling.
+            payload["format"] = "json"
         data, latency = await self._post(payload)
         message = data.get("message")
         if not isinstance(message, dict):
@@ -184,6 +187,8 @@ class OpenAICompatibleProvider(_HTTPProvider):
         if request.tools:
             payload["tools"] = request.tools
             payload["tool_choice"] = "auto"
+        if request.json_mode:
+            payload["response_format"] = {"type": "json_object"}
         data, latency = await self._post(payload)
         choices = data.get("choices")
         if not isinstance(choices, list) or not choices or not isinstance(choices[0], dict):

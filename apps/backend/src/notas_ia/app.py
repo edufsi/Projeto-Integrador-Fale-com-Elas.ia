@@ -14,6 +14,7 @@ from fastapi.responses import JSONResponse
 from .api.routes import router
 from .agent import AgentRuntime, FastMCPToolCatalog
 from .config import ChatSettings, load_settings
+from .classification import ClassificationService, ClassifierRegistry
 from .errors import ChatAPIError
 from .providers import ModelRegistry
 from .operations import HandoffTemplateRegistry
@@ -33,6 +34,17 @@ def create_app(config_path: str | Path = "apps/backend/config.example.ini",
 
     @asynccontextmanager
     async def lifespan(app: FastAPI):
+        # This is intentionally emitted once at startup: it lets an experimenter
+        # verify which Compose overlay reached the running backend without logging
+        # URLs, prompts, messages or provider credentials.
+        logger.info(
+            "runtime_configuration classification_mode=%s online_classifiers=%s "
+            "agent_context_classifier=%s default_model=%s",
+            resolved.classification.mode,
+            list(resolved.classification.online_classifiers),
+            resolved.classification.agent_context_classifier,
+            resolved.server.default_model_profile,
+        )
         repository = SQLiteConversationRepository(resolved.server.database_path)
         repository.initialize()
         client = httpx.AsyncClient(transport=http_transport)
@@ -48,13 +60,25 @@ def create_app(config_path: str | Path = "apps/backend/config.example.ini",
             max_calls=resolved.server.max_tool_calls,
             tool_context_budget_tokens=resolved.server.tool_context_budget_tokens,
         )
+        # Disabled means no classifier registry is created at all: no client calls,
+        # snapshots or classification tables are touched during a turn.
+        classifier_registry = None
+        classification_service = None
+        if resolved.classification.mode != "disabled":
+            classifier_registry = ClassifierRegistry(resolved.classifiers, models, client)
+            classification_service = ClassificationService(
+                resolved, classifier_registry, repository
+            )
         app.state.repository = repository
         app.state.models = models
         app.state.prompts = prompts
         app.state.tool_catalog = catalog
         app.state.agent = agent
+        app.state.classifier_registry = classifier_registry
+        app.state.classification_service = classification_service
         app.state.turn_service = TurnService(
-            resolved, repository, models, prompts, agent
+            resolved, repository, models, prompts, agent,
+            classification_service=classification_service,
         )
         try:
             yield
@@ -63,7 +87,7 @@ def create_app(config_path: str | Path = "apps/backend/config.example.ini",
 
     app = FastAPI(
         title="Notas.IA — API agentiva experimental",
-        version="0.2.0",
+        version="0.3.0",
         description=(
             "Protótipo acadêmico. Não validado para atendimento real; "
             "usa pesquisa jurídica e simula transbordo, sem substituir atendimento real."

@@ -13,7 +13,10 @@ COPY pyproject.toml README.md ./
 COPY src ./src
 RUN python -m pip install .
 
-COPY config.container.ini /app/config.ini
+# A imagem padrão não executa classificadores. O compose experimental do Kev troca
+# somente este argumento de build por uma configuração que aponta para o serviço `kev`.
+ARG BACKEND_CONFIG=config.container.ini
+COPY ${BACKEND_CONFIG} /app/config.ini
 
 EXPOSE 8000
 

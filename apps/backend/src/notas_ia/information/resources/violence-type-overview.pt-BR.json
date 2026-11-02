@@ -1,0 +1,13 @@
+{
+  "resource_id": "violence-type-overview",
+  "version": "v1",
+  "reviewed_at": "2026-11-01",
+  "scope": "Visão educativa para este protótipo. Não determina que violência ou crime ocorreu em um caso individual.",
+  "content": "A Lei Maria da Penha descreve, entre as formas de violência doméstica e familiar contra a mulher, a violência física, psicológica, sexual, patrimonial e moral. Em linguagem educativa: física envolve condutas que atingem a integridade ou saúde corporal; psicológica envolve dano emocional, controle, ameaça, humilhação ou isolamento; sexual envolve constrangimento a ato sexual não desejado ou limitação de direitos sexuais e reprodutivos; patrimonial envolve retenção, subtração, destruição de bens, documentos ou recursos; e moral envolve calúnia, difamação ou injúria. Neste protótipo, \"violência vicária\" é uma categoria operacional adicional para situações em que filhos, familiares, animais ou pessoas próximas são usados para causar sofrimento; ela não é apresentada aqui como uma categoria autônoma do artigo 7º. Para uma dúvida jurídica específica, é necessária consulta à fonte aplicável.",
+  "sources": [
+    {
+      "title": "Lei nº 11.340/2006 — art. 7º",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm"
+    }
+  ]
+}

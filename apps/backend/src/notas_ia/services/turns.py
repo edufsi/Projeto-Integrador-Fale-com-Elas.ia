@@ -23,12 +23,14 @@ def _now() -> str:
 
 class TurnService:
     def __init__(self, settings: ChatSettings, repository, models: ModelRegistry,
-                 prompts: PromptRegistry, agent: AgentRuntime, access=None):
+                 prompts: PromptRegistry, agent: AgentRuntime, access=None,
+                 classification_service=None):
         self.settings = settings
         self.repository = repository
         self.models = models
         self.prompts = prompts
         self.agent = agent
+        self.classification_service = classification_service
         self.access = access or AllowLocalAccess()
         self.context_builder = ContextBuilder(settings.server.recent_messages)
         self.summaries = SummaryService(repository, models, settings.server)
@@ -112,12 +114,27 @@ class TurnService:
             context = self.context_builder.build(
                 prompts.assistant, history, summary,
                 profile.context_budget_tokens - profile.max_output_tokens
-                - self.settings.server.tool_context_budget_tokens,
+                - self.settings.server.tool_context_budget_tokens
+                # The compact inference is optional, but reserve space before context
+                # selection so the current user message is never silently displaced.
+                - (400 if self.settings.classification.mode == "agent_context" else 0),
             )
             provider = self.models.provider(profile.name)
             started_at = _now()
             try:
-                outcome = await self.agent.run(provider, profile, context.messages)
+                classifications = []
+                inference_message = None
+                if self.classification_service is not None:
+                    _, classifications = await self.classification_service.classify_turn(
+                        conversation_id, user_message.id, history, summary
+                    )
+                    inference_message = self.classification_service.agent_context(classifications)
+                agent_messages = list(context.messages)
+                if inference_message:
+                    # The persona stays first. The hypothesis is clearly a lower-priority,
+                    # non-factual instruction and is never persisted as a user fact.
+                    agent_messages.insert(1, inference_message)
+                outcome = await self.agent.run(provider, profile, agent_messages)
                 current = self.repository.get_conversation(conversation_id)
                 assistant = Message(
                     id=str(uuid4()), conversation_id=conversation_id,
@@ -137,6 +154,12 @@ class TurnService:
                         "summary_updated": summary_updated,
                         "messages_used": context.source_messages,
                         "estimated_input_tokens": context.estimated_tokens,
+                        "classification_mode": self.settings.classification.mode,
+                        "classification_context_used": bool(inference_message),
+                        "classification_context_classifier": (
+                            self.settings.classification.agent_context_classifier
+                            if inference_message else None
+                        ),
                         "status": "degraded" if outcome.degraded_services else context_status,
                     },
                     "usage": {"input_tokens": outcome.input_tokens,
@@ -147,11 +170,28 @@ class TurnService:
                         "tools_available": outcome.tools_available,
                         "tools_used": outcome.tools_used,
                         "tool_calls": len(outcome.tool_executions),
+                        # A trace explains observable orchestration without exposing
+                        # hidden reasoning or the raw tool arguments (which can contain
+                        # sensitive user text, especially a legal-search query).
+                        "tool_executions": [
+                            {
+                                "tool_name": item["tool_name"],
+                                "status": item["status"],
+                                "strategy": item.get("strategy"),
+                                "source_ids": item.get("source_ids", []),
+                                "error_code": item.get("error_code"),
+                            }
+                            for item in outcome.tool_executions
+                        ],
                         "stop_reason": outcome.stop_reason,
                         "degraded_services": outcome.degraded_services,
                     },
                     "handoff": outcome.handoff,
                 }
+                if self.classification_service is not None:
+                    response["classifications"] = self.repository.list_classifications_for_message(
+                        conversation_id, user_message.id
+                    )
                 attempts = [
                     self._attempt(
                         conversation_id, user_message.id, purpose, profile.provider,

@@ -58,6 +58,35 @@ async def assistant_profiles(request: Request):
     return {"items": request.app.state.prompts.public_profiles()}
 
 
+@router.get("/v1/classifier-profiles")
+async def classifier_profiles(request: Request):
+    registry = request.app.state.classifier_registry
+    return {
+        "mode": request.app.state.turn_service.settings.classification.mode,
+        "online_classifiers": list(
+            request.app.state.turn_service.settings.classification.online_classifiers
+        ),
+        "agent_context_classifier": (
+            request.app.state.turn_service.settings.classification.agent_context_classifier
+        ),
+        "taxonomy_version": request.app.state.turn_service.settings.classification.taxonomy_version,
+        "items": registry.public_profiles() if registry else [],
+    }
+
+
+@router.get("/v1/conversations/{conversation_id}/classifications/latest")
+async def latest_classifications(conversation_id: str, request: Request):
+    service = request.app.state.turn_service
+    await service.access.authorize(conversation_id)
+    if not request.app.state.repository.get_conversation(conversation_id):
+        from ..errors import NotFoundError
+        raise NotFoundError("Conversa não encontrada")
+    return {
+        "mode": service.settings.classification.mode,
+        "items": request.app.state.repository.latest_classifications(conversation_id),
+    }
+
+
 @router.get("/health/live")
 async def live():
     return {"status": "ok"}

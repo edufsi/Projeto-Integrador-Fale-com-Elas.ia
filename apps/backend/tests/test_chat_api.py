@@ -222,8 +222,8 @@ class ProviderTests(unittest.IsolatedAsyncioTestCase):
                     "tool_calls": [{
                         "id": "call-1", "type": "function",
                         "function": {
-                            "name": "operations_request_human_handoff",
-                            "arguments": '{"mode":"offer","reason":"explicit_human_request"}',
+                            "name": "operations_offer_human_handoff",
+                            "arguments": '{"reason":"explicit_human_request"}',
                         },
                     }],
                 }}],
@@ -236,7 +236,7 @@ class ProviderTests(unittest.IsolatedAsyncioTestCase):
                     ChatRequest([{"role": "user", "content": "humano"}], 0.2, 64, [])
                 )
         self.assertEqual(result.tool_calls[0].id, "call-1")
-        self.assertEqual(result.tool_calls[0].arguments["mode"], "offer")
+        self.assertEqual(result.tool_calls[0].arguments["reason"], "explicit_human_request")
 
     async def test_invalid_provider_response_is_rejected(self):
         async with httpx.AsyncClient(

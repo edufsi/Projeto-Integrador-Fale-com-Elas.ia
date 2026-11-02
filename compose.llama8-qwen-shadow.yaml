@@ -1,0 +1,14 @@
+services:
+  # Qwen continua somente como classificador. O Llama 8B é escolhido pelo preset
+  # da avaliação ao criar a conversa; não há hipótese classificatória no prompt.
+  backend:
+    environment:
+      CHAT_CLASSIFICATION_MODE: shadow
+      CHAT_ONLINE_CLASSIFIERS: local-qwen4
+      CHAT_AGENT_CONTEXT_CLASSIFIER: ""
+
+  # Na RTX 4060 de 8 GB, Llama 8B e Qwen 4B devem ser descarregados entre chamadas.
+  # Isso preserva a semântica de shadow, mas pode acrescentar latência por recarga.
+  ollama:
+    environment:
+      OLLAMA_KEEP_ALIVE: "0"

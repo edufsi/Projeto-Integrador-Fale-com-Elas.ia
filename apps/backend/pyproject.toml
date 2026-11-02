@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "notas-ia-backend"
-version = "0.2.0"
+version = "0.3.0"
 description = "API agentiva experimental do Notas.IA"
 requires-python = ">=3.12"
 dependencies = [
@@ -25,7 +25,7 @@ notas-ia = "notas_ia.cli:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-notas_ia = ["prompts/*.md"]
+notas_ia = ["prompts/*.md", "information/resources/*.json", "evaluation/fixtures/*.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

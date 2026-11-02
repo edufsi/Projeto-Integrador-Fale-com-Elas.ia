@@ -1,0 +1,17 @@
+{
+  "resource_id": "general-help-resources",
+  "version": "v1",
+  "reviewed_at": "2026-11-01",
+  "scope": "Informação geral nacional. A disponibilidade e os horários de serviços locais podem variar; não confirma atendimento em uma instituição específica.",
+  "content": "Para acolhimento, orientação sobre direitos e informações sobre serviços da rede de atendimento, o Ligue 180 é gratuito e funciona 24 horas por dia, todos os dias. Pode ser acessado pelo telefone 180, pelo WhatsApp (61) 9610-0180 e pelo e-mail central180@mulheres.gov.br. Em uma emergência ou se houver risco imediato, a orientação é acionar a Polícia Militar pelo 190. O Ligue 180 pode orientar sobre serviços especializados próximos, como Centros de Referência, DEAMs, Defensoria, abrigos e Casas da Mulher Brasileira. A Casa da Mulher Brasileira reúne, onde disponível, acolhimento e triagem, apoio psicossocial e outros serviços especializados; a composição e os horários podem variar por unidade.",
+  "sources": [
+    {
+      "title": "Ligue 180 — Central de Atendimento à Mulher",
+      "url": "https://www.gov.br/mulheres/pt-br/ligue180"
+    },
+    {
+      "title": "Casa da Mulher Brasileira",
+      "url": "https://www.gov.br/mulheres/pt-br/acesso-a-informacao/acoes-e-programas/casa-da-mulher-brasileira"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+services:
+  backend:
+    environment:
+      CHAT_CLASSIFICATION_MODE: agent_context
+      CHAT_AGENT_CONTEXT_CLASSIFIER: kev4b

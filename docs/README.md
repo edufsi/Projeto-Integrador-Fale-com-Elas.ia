@@ -15,6 +15,7 @@ Este diretório reúne a arquitetura proposta para um assistente conversacional 
 - [Avaliação e evolução](avaliacao.md): baseline atual, métricas, etapas experimentais e critérios de avanço.
 - [Guia de rotulagem v1](avaliacao/guia-rotulagem-v1.md): ontologia operacional, memória, evidência, ação e rubricas do novo teste ouro.
 - [Benchmark sintético exploratório](avaliacao/benchmark-exploratorio.md): conjunto de 60 mensagens com revisão única e consultas por intenção, tipo e ação.
+- [Executor de avaliação](avaliacao-executor.md): presets, corpus, métricas, auditoria e comandos para rodadas integradas.
 - [Fontes e referências](fontes.md): legislação, instrumentos oficiais, serviços e modelos pesquisados.
 
 ## Estado atual

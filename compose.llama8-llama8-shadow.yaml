@@ -1,0 +1,9 @@
+services:
+  # Um único modelo Ollama é reutilizado sequencialmente: primeiro retorna o JSON
+  # classificatório, depois responde como agente. Shadow impede que o primeiro
+  # resultado seja incluído no prompt da segunda chamada.
+  backend:
+    environment:
+      CHAT_CLASSIFICATION_MODE: shadow
+      CHAT_ONLINE_CLASSIFIERS: local-llama8
+      CHAT_AGENT_CONTEXT_CLASSIFIER: ""

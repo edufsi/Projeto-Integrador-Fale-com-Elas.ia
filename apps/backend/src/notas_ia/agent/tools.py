@@ -7,6 +7,7 @@ from typing import Any
 from fastmcp import Client, ClientGroup
 
 from ..errors import ToolError
+from ..information import create_information_server
 from ..operations import create_operations_server
 
 
@@ -50,16 +51,18 @@ class ToolSession:
 
 
 class FastMCPToolCatalog:
-    """Catálogo com operações locais e RAG remoto, degradável por turno."""
+    """Catálogo com operações e conteúdo curado locais, além do RAG remoto degradável."""
 
     def __init__(self, legal_url: str, timeout: float = 30):
         self.legal_url = legal_url
         self.timeout = timeout
         self.operations_server = create_operations_server()
+        self.information_server = create_information_server()
 
     def _group(self, include_legal: bool) -> ClientGroup:
         clients = {
             "operations": Client(self.operations_server, timeout=self.timeout),
+            "information": Client(self.information_server, timeout=self.timeout),
         }
         if include_legal:
             clients["legal"] = Client(self.legal_url, timeout=self.timeout)

@@ -1,0 +1,56 @@
+services:
+  # Opcional: só é criado com `--profile kev`. O modelo é servido por llama.cpp,
+  # não pelo Ollama, porque /v1/systemone requer um decision model nativo.
+  kev:
+    image: ${LLAMA_CPP_IMAGE:-ghcr.io/ggml-org/llama.cpp:server-cuda}
+    profiles: ["kev"]
+    restart: unless-stopped
+    environment:
+      LLAMA_CACHE: /models
+    command:
+      ["-hf", "ggml-org/Kev-4B-GGUF:Q4_K_M", "--alias", "ggml-org/Kev-4B-GGUF:Q4_K_M", "--ctx-size", "2048", "--host", "0.0.0.0", "--port", "8080", "--n-gpu-layers", "99"]
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - kev-models:/models
+    # A imagem oficial contém curl; /health retorna 503 até o download/carregamento
+    # realmente terminar, o que evita iniciar o backend contra um Kev ainda indisponível.
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8080/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      # O primeiro -hf baixa vários GB; não considere a indisponibilidade durante
+      # esse download como falha do serviço.
+      retries: 60
+      start_period: 5m
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    # O aquecimento do Qwen ocorre primeiro e o keep-alive é zero neste experimento;
+    # isso reduz a disputa de VRAM enquanto Kev baixa e carrega seu modelo.
+    depends_on:
+      ollama-warmup:
+        condition: service_completed_successfully
+
+  # Esta sobreposição só é aplicada junto de compose.kev.yaml. Ela ativa o perfil
+  # de classificação e faz o backend esperar pelo endpoint System One.
+  backend:
+    build:
+      args:
+        BACKEND_CONFIG: config.container.kev.ini
+    depends_on:
+      kev:
+        condition: service_healthy
+
+  # Qwen é descarregado após cada chamada de aquecimento/geração. Se os dois modelos
+  # não couberem em VRAM, a falha aparecerá no primeiro turno, não ao iniciar a pilha.
+  ollama:
+    environment:
+      OLLAMA_KEEP_ALIVE: "0"
+
+volumes:
+  kev-models:

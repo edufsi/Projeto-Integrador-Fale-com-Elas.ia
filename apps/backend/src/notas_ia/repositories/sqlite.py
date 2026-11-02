@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import sqlite3
 from contextlib import contextmanager
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterator
 
@@ -108,6 +109,46 @@ CREATE TABLE IF NOT EXISTS handoff_events (
 );
 """
 
+SCHEMA_V3 = """
+CREATE TABLE IF NOT EXISTS classification_runs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    conversation_id TEXT NOT NULL REFERENCES conversations(id) ON DELETE CASCADE,
+    user_message_id TEXT NOT NULL REFERENCES messages(id) ON DELETE CASCADE,
+    classifier_profile TEXT NOT NULL,
+    source_kind TEXT,
+    model TEXT,
+    mode TEXT NOT NULL,
+    taxonomy_version TEXT NOT NULL,
+    snapshot_sha256 TEXT NOT NULL,
+    snapshot_json TEXT NOT NULL,
+    status TEXT NOT NULL,
+    latency_ms INTEGER,
+    input_tokens INTEGER,
+    output_tokens INTEGER,
+    audit_note TEXT,
+    error_code TEXT,
+    created_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_classification_runs_conversation_message
+    ON classification_runs(conversation_id, user_message_id, id DESC);
+CREATE TABLE IF NOT EXISTS classification_labels (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    run_id INTEGER NOT NULL REFERENCES classification_runs(id) ON DELETE CASCADE,
+    dimension TEXT NOT NULL,
+    label TEXT NOT NULL,
+    value TEXT NOT NULL,
+    confidence REAL NOT NULL
+);
+CREATE TABLE IF NOT EXISTS classification_evidence (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    run_id INTEGER NOT NULL REFERENCES classification_runs(id) ON DELETE CASCADE,
+    message_id TEXT NOT NULL REFERENCES messages(id) ON DELETE CASCADE,
+    dimension TEXT NOT NULL,
+    label TEXT NOT NULL,
+    quote TEXT NOT NULL
+);
+"""
+
 
 def _conversation(row: sqlite3.Row) -> Conversation:
     return Conversation(**dict(row))
@@ -161,6 +202,15 @@ class SQLiteConversationRepository:
                 connection.execute(
                     "INSERT INTO schema_migrations(version, applied_at) "
                     "VALUES(2, strftime('%Y-%m-%dT%H:%M:%fZ','now'))"
+                )
+            row = connection.execute(
+                "SELECT 1 FROM schema_migrations WHERE version=3"
+            ).fetchone()
+            if not row:
+                connection.executescript(SCHEMA_V3)
+                connection.execute(
+                    "INSERT INTO schema_migrations(version, applied_at) "
+                    "VALUES(3, strftime('%Y-%m-%dT%H:%M:%fZ','now'))"
                 )
 
     def check(self) -> bool:
@@ -360,6 +410,112 @@ class SQLiteConversationRepository:
             connection.execute("BEGIN IMMEDIATE")
             self._insert_attempt(connection, attempt)
             connection.commit()
+
+    def save_classification_run(self, conversation_id: str, user_message_id: str,
+                                result, mode: str, taxonomy_version: str, snapshot,
+                                status: str, error_code: str | None,
+                                profile_name: str | None = None) -> None:
+        """Persist an inference separately so it can never become conversation memory."""
+        with self._connect() as connection:
+            connection.execute("BEGIN IMMEDIATE")
+            cursor = connection.execute(
+                "INSERT INTO classification_runs "
+                "(conversation_id,user_message_id,classifier_profile,source_kind,model,mode,"
+                "taxonomy_version,snapshot_sha256,snapshot_json,status,latency_ms,input_tokens,"
+                "output_tokens,audit_note,error_code,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                (
+                    conversation_id, user_message_id,
+                    result.profile if result else profile_name,
+                    result.source_kind if result else None,
+                    result.model if result else None, mode, taxonomy_version,
+                    snapshot.sha256, snapshot.canonical_json, status,
+                    result.latency_ms if result else None,
+                    result.input_tokens if result else None,
+                    result.output_tokens if result else None,
+                    result.audit_note if result else None,
+                    error_code, datetime.now(timezone.utc).isoformat(),
+                ),
+            )
+            if result:
+                for item in result.violence_types:
+                    connection.execute(
+                        "INSERT INTO classification_labels(run_id,dimension,label,value,confidence) "
+                        "VALUES(?,?,?,?,?)",
+                        (cursor.lastrowid, "violence_type", item["label"], "true",
+                         item["confidence"]),
+                    )
+                for dimension, item in (("intent", result.intent), ("urgency", result.urgency)):
+                    connection.execute(
+                        "INSERT INTO classification_labels(run_id,dimension,label,value,confidence) "
+                        "VALUES(?,?,?,?,?)",
+                        (cursor.lastrowid, dimension, item["label"], item["label"],
+                         item["confidence"]),
+                    )
+                for item in result.evidence:
+                    connection.execute(
+                        "INSERT INTO classification_evidence(run_id,message_id,dimension,label,quote) "
+                        "VALUES(?,?,?,?,?)",
+                        (cursor.lastrowid, item["message_id"], item["dimension"],
+                         item["label"], item["quote"]),
+                    )
+            connection.commit()
+
+    def list_classifications_for_message(self, conversation_id: str,
+                                         user_message_id: str) -> list[dict[str, Any]]:
+        with self._connect() as connection:
+            runs = connection.execute(
+                "SELECT * FROM classification_runs WHERE conversation_id=? AND user_message_id=? "
+                "ORDER BY id", (conversation_id, user_message_id)
+            ).fetchall()
+            output = []
+            for run in runs:
+                labels = connection.execute(
+                    "SELECT dimension,label,value,confidence FROM classification_labels "
+                    "WHERE run_id=? ORDER BY id", (run["id"],)
+                ).fetchall()
+                evidence = connection.execute(
+                    "SELECT message_id,dimension,label,quote FROM classification_evidence "
+                    "WHERE run_id=? ORDER BY id", (run["id"],)
+                ).fetchall()
+                types = [dict(row) for row in labels if row["dimension"] == "violence_type"]
+                choices = {row["dimension"]: dict(row) for row in labels
+                           if row["dimension"] in {"intent", "urgency"}}
+                output.append({
+                    "profile": run["classifier_profile"], "model": run["model"],
+                    "status": run["status"], "mode": run["mode"],
+                    "taxonomy_version": run["taxonomy_version"],
+                    "snapshot_sha256": run["snapshot_sha256"], "types": types,
+                    "intent": choices.get("intent"), "urgency": choices.get("urgency"),
+                    "evidence": [dict(row) for row in evidence],
+                    "audit_note": run["audit_note"],
+                    "error_code": run["error_code"], "latency_ms": run["latency_ms"],
+                    "input_tokens": run["input_tokens"], "output_tokens": run["output_tokens"],
+                    "created_at": run["created_at"],
+                })
+        return output
+
+    def latest_classifications(self, conversation_id: str) -> list[dict[str, Any]]:
+        with self._connect() as connection:
+            row = connection.execute(
+                "SELECT m.id FROM messages m JOIN classification_runs r ON r.user_message_id=m.id "
+                "WHERE m.conversation_id=? ORDER BY m.sequence DESC LIMIT 1", (conversation_id,)
+            ).fetchone()
+        return self.list_classifications_for_message(conversation_id, row["id"]) if row else []
+
+    def list_classification_snapshots(self, classifier_profile: str,
+                                      conversation_id: str | None = None,
+                                      limit: int = 1000) -> list[dict[str, Any]]:
+        """Return exact frozen inputs for serial offline replay, never reconstructed history."""
+        query = "SELECT * FROM classification_runs WHERE classifier_profile=? AND status='completed'"
+        values: list[Any] = [classifier_profile]
+        if conversation_id:
+            query += " AND conversation_id=?"
+            values.append(conversation_id)
+        query += " ORDER BY id LIMIT ?"
+        values.append(limit)
+        with self._connect() as connection:
+            rows = connection.execute(query, values).fetchall()
+        return [dict(row) for row in rows]
 
     @staticmethod
     def _insert_attempt(connection: sqlite3.Connection, attempt: dict[str, Any]) -> None:

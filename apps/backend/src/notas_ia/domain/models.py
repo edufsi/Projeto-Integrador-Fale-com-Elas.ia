@@ -48,6 +48,7 @@ class ChatRequest:
     temperature: float
     max_output_tokens: int
     tools: list[dict[str, Any]] = field(default_factory=list)
+    json_mode: bool = False
 
 
 @dataclass(frozen=True)

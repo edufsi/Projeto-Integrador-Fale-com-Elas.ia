@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Literal
 
 from fastmcp import FastMCP
-from pydantic import BaseModel, model_validator
+from pydantic import BaseModel
 
 
 class HandoffResult(BaseModel):
@@ -19,45 +19,35 @@ class HandoffResult(BaseModel):
     stop_agent: bool = True
 
 
-class HandoffRequest(BaseModel):
-    mode: Literal["offer", "immediate"]
-    reason: Literal[
-        "explicit_human_request", "possible_current_danger", "insufficient_confidence"
-    ]
-
-    @model_validator(mode="after")
-    def compatible_mode_and_reason(self):
-        if self.mode == "immediate" and self.reason != "possible_current_danger":
-            raise ValueError("immediate exige possible_current_danger")
-        if self.mode == "offer" and self.reason == "possible_current_danger":
-            raise ValueError("possible_current_danger exige immediate")
-        return self
-
-
 def create_operations_server() -> FastMCP:
     server = FastMCP("Notas.IA Operations")
 
-    @server.tool(name="request_human_handoff")
-    def request_human_handoff(
-        mode: Literal["offer", "immediate"],
-        reason: Literal[
-            "explicit_human_request", "possible_current_danger", "insufficient_confidence"
-        ],
+    @server.tool(name="offer_human_handoff")
+    def offer_human_handoff(
+        reason: Literal["explicit_human_request", "insufficient_confidence"],
     ) -> HandoffResult:
-        """Interrompe a resposta automática e seleciona um encaminhamento humano controlado.
+        """Oferece encaminhamento humano simulado em uma resposta controlada.
 
-        Use `offer` quando a pessoa pedir atendimento humano ou quando a incerteza
-        impedir uma resposta segura. Use `immediate` somente diante de possível
-        perigo atual. Este protótipo não possui atendente conectado.
+        Use quando a pessoa pedir explicitamente uma atendente ou quando a limitação
+        do protótipo impedir resposta segura. Não use para possível perigo atual:
+        nesse caso use `escalate_immediate`. Este protótipo não possui atendente
+        conectado.
         """
-        request = HandoffRequest(mode=mode, reason=reason)
         return HandoffResult(
-            mode=request.mode,
-            reason=request.reason,
-            template_id=(
-                "handoff-immediate-v1" if request.mode == "immediate"
-                else "handoff-offer-v1"
-            ),
+            mode="offer", reason=reason, template_id="handoff-offer-v1",
+        )
+
+    @server.tool(name="escalate_immediate")
+    def escalate_immediate() -> HandoffResult:
+        """Interrompe a resposta automática por possível perigo atual ou iminente.
+
+        Use somente quando a mensagem atual indicar possível perigo presente ou
+        iminente. Não requer argumentos: a própria chamada seleciona o template
+        controlado. Este protótipo não conecta uma atendente real.
+        """
+        return HandoffResult(
+            mode="immediate", reason="possible_current_danger",
+            template_id="handoff-immediate-v1",
         )
 
     return server
